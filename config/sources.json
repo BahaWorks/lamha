@@ -1377,7 +1377,6 @@
    "type": "sport",
    "site": "https://news.google.com",
    "filter": "teams",
-   "africa": true,
    "feeds": [
     {
      "gnews": "\"Rwanda Premier League\" (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
