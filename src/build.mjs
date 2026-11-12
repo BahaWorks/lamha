@@ -25,7 +25,7 @@ const SRC = Object.fromEntries(sources.map(s => [s.id, s]));
 const hasArabic = s => /[؀-ۿ]/.test(s);
 const idOf = url => crypto.createHash("sha1").update(url).digest("hex").slice(0, 12);
 
-const JUNK = /^latest (speeches|news)\s*:|\bformer chairperson\b|\barchives?\b|page \d+ of \d+|public schedule|^[0-9a-f]{8,}\b|^(home|search|contact)$|live score|result & stats|tickets:|\\bsquad\\b|shirt numbers|top scorers|المباريات والنتائج والبطولات/i;
+const JUNK = /^latest (speeches|news)\s*:|\bformer chairperson\b|\barchives?\b|page \d+ of \d+|public schedule|^[0-9a-f]{8,}\b|^(home|search|contact)$|live score|result & stats|tickets:|\bsquad\b|shirt numbers|top scorers|المباريات والنتائج والبطولات/i;
 const cleanTitle = t => t.replace(/^#?(daily[_ ]brief|news|breaking|update|exclusive|watch|video)\s*[:|-]\s*/i, "").replace(/#(?=[\p{L}\p{N}])/gu, "").replace(/^(.{30,}?)\s*\|\s*[^|]{2,30}$/u, (m, head) => head.split(/\s+/).length > 4 ? head : m).replace(/\s{2,}/g, " ").trim();
 const NOT_NEWS = /\/(job|jobs|training|vacanc(y|ies))\//i;
 const JOB_AD = /\b(manager|officer|advis[oe]r|coordinator|consultant|specialist|assistant|internship|vacancy|team lead|focal point|associate)\b(\s*[-–(,]|\s*$)/i;
