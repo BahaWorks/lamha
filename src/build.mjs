@@ -7,7 +7,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fetchSource, pool } from "./feeds.mjs";
-import { isSudan, teamsOf, cluster } from "./classify.mjs";
+import { isSudan, teamsOf, cluster, makeRank } from "./classify.mjs";
 import { aiEnabled, translate, dailyBrief } from "./ai.mjs";
 import * as R from "./render.mjs";
 import { PAGES, pagePath } from "./i18n.mjs";
@@ -95,8 +95,7 @@ const showMin = lastUpdate - cfg.showHours * 3600e3;
 const clusters = {};
 for (const i of all) i.lang = hasArabic(i.title) ? "ar" : "en";
 // Sudanese outlets lead a story when they covered it; then international, regional, UN, and state media last.
-const RANK = { sd: 0, intl: 1, reg: 2, un: 3, isr: 4, egy: 5, gov: 6 };
-const rank = i => RANK[SRC[i.src]?.type] ?? 3;
+const rank = makeRank(id => SRC[id]?.type);
 for (const L of ["en", "ar"]) clusters[L] = cluster(all.filter(i => (i.cat === "en" || i.cat === "ar") && i.lang === L && (i.ts >= showMin || OFFLINE)), 0.5, { rank });
 
 const pinned = await readJson("data/official-pinned.json", []);

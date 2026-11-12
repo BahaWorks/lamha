@@ -83,3 +83,10 @@ export function cluster(items, threshold = 0.5, { ignoreLang = false, rank = () 
   }
   return clusters.sort((a, b) => b.ts - a.ts);
 }
+
+// Which outlet leads a story when several covered it (lower = first).
+// Sudanese outlets first, in this order: Sudan Tribune, Dabanga, Radio Tamazuj, then other Sudanese outlets;
+// then international, regional, UN & aid, Israeli, Egyptian state media, Sudanese state media.
+const TYPE_RANK = { sd: 0, intl: 1, reg: 2, un: 3, isr: 4, egy: 5, gov: 6 };
+const SD_ORDER = { "st-en": 0, "st-ar": 0, "dabanga-en": 1, "dabanga-ar": 1, "tamazuj-en": 2, "tamazuj-ar": 2 };
+export const makeRank = typeOf => i => (TYPE_RANK[typeOf(i.src)] ?? 3) * 10 + (SD_ORDER[i.src] ?? 3);
