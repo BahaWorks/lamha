@@ -158,7 +158,7 @@ export function officialPage(ctx) {
     const sum = o.summary?.[ctx.lang];
     const withs = (o.with || []).map(k => sn(ctx, k));
     return `<article class="row" data-issuer="${esc([o.src, ...(o.with || [])].join(" "))}">
-      <div class="meta"><span class="src">${esc(sn(ctx, o.src))}</span><span class="pill gold">${esc(t.types.off)}</span><time datetime="${new Date(o.ts).toISOString()}">${esc(fmtDate(ctx.lang, o.ts, o.approx))}</time>${o.via ? `<span>${esc(t.via)} ${esc(ctx.src[o.via]?.name[ctx.lang] || ({ National: { en: "The National", ar: "ذا ناشيونال" } })[o.via]?.[ctx.lang] || o.via)}</span>` : ""}${note}</div>
+      <div class="meta"><span class="src">${esc(sn(ctx, o.src))}</span><span class="pill gold">${esc(t.types.off)}</span><time datetime="${new Date(o.ts).toISOString()}">${esc(fmtDate(ctx.lang, o.ts, o.approx))}</time>${o.via ? `<span>${esc(t.via)} ${esc(ctx.src[o.via]?.name[ctx.lang] || ({ National: { en: "The National", ar: "ذا ناشيونال" }, x: { en: "X", ar: "منصة X" } })[o.via]?.[ctx.lang] || o.via)}</span>` : ""}${note}</div>
       <h3${langAttr ? ` lang="${langAttr}" dir="auto"` : ""}><a ${ext(o.url)}>${esc(title)}</a></h3>
       ${sum ? `<p class="sum">${esc(sum)}</p>` : ""}${withs.length ? `<div class="meta"><span class="muted">+ ${esc(withs.join(ctx.lang === "ar" ? "، " : ", "))}</span></div>` : ""}
       ${o.lang !== ctx.lang ? (() => {
