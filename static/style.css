@@ -213,3 +213,7 @@ html,body{margin:0}
 body{-webkit-text-size-adjust:100%}
 .hero .eyebrow{margin:0}
 main > section:not(.hero) > :first-child{margin-top:18px}
+
+.trnote{margin:2px 0 0;padding:8px 12px;border-radius:10px;background:var(--sunk);color:var(--muted);font-size:13px;line-height:1.55}
+.trnote a{color:var(--teal);text-decoration:none;font-weight:500}
+.trnote a:hover{text-decoration:underline}
