@@ -238,7 +238,7 @@ export function aboutPage(ctx) {
 export function rootPage(cfg) {
   return `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>لمحة · Lamha · أخبار السودان في لمحة · Sudan news at a glance</title>
-<meta name="description" content="لمحة مجمّع أخبار السودان المستقل بالعربية والإنجليزية. Lamha is an independent Sudan news aggregator in Arabic and English.">
+<meta name="description" content="لمحة: أخبار السودان في مكان واحد، موقع مستقل بالعربية والإنجليزية. Lamha is an independent Sudan news aggregator in Arabic and English.">
 <link rel="canonical" href="${cfg.siteUrl}/">
 <link rel="alternate" hreflang="ar" href="${cfg.siteUrl}/ar/"><link rel="alternate" hreflang="en" href="${cfg.siteUrl}/en/"><link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}/">
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/apple-touch-icon.png"><link rel="stylesheet" href="/static/style.css">
