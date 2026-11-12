@@ -1,18 +1,18 @@
-export const PAGES = ["news", "official", "sports", "stays", "sources", "about"];
+export const PAGES = ["news", "official", "sports", "hotels", "sources", "about"];
 export const pagePath = (lang, page) => `/${lang}/${page === "news" ? "" : page + "/"}`;
 
 export const T = {
   en: {
     dir: "ltr", locale: "en-GB", ogLocale: "en_US", other: "ar", otherLabel: "عربي",
     brandWm: 'Lamha <span>· لمحة</span>', tagline: "Sudan news at a glance",
-    nav: { news: "News", official: "Official", sports: "Sports", stays: "Stays", sources: "Sources", about: "About" },
-    eyebrow: { news: "Sudan news aggregator", official: "Statements & communiqués", sports: "Sudanese football", stays: "Where to stay", sources: "Transparency", about: "About Lamha" },
-    title: { news: "Sudan news at a glance", official: "Official statements on Sudan", sports: "Al-Hilal, Al-Merrikh & the national team", stays: "Hotels in Khartoum and Port Sudan", sources: "Every source we read", about: "Independent. Unaffiliated. Linked to the source." },
+    nav: { news: "News", official: "Official", sports: "Sports", hotels: "Hotels", sources: "Sources", about: "About" },
+    eyebrow: { news: "Sudan news aggregator", official: "Statements & communiqués", sports: "Sudanese football", hotels: "Where to stay", sources: "Transparency", about: "About Lamha" },
+    title: { news: "Sudan news at a glance", official: "Official statements on Sudan", sports: "Al-Hilal, Al-Merrikh & the national team", hotels: "Hotels in Khartoum and Port Sudan", sources: "Every source we read", about: "Independent. Unaffiliated. Linked to the source." },
     lede: {
       news: "Headlines from Sudanese, regional and international outlets in one place. Every story links to the publisher that reported it.",
       official: "Statements from governments, regional bodies and Sudanese institutions, shown in English and Arabic. Translated titles are marked.",
       sports: "Club and national team news from Sudanese and Arab sports media.",
-      stays: "Hotels in Sudan's main cities, with direct links to each hotel. Check current conditions before you travel.",
+      hotels: "Hotels in Sudan's main cities, with direct links to each hotel. Check current conditions before you travel.",
       sources: "Lamha shows you who reported each story. These are the publishers and institutions we follow.",
       about: "What Lamha is, and what it is not."
     },
@@ -20,7 +20,7 @@ export const T = {
       news: "Lamha · Sudan news today from local and international sources",
       official: "Official statements on Sudan · Lamha",
       sports: "Al-Hilal, Al-Merrikh & Sudan national team news · Lamha",
-      stays: "Hotels in Khartoum & Port Sudan · Lamha",
+      hotels: "Hotels in Khartoum & Port Sudan · Lamha",
       sources: "Our sources: Sudanese, regional and international news · Lamha",
       about: "About Lamha, an independent Sudan news aggregator"
     },
@@ -28,7 +28,7 @@ export const T = {
       news: "Latest Sudan news in English from Sudanese, regional and international outlets, grouped by story so you can compare coverage. Updated throughout the day.",
       official: "Official statements on Sudan from the US State Department, UK FCDO, France, the EU, African Union, IGAD and the Sudanese government, in English and Arabic.",
       sports: "Latest news on Al-Hilal Omdurman, Al-Merrikh and Sudan's national football team, the Falcons of Jediane.",
-      stays: "Hotels in Khartoum and Port Sudan with addresses, contacts and links, plus official travel advisories for Sudan.",
+      hotels: "Hotels in Khartoum and Port Sudan with addresses, contacts and links, plus official travel advisories for Sudan.",
       sources: "The full list of Sudanese, regional, international and official sources Lamha aggregates, with labels for state-affiliated media.",
       about: "Lamha is an independent, unaffiliated news aggregator for Sudan. Every headline links to its original publisher."
     },
@@ -63,14 +63,14 @@ export const T = {
   ar: {
     dir: "rtl", locale: "ar-SD-u-nu-latn", ogLocale: "ar_SD", other: "en", otherLabel: "EN",
     brandWm: 'لمحة <span>· Lamha</span>', tagline: "أخبار السودان في لمحة",
-    nav: { news: "الأخبار", official: "بيانات رسمية", sports: "الرياضة", stays: "الإقامة", sources: "المصادر", about: "عن لمحة" },
-    eyebrow: { news: "مجمّع أخبار السودان", official: "بيانات وتصريحات رسمية", sports: "الكرة السودانية", stays: "أماكن الإقامة", sources: "الشفافية", about: "عن لمحة" },
-    title: { news: "أخبار السودان في لمحة", official: "البيانات الرسمية بشأن السودان", sports: "الهلال والمريخ والمنتخب الوطني", stays: "فنادق الخرطوم وبورتسودان", sources: "كل المصادر التي نتابعها", about: "مستقل. غير منحاز. مرتبط بالمصدر." },
+    nav: { news: "الأخبار", official: "بيانات رسمية", sports: "الرياضة", hotels: "الفنادق", sources: "المصادر", about: "عن لمحة" },
+    eyebrow: { news: "مجمّع أخبار السودان", official: "بيانات وتصريحات رسمية", sports: "الكرة السودانية", hotels: "أماكن الإقامة", sources: "الشفافية", about: "عن لمحة" },
+    title: { news: "أخبار السودان في لمحة", official: "البيانات الرسمية بشأن السودان", sports: "الهلال والمريخ والمنتخب الوطني", hotels: "فنادق الخرطوم وبورتسودان", sources: "كل المصادر التي نتابعها", about: "مستقل. غير منحاز. مرتبط بالمصدر." },
     lede: {
       news: "عناوين من المنافذ السودانية والإقليمية والدولية في مكان واحد، وكل خبر مرتبط بالناشر الذي أورده.",
       official: "بيانات الحكومات والمنظمات الإقليمية والمؤسسات السودانية بالعربية والإنجليزية، مع توضيح العناوين المترجمة.",
       sports: "أخبار الأندية والمنتخب من الإعلام الرياضي السوداني والعربي.",
-      stays: "فنادق في أهم مدن السودان مع روابط مباشرة لكل فندق. تحقق من الأوضاع الحالية قبل السفر.",
+      hotels: "فنادق في أهم مدن السودان مع روابط مباشرة لكل فندق. تحقق من الأوضاع الحالية قبل السفر.",
       sources: "تُظهر لمحة مصدر كل خبر. هذه هي المنافذ والمؤسسات التي نتابعها.",
       about: "ما هي لمحة، وما ليست هي."
     },
@@ -78,7 +78,7 @@ export const T = {
       news: "لمحة · أخبار السودان اليوم من مصادر محلية ودولية",
       official: "بيانات رسمية بشأن السودان · لمحة",
       sports: "أخبار الهلال والمريخ ومنتخب السودان · لمحة",
-      stays: "فنادق الخرطوم وبورتسودان · لمحة",
+      hotels: "فنادق الخرطوم وبورتسودان · لمحة",
       sources: "مصادرنا: الإعلام السوداني والإقليمي والدولي · لمحة",
       about: "عن لمحة، مجمّع أخبار السودان المستقل"
     },
@@ -86,7 +86,7 @@ export const T = {
       news: "آخر أخبار السودان بالعربية من المنافذ السودانية والإقليمية والدولية، مجمّعة حسب الخبر لمقارنة التغطيات. تُحدَّث على مدار اليوم.",
       official: "البيانات الرسمية بشأن السودان من الخارجية الأمريكية والبريطانية والفرنسية والاتحاد الأوروبي والاتحاد الأفريقي وإيقاد والحكومة السودانية.",
       sports: "آخر أخبار الهلال أم درمان والمريخ ومنتخب السودان لكرة القدم صقور الجديان.",
-      stays: "فنادق الخرطوم وبورتسودان مع العناوين وأرقام التواصل والروابط، وتحذيرات السفر الرسمية.",
+      hotels: "فنادق الخرطوم وبورتسودان مع العناوين وأرقام التواصل والروابط، وتحذيرات السفر الرسمية.",
       sources: "القائمة الكاملة للمصادر السودانية والإقليمية والدولية والرسمية التي تجمعها لمحة، مع وسم الإعلام الرسمي.",
       about: "لمحة مجمّع أخبار مستقل وغير تابع لأي جهة، وكل عنوان فيه مرتبط بناشره الأصلي."
     },

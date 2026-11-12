@@ -11,7 +11,7 @@ const ICONS = {
   news: '<path d="M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z"/><path d="M7 9h10M7 13h10M7 17h6"/>',
   official: '<path d="M3 9l9-5 9 5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
   sports: '<circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z"/>',
-  stays: '<path d="M3 19V7M3 13h18v6M21 13a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="10.5" r="1.8"/>',
+  hotels: '<path d="M3 19V7M3 13h18v6M21 13a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="10.5" r="1.8"/>',
   sources: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7"/>'
 };
 const icon = k => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]}</svg>`;
@@ -22,7 +22,7 @@ export function layout(ctx, page, body, ld = []) {
   const url = cfg.siteUrl + pagePath(lang, page);
   const alt = l => cfg.siteUrl + pagePath(l, page);
   const nav = PAGES.map(p => `<a href="${pagePath(lang, p)}"${p === page ? ' aria-current="page"' : ""}>${esc(t.nav[p])}</a>`).join("");
-  const bottom = ["news", "official", "sports", "stays", "sources"].map(p => `<a href="${pagePath(lang, p)}"${p === page ? ' aria-current="page"' : ""}>${icon(p)}<span>${esc(t.nav[p])}</span></a>`).join("");
+  const bottom = ["news", "official", "sports", "hotels", "sources"].map(p => `<a href="${pagePath(lang, p)}"${p === page ? ' aria-current="page"' : ""}>${icon(p)}<span>${esc(t.nav[p])}</span></a>`).join("");
   const ldAll = [{ "@context": "https://schema.org", "@type": "WebPage", name: t.docTitle[page], url, inLanguage: lang, isPartOf: { "@type": "WebSite", name: "Lamha", alternateName: "لمحة", url: cfg.siteUrl + "/" } }, ...ld];
   return `<!doctype html>
 <html lang="${lang}" dir="${t.dir}">
@@ -204,7 +204,7 @@ export function staysPage(ctx) {
       </div></article>`).join("");
     return `<h2 class="city-h">${esc(label)} <small>${esc(note)}</small></h2><div class="hotels">${cards}</div>`;
   };
-  return layout(ctx, "stays", `<section><div class="notice">${t.stayNotice}</div>${city("khartoum")}${city("port")}</section>`);
+  return layout(ctx, "hotels", `<section><div class="notice">${t.stayNotice}</div>${city("khartoum")}${city("port")}</section>`);
 }
 
 /* ---------- Sources ---------- */
