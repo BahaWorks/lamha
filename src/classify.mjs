@@ -17,12 +17,15 @@ const TEAMS = {
 };
 const NOT_SUDAN_HILAL = /الهلال السعودي|al[- ]?hilal saudi|النصر|الاتحاد السعودي|روشن/i;
 
-export function teamsOf(text) {
+// opts.africa: the source only covers African football (Rwandan league, CAF), so a bare "Al Hilal"
+// means the Sudanese club unless another Al Hilal is named.
+const OTHER_HILAL = /saudi|riyadh|benghazi|libya|الهلال السعودي|الهلال الليبي|بنغازي/i;
+export function teamsOf(text, opts = {}) {
   const t = [];
   for (const [k, re] of Object.entries(TEAMS)) if (re.test(text)) t.push(k);
   if (t.includes("hilal") && NOT_SUDAN_HILAL.test(text) && !/السوداني|أم درمان|omdurman/i.test(text)) t.splice(t.indexOf("hilal"), 1);
   // In English, "Al-Hilal" usually means the Saudi club; require a Sudan reference.
-  if (t.includes("hilal") && !/[\u0600-\u06FF]/.test(text) && !/omdurman|sudan/i.test(text)) t.splice(t.indexOf("hilal"), 1);
+  if (t.includes("hilal") && !/[\u0600-\u06FF]/.test(text) && !/omdurman|sudan/i.test(text) && !(opts.africa && !OTHER_HILAL.test(text))) t.splice(t.indexOf("hilal"), 1);
   return t;
 }
 

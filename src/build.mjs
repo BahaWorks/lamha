@@ -29,13 +29,16 @@ const JUNK = /^latest (speeches|news)\s*:|\bformer chairperson\b|\barchives?\b|p
 const cleanTitle = t => t.replace(/^#?(daily[_ ]brief|news|breaking|update|exclusive|watch|video)\s*[:|-]\s*/i, "").replace(/#(?=[\p{L}\p{N}])/gu, "").replace(/\s{2,}/g, " ").trim();
 const NOT_NEWS = /\/(job|jobs|training|vacanc(y|ies))\//i;
 const JOB_AD = /\b(manager|officer|advis[oe]r|coordinator|consultant|specialist|assistant|internship|vacancy|team lead|focal point|associate)\b(\s*[-–(,]|\s*$)/i;
+const NOT_EN = /\b(le|la|les|des|du|et|contre|ya|na|mu|kwa|ikipe|umukino|yatsinze|amakipe|abakinnyi|muri|kuri)\b/gi;
 function keep(src, it) {
   it.title = cleanTitle(it.title);
   const text = `${it.title} ${it.summary || ""}`;
   if (JUNK.test(it.title) || it.title.length < 12 || NOT_NEWS.test(it.url)) return false;
   if (src.id === "reliefweb" && JOB_AD.test(it.title)) return false;
   if (src.filter === "sudan" && !isSudan(text)) return false;
-  if (src.filter === "teams" && !teamsOf(it.title).length) return false;
+  if (src.filter === "teams" && !teamsOf(it.title, { africa: src.africa }).length) return false;
+  // English pages only: drop French and Kinyarwanda headlines from Rwandan and CAF sources.
+  if (src.cat === "sport" && !hasArabic(it.title) && (it.title.match(NOT_EN) || []).length >= 2) return false;
   return true;
 }
 
@@ -107,7 +110,7 @@ const official = [...offFeed, ...pinned.filter(p => !seenUrl.has(p.url)).map(p =
 const sportItems = all.filter(i => i.cat === "sport" && (i.ts >= lastUpdate - 7 * 864e5 || OFFLINE));
 const sports = {};
 for (const L of ["en", "ar"]) sports[L] = cluster(sportItems.filter(i => i.lang === L), 0.5).map(c => {
-  const teams = [...new Set(c.members.flatMap(m => teamsOf(m.title)))];
+  const teams = [...new Set(c.members.flatMap(m => teamsOf(m.title, { africa: SRC[m.src]?.africa })))];
   return { ...c, teams };
 });
 

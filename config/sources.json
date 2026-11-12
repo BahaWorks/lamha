@@ -1265,6 +1265,157 @@
      "lang": "en"
     }
    ]
+  },
+  {
+   "id": "newtimes-sport",
+   "name": {
+    "en": "The New Times (Rwanda)",
+    "ar": "ذا نيو تايمز (رواندا)"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://www.newtimes.co.rw",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "site:newtimes.co.rw (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "newtimes.co.rw"
+   ],
+   "pageLangs": [
+    "en"
+   ]
+  },
+  {
+   "id": "ktpress",
+   "name": {
+    "en": "KT Press (Rwanda)",
+    "ar": "كي تي برس (رواندا)"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://www.ktpress.rw",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "site:ktpress.rw (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "ktpress.rw"
+   ],
+   "pageLangs": [
+    "en"
+   ]
+  },
+  {
+   "id": "ferwafa",
+   "name": {
+    "en": "FERWAFA (Rwanda FA)",
+    "ar": "الاتحاد الرواندي لكرة القدم"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://ferwafa.rw",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "site:ferwafa.rw (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "ferwafa.rw"
+   ],
+   "pageLangs": [
+    "en"
+   ]
+  },
+  {
+   "id": "caf",
+   "name": {
+    "en": "CAF",
+    "ar": "الاتحاد الأفريقي لكرة القدم (كاف)"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://www.cafonline.com",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "site:cafonline.com (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    },
+    {
+     "gnews": "site:cafonline.com الهلال OR المريخ",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "cafonline.com"
+   ],
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
+  },
+  {
+   "id": "rwanda-league-en",
+   "name": {
+    "en": "Rwanda Premier League coverage",
+    "ar": "تغطية الدوري الرواندي"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://news.google.com",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "\"Rwanda Premier League\" (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    },
+    {
+     "gnews": "\"CAF Champions League\" (\"Al Hilal\" OR \"Al-Hilal\" OR \"Al Merrikh\" OR \"Al-Merrikh\" OR Merreikh)",
+     "lang": "en"
+    }
+   ],
+   "pageLangs": [
+    "en"
+   ]
+  },
+  {
+   "id": "rwanda-league-ar",
+   "name": {
+    "en": "Rwanda league & CAF (Arabic)",
+    "ar": "الدوري الرواندي ودوري الأبطال"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://news.google.com",
+   "filter": "teams",
+   "africa": true,
+   "feeds": [
+    {
+     "gnews": "\"الدوري الرواندي\" الهلال OR المريخ",
+     "lang": "ar"
+    },
+    {
+     "gnews": "\"دوري أبطال أفريقيا\" \"الهلال السوداني\" OR \"الهلال\" أم درمان",
+     "lang": "ar"
+    }
+   ],
+   "pageLangs": [
+    "ar"
+   ]
   }
  ]
 }

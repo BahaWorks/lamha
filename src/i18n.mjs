@@ -11,7 +11,7 @@ export const T = {
     lede: {
       news: "Headlines from Sudanese, regional and international outlets in one place. Every story links to the publisher that reported it.",
       official: "Statements from governments, regional bodies and Sudanese institutions, shown in English and Arabic. Translated titles are marked.",
-      sports: "Club and national team news from Sudanese and Arab sports media.",
+      sports: "Club and national team news, including the Rwanda Premier League, where Al-Hilal and Al-Merrikh now play, and the CAF Champions League.",
       hotels: "Hotels in Sudan's main cities, with direct links to each hotel. Check current conditions before you travel.",
       sources: "Lamha shows you who reported each story. These are the publishers and institutions we follow.",
       about: "What Lamha is, and what it is not."
@@ -27,7 +27,7 @@ export const T = {
     metaDesc: {
       news: "Latest Sudan news in English from Sudanese, regional and international outlets, grouped by story so you can compare coverage. Updated throughout the day.",
       official: "Official statements on Sudan from the US State Department, UK FCDO, France, the EU, African Union, IGAD and the Sudanese government, in English and Arabic.",
-      sports: "Latest news on Al-Hilal Omdurman, Al-Merrikh and Sudan's national football team, the Falcons of Jediane.",
+      sports: "Latest news and results for Al-Hilal Omdurman and Al-Merrikh in the Rwanda Premier League and CAF Champions League, and Sudan's national team, the Falcons of Jediane.",
       hotels: "Hotels in Khartoum and Port Sudan with addresses, contacts and links, plus official travel advisories for Sudan.",
       sources: "The full list of Sudanese, regional, international and official sources Lamha aggregates, with labels for state-affiliated media.",
       about: "Lamha is an independent, unaffiliated news aggregator for Sudan. Every headline links to its original publisher."
@@ -69,7 +69,7 @@ export const T = {
     lede: {
       news: "عناوين من المنافذ السودانية والإقليمية والدولية في مكان واحد، وكل خبر مرتبط بالناشر الذي أورده.",
       official: "بيانات الحكومات والمنظمات الإقليمية والمؤسسات السودانية بالعربية والإنجليزية، مع توضيح العناوين المترجمة.",
-      sports: "أخبار الأندية والمنتخب من الإعلام الرياضي السوداني والعربي.",
+      sports: "أخبار الأندية والمنتخب، ومنها الدوري الرواندي الممتاز الذي يشارك فيه الهلال والمريخ حالياً، ودوري أبطال أفريقيا.",
       hotels: "فنادق في أهم مدن السودان مع روابط مباشرة لكل فندق. تحقق من الأوضاع الحالية قبل السفر.",
       sources: "تُظهر لمحة مصدر كل خبر. هذه هي المنافذ والمؤسسات التي نتابعها.",
       about: "ما هي لمحة، وما ليست هي."
@@ -85,7 +85,7 @@ export const T = {
     metaDesc: {
       news: "آخر أخبار السودان بالعربية من المنافذ السودانية والإقليمية والدولية، وتغطيات الخبر الواحد معروضة معاً للمقارنة. تُحدَّث على مدار اليوم.",
       official: "البيانات الرسمية بشأن السودان من الخارجية الأمريكية والبريطانية والفرنسية والاتحاد الأوروبي والاتحاد الأفريقي وإيقاد والحكومة السودانية.",
-      sports: "آخر أخبار الهلال أم درمان والمريخ ومنتخب السودان لكرة القدم صقور الجديان.",
+      sports: "آخر أخبار ونتائج الهلال أم درمان والمريخ في الدوري الرواندي الممتاز ودوري أبطال أفريقيا، ومنتخب السودان صقور الجديان.",
       hotels: "فنادق الخرطوم وبورتسودان مع العناوين وأرقام التواصل والروابط، وتحذيرات السفر الرسمية.",
       sources: "القائمة الكاملة للمصادر السودانية والإقليمية والدولية والرسمية التي تجمعها لمحة، مع وسم الإعلام الرسمي.",
       about: "لمحة موقع إخباري مستقل يجمع أخبار السودان في مكان واحد، غير تابع لأي جهة، وكل عنوان فيه مرتبط بناشره الأصلي."
