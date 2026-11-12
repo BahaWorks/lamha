@@ -7,7 +7,7 @@ export const T = {
     brandWm: 'Lamha <span>· لمحة</span>', tagline: "Sudan news at a glance",
     nav: { news: "News", official: "Official", sports: "Sports", stays: "Stays", sources: "Sources", about: "About" },
     eyebrow: { news: "Sudan news aggregator", official: "Statements & communiqués", sports: "Sudanese football", stays: "Where to stay", sources: "Transparency", about: "About Lamha" },
-    title: { news: "Sudan, at a glance", official: "Official statements on Sudan", sports: "Al-Hilal, Al-Merrikh & the national team", stays: "Hotels in Khartoum and Port Sudan", sources: "Every source we read", about: "Independent. Unaffiliated. Linked to the source." },
+    title: { news: "Sudan news at a glance", official: "Official statements on Sudan", sports: "Al-Hilal, Al-Merrikh & the national team", stays: "Hotels in Khartoum and Port Sudan", sources: "Every source we read", about: "Independent. Unaffiliated. Linked to the source." },
     lede: {
       news: "Headlines from Sudanese, regional and international outlets in one place. Every story links to the publisher that reported it.",
       official: "Statements from governments, regional bodies and Sudanese institutions, shown in English and Arabic. Translated titles are marked.",
@@ -18,7 +18,7 @@ export const T = {
     },
     docTitle: {
       news: "Lamha · Sudan news today from local and international sources",
-      official: "Official statements on Sudan: US, UK, EU, AU, IGAD, Sudan government · Lamha",
+      official: "Official statements on Sudan · Lamha",
       sports: "Al-Hilal, Al-Merrikh & Sudan national team news · Lamha",
       stays: "Hotels in Khartoum & Port Sudan · Lamha",
       sources: "Our sources: Sudanese, regional and international news · Lamha",
@@ -65,7 +65,7 @@ export const T = {
     brandWm: 'لمحة <span>· Lamha</span>', tagline: "أخبار السودان في لمحة",
     nav: { news: "الأخبار", official: "بيانات رسمية", sports: "الرياضة", stays: "الإقامة", sources: "المصادر", about: "عن لمحة" },
     eyebrow: { news: "مجمّع أخبار السودان", official: "بيانات وتصريحات رسمية", sports: "الكرة السودانية", stays: "أماكن الإقامة", sources: "الشفافية", about: "عن لمحة" },
-    title: { news: "السودان في لمحة", official: "البيانات الرسمية بشأن السودان", sports: "الهلال والمريخ والمنتخب الوطني", stays: "فنادق الخرطوم وبورتسودان", sources: "كل المصادر التي نتابعها", about: "مستقل. غير منحاز. مرتبط بالمصدر." },
+    title: { news: "أخبار السودان في لمحة", official: "البيانات الرسمية بشأن السودان", sports: "الهلال والمريخ والمنتخب الوطني", stays: "فنادق الخرطوم وبورتسودان", sources: "كل المصادر التي نتابعها", about: "مستقل. غير منحاز. مرتبط بالمصدر." },
     lede: {
       news: "عناوين من المنافذ السودانية والإقليمية والدولية في مكان واحد، وكل خبر مرتبط بالناشر الذي أورده.",
       official: "بيانات الحكومات والمنظمات الإقليمية والمؤسسات السودانية بالعربية والإنجليزية، مع توضيح العناوين المترجمة.",
@@ -76,7 +76,7 @@ export const T = {
     },
     docTitle: {
       news: "لمحة · أخبار السودان اليوم من مصادر محلية ودولية",
-      official: "البيانات الرسمية بشأن السودان: الخارجية الأمريكية والبريطانية والاتحاد الأوروبي والأفريقي وإيقاد · لمحة",
+      official: "بيانات رسمية بشأن السودان · لمحة",
       sports: "أخبار الهلال والمريخ ومنتخب السودان · لمحة",
       stays: "فنادق الخرطوم وبورتسودان · لمحة",
       sources: "مصادرنا: الإعلام السوداني والإقليمي والدولي · لمحة",

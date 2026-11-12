@@ -31,6 +31,7 @@ export function layout(ctx, page, body, ld = []) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(t.docTitle[page])}</title>
 <meta name="description" content="${esc(t.metaDesc[page])}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="${url}">
 <link rel="alternate" hreflang="${lang}" href="${url}">
 <link rel="alternate" hreflang="${o}" href="${alt(o)}">
