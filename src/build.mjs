@@ -25,10 +25,15 @@ const SRC = Object.fromEntries(sources.map(s => [s.id, s]));
 const hasArabic = s => /[؀-ۿ]/.test(s);
 const idOf = url => crypto.createHash("sha1").update(url).digest("hex").slice(0, 12);
 
-const JUNK = /\barchives?\b|page \d+ of \d+|public schedule|^[0-9a-f]{8,}\b|^(home|search|contact)$/i;
+const JUNK = /^latest (speeches|news)\s*:|\bformer chairperson\b|\barchives?\b|page \d+ of \d+|public schedule|^[0-9a-f]{8,}\b|^(home|search|contact)$/i;
+const cleanTitle = t => t.replace(/^#?(daily[_ ]brief|news|breaking|update|exclusive|watch|video)\s*[:|-]\s*/i, "").replace(/#(?=[\p{L}\p{N}])/gu, "").replace(/\s{2,}/g, " ").trim();
+const NOT_NEWS = /\/(job|jobs|training|vacanc(y|ies))\//i;
+const JOB_AD = /\b(manager|officer|advis[oe]r|coordinator|consultant|specialist|assistant|internship|vacancy|team lead|focal point|associate)\b(\s*[-–(,]|\s*$)/i;
 function keep(src, it) {
+  it.title = cleanTitle(it.title);
   const text = `${it.title} ${it.summary || ""}`;
-  if (JUNK.test(it.title) || it.title.length < 12) return false;
+  if (JUNK.test(it.title) || it.title.length < 12 || NOT_NEWS.test(it.url)) return false;
+  if (src.id === "reliefweb" && JOB_AD.test(it.title)) return false;
   if (src.filter === "sudan" && !isSudan(text)) return false;
   if (src.filter === "teams" && !teamsOf(it.title).length) return false;
   return true;
@@ -71,7 +76,8 @@ for (const f of fresh) {
   byId.set(id, { id, src: f.src, cat: s.cat, lang, title: f.title, url: f.url, ts: prev?.ts ?? f.ts, tr: prev?.tr || f.tr, summary: f.summary });
 }
 const minTs = lastUpdate - cfg.keepDays * 864e5;
-let all = [...byId.values()].filter(i => i.ts >= minTs || OFFLINE);
+// Re-check stored items against the current rules, so rule changes also clean older headlines.
+let all = [...byId.values()].filter(i => (i.ts >= minTs || OFFLINE) && SRC[i.src] && (OFFLINE || keep(SRC[i.src], i)));
 
 /* ---------- 3. optional AI translations ---------- */
 const useAI = aiEnabled(cfg) && !OFFLINE && !RENDER;

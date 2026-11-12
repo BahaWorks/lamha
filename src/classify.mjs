@@ -69,6 +69,9 @@ export function cluster(items, threshold = 0.5, { ignoreLang = false } = {}) {
   }
   for (const c of clusters) {
     c.members.sort((a, b) => b.ts - a.ts);
+    // One entry per outlet per story.
+    const seenSrc = new Set();
+    c.members = c.members.filter(m => !seenSrc.has(m.src) && seenSrc.add(m.src));
     c.lead = c.members[0];
     c.ts = c.lead.ts;
     c.topic = topicOf(c.members.map(m => m.title).join(" "));
