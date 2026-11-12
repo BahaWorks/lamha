@@ -669,16 +669,22 @@
    },
    "cat": "ar",
    "type": "gov",
-   "site": "https://suna-sd.net",
+   "site": "https://suna-sd.net/ar",
    "feeds": [
+    {
+     "url": "https://suna-sd.net/ar/rss"
+    },
+    {
+     "url": "https://suna-sd.net/rss.xml"
+    },
+    {
+     "url": "https://suna-sd.net/ar/feed"
+    },
     {
      "url": "https://suna-sd.net/feed/"
     },
     {
-     "url": "https://suna-sd.net/rss"
-    },
-    {
-     "gnews": "سونا السودان",
+     "gnews": "site:suna-sd.net",
      "lang": "ar"
     }
    ],
