@@ -94,7 +94,10 @@ if (useAI && cfg.ai.translateOfficialAndSports) {
 const showMin = lastUpdate - cfg.showHours * 3600e3;
 const clusters = {};
 for (const i of all) i.lang = hasArabic(i.title) ? "ar" : "en";
-for (const L of ["en", "ar"]) clusters[L] = cluster(all.filter(i => (i.cat === "en" || i.cat === "ar") && i.lang === L && (i.ts >= showMin || OFFLINE)));
+// Sudanese outlets lead a story when they covered it; then international, regional, UN, and state media last.
+const RANK = { sd: 0, intl: 1, reg: 2, un: 3, isr: 4, egy: 5, gov: 6 };
+const rank = i => RANK[SRC[i.src]?.type] ?? 3;
+for (const L of ["en", "ar"]) clusters[L] = cluster(all.filter(i => (i.cat === "en" || i.cat === "ar") && i.lang === L && (i.ts >= showMin || OFFLINE)), 0.5, { rank });
 
 const pinned = await readJson("data/official-pinned.json", []);
 const offFeed = all.filter(i => i.cat === "off");

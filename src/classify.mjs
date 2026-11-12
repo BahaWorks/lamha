@@ -54,7 +54,7 @@ function sim(a, b) {
 }
 
 // Greedy single-link clustering within one language and a 48h window.
-export function cluster(items, threshold = 0.5, { ignoreLang = false } = {}) {
+export function cluster(items, threshold = 0.5, { ignoreLang = false, rank = () => 0 } = {}) {
   const clusters = [];
   const sorted = [...items].sort((x, y) => y.ts - x.ts);
   for (const it of sorted) {
@@ -70,12 +70,13 @@ export function cluster(items, threshold = 0.5, { ignoreLang = false } = {}) {
     else clusters.push({ lang: it.lang, ts: it.ts, members: [it] });
   }
   for (const c of clusters) {
-    c.members.sort((a, b) => b.ts - a.ts);
+    // Lead story: preferred outlets first (rank, lower is better), then newest.
+    c.members.sort((a, b) => rank(a) - rank(b) || b.ts - a.ts);
     // One entry per outlet per story.
     const seenSrc = new Set();
     c.members = c.members.filter(m => !seenSrc.has(m.src) && seenSrc.add(m.src));
     c.lead = c.members[0];
-    c.ts = c.lead.ts;
+    c.ts = Math.max(...c.members.map(m => m.ts));
     c.topic = topicOf(c.members.map(m => m.title).join(" "));
     c.sources = new Set(c.members.map(m => m.src)).size;
     for (const m of c.members) delete m._tk;
