@@ -40,7 +40,9 @@ export function parseFeed(xml) {
     const date = stripTags(tag(b, isAtom ? "updated" : "pubDate")) || stripTags(tag(b, "published")) || stripTags(tag(b, "dc:date"));
     const summary = stripTags(tag(b, isAtom ? "summary" : "description")).slice(0, 400);
     const sourceName = stripTags(tag(b, "source"));
-    if (title && link) items.push({ title, url: link.trim(), date, summary, sourceName });
+    const su = b.match(/<source[^>]*url=["']([^"']+)["']/i);
+    const sourceUrl = su ? decode(su[1]) : "";
+    if (title && link) items.push({ title, url: link.trim(), date, summary, sourceName, sourceUrl });
   }
   return items;
 }
@@ -55,9 +57,11 @@ export async function fetchText(url, timeoutMs = 20000) {
   } finally { clearTimeout(t); }
 }
 
-// Try each feed of a source in order; return the first that yields items.
-export async function fetchSource(src) {
-  const errors = [];
+// Fetch every feed of a source, keep relevant items, merge them (dedupe by URL).
+// keep(item) decides relevance, so a feed full of off-topic items no longer hides its fallback.
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+export async function fetchSource(src, keep = () => true) {
+  const errors = []; const out = new Map(); const used = [];
   for (const f of src.feeds) {
     const url = f.url || gnewsUrl(f.gnews, f.lang);
     try {
@@ -66,14 +70,18 @@ export async function fetchSource(src) {
       if (f.gnews) {
         // Google News titles end with " - Publisher"; strip it.
         items = items.map(i => ({ ...i, title: i.sourceName ? i.title.replace(new RegExp(`\\s+-\\s+${i.sourceName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`), "") : i.title.replace(/\s+-\s+[^-]+$/, ""), via: "gnews" }));
+        // Only accept items actually published on the source's own domains.
+        if (src.domains) items = items.filter(i => src.domains.some(d => hostOf(i.sourceUrl).endsWith(d)));
       }
-      if (items.length) return { items, used: f.url ? "feed" : "gnews", url };
-      errors.push(`${url}: no items`);
+      const kept = items.filter(keep);
+      for (const i of kept) if (!out.has(i.url)) out.set(i.url, i);
+      if (kept.length) used.push(f.url ? "feed" : "gnews");
+      else errors.push(`${url}: ${items.length ? items.length + " items, none relevant" : "no items"}`);
     } catch (e) {
       errors.push(`${url}: ${e.message}`);
     }
   }
-  return { items: [], used: null, errors };
+  return { items: [...out.values()], used: used.length ? used.join("+") : null, url: src.feeds.map(f => f.url || "gnews").join(" + "), errors };
 }
 
 export async function pool(list, n, fn) {

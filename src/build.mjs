@@ -25,8 +25,10 @@ const SRC = Object.fromEntries(sources.map(s => [s.id, s]));
 const hasArabic = s => /[؀-ۿ]/.test(s);
 const idOf = url => crypto.createHash("sha1").update(url).digest("hex").slice(0, 12);
 
+const JUNK = /\barchives?\b|page \d+ of \d+|public schedule|^[0-9a-f]{8,}\b|^(home|search|contact)$/i;
 function keep(src, it) {
   const text = `${it.title} ${it.summary || ""}`;
+  if (JUNK.test(it.title) || it.title.length < 12) return false;
   if (src.filter === "sudan" && !isSudan(text)) return false;
   if (src.filter === "teams" && !teamsOf(it.title).length) return false;
   return true;
@@ -41,16 +43,16 @@ if (OFFLINE) {
 } else if (RENDER) {
   lastUpdate = (await readJson("data/meta.json", {})).lastUpdate || Date.now();
 } else {
-  const results = await pool(sources, 8, async s => ({ s, r: await fetchSource(s) }));
+  const results = await pool(sources, 8, async s => ({ s, r: await fetchSource(s, i => keep(s, i)) }));
   if (CHECK) {
     for (const { s, r } of results) {
-      const kept = r.items.filter(i => keep(s, i)).length;
+      const kept = r.items.length;
       console.log(`${r.used ? "OK " : "-- "} ${s.id.padEnd(12)} ${String(r.items.length).padStart(3)} items, ${String(kept).padStart(3)} kept  ${r.used ? r.url : (r.errors || []).join(" | ")}`);
     }
     process.exit(0);
   }
   for (const { s, r } of results) {
-    const items = r.items.filter(i => keep(s, i)).map(i => {
+    const items = r.items.map(i => {
       const ts = Date.parse(i.date); return { ...i, ts: Number.isFinite(ts) ? Math.min(ts, lastUpdate) : lastUpdate };
     }).sort((a, b) => b.ts - a.ts).slice(0, cfg.maxItemsPerSource);
     for (const i of items) fresh.push({ src: s.id, title: i.title, url: i.url, ts: i.ts, summary: i.summary });

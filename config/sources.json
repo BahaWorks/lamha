@@ -1,58 +1,1075 @@
 {
-  "_help": "cat: en | ar | off (official) | sport. type: sd intl reg un gov egy off sport. feeds are tried in order until one returns items. 'gnews' = Google News RSS search query (fallback for sites without a public feed). filter: 'sudan' keeps only Sudan-related items, 'teams' keeps only Al-Hilal / Al-Merrikh / national team items. Run `npm run check-feeds` to see which feeds work.",
-  "sources": [
-    {"id":"dabanga-en","name":{"en":"Dabanga","ar":"دبنقا"},"cat":"en","type":"sd","site":"https://www.dabangasudan.org/en","feeds":[{"url":"https://www.dabangasudan.org/en/feed"},{"gnews":"site:dabangasudan.org/en Sudan","lang":"en"}]},
-    {"id":"st-en","name":{"en":"Sudan Tribune","ar":"سودان تربيون"},"cat":"en","type":"sd","site":"https://sudantribune.com","feeds":[{"url":"https://sudantribune.com/feed/"},{"gnews":"site:sudantribune.com","lang":"en"}]},
-    {"id":"tamazuj-en","name":{"en":"Radio Tamazuj","ar":"راديو تمازج"},"cat":"en","type":"sd","site":"https://www.radiotamazuj.org/en","filter":"sudan","feeds":[{"gnews":"site:radiotamazuj.org/en Sudan","lang":"en"}]},
-    {"id":"swm","name":{"en":"Sudan War Monitor","ar":"مرصد حرب السودان"},"cat":"en","type":"sd","site":"https://sudanwarmonitor.com","feeds":[{"url":"https://sudanwarmonitor.com/feed"}]},
-    {"id":"aje","name":{"en":"Al Jazeera English","ar":"الجزيرة الإنجليزية"},"cat":"en","type":"intl","site":"https://www.aljazeera.com/where/sudan/","filter":"sudan","feeds":[{"url":"https://www.aljazeera.com/xml/rss/all.xml"},{"gnews":"site:aljazeera.com Sudan","lang":"en"}]},
-    {"id":"bbc","name":{"en":"BBC News","ar":"بي بي سي نيوز"},"cat":"en","type":"intl","site":"https://www.bbc.com/news/world/africa","filter":"sudan","feeds":[{"url":"https://feeds.bbci.co.uk/news/world/africa/rss.xml"}]},
-    {"id":"guardian","name":{"en":"The Guardian","ar":"الغارديان"},"cat":"en","type":"intl","site":"https://www.theguardian.com/world/sudan","feeds":[{"url":"https://www.theguardian.com/world/sudan/rss"}]},
-    {"id":"reuters","name":{"en":"Reuters","ar":"رويترز"},"cat":"en","type":"intl","site":"https://www.reuters.com/world/africa/","filter":"sudan","feeds":[{"gnews":"site:reuters.com Sudan","lang":"en"}]},
-    {"id":"ap","name":{"en":"AP News","ar":"أسوشيتد برس"},"cat":"en","type":"intl","site":"https://apnews.com/hub/sudan","filter":"sudan","feeds":[{"gnews":"site:apnews.com Sudan","lang":"en"}]},
-    {"id":"cnn","name":{"en":"CNN","ar":"سي إن إن"},"cat":"en","type":"intl","site":"https://www.cnn.com/world/sudan","filter":"sudan","feeds":[{"url":"http://rss.cnn.com/rss/edition_africa.rss"},{"gnews":"site:cnn.com Sudan","lang":"en"}]},
-    {"id":"nyt","name":{"en":"The New York Times","ar":"نيويورك تايمز"},"cat":"en","type":"intl","pay":true,"site":"https://www.nytimes.com/topic/destination/sudan","filter":"sudan","feeds":[{"url":"https://rss.nytimes.com/services/xml/rss/nyt/Africa.xml"}]},
-    {"id":"wsj","name":{"en":"The Wall Street Journal","ar":"وول ستريت جورنال"},"cat":"en","type":"intl","pay":true,"site":"https://www.wsj.com","filter":"sudan","feeds":[{"gnews":"site:wsj.com Sudan","lang":"en"}]},
-    {"id":"skyuk","name":{"en":"Sky News","ar":"سكاي نيوز البريطانية"},"cat":"en","type":"intl","site":"https://news.sky.com/world","filter":"sudan","feeds":[{"url":"https://feeds.skynews.com/feeds/rss/world.xml"}]},
-    {"id":"africanews","name":{"en":"Africanews","ar":"أفريكا نيوز"},"cat":"en","type":"intl","site":"https://www.africanews.com","filter":"sudan","feeds":[{"url":"https://www.africanews.com/feed/rss"},{"gnews":"site:africanews.com Sudan","lang":"en"}]},
-    {"id":"africaint","name":{"en":"Africa Intelligence","ar":"أفريكا إنتليجنس"},"cat":"en","type":"intl","pay":true,"site":"https://www.africaintelligence.com","filter":"sudan","feeds":[{"gnews":"site:africaintelligence.com Sudan","lang":"en"}]},
-    {"id":"mee","name":{"en":"Middle East Eye","ar":"ميدل إيست آي"},"cat":"en","type":"reg","site":"https://www.middleeasteye.net/countries/sudan","filter":"sudan","feeds":[{"url":"https://www.middleeasteye.net/rss"},{"gnews":"site:middleeasteye.net Sudan","lang":"en"}]},
-    {"id":"addis","name":{"en":"Addis Standard","ar":"أديس ستاندرد"},"cat":"en","type":"reg","site":"https://addisstandard.com","filter":"sudan","feeds":[{"url":"https://addisstandard.com/feed/"},{"gnews":"site:addisstandard.com Sudan","lang":"en"}]},
-    {"id":"un-en","name":{"en":"UN News","ar":"أخبار الأمم المتحدة"},"cat":"en","type":"un","site":"https://news.un.org/en/focus/sudan-conflict","filter":"sudan","feeds":[{"url":"https://news.un.org/feed/subscribe/en/news/region/africa/feed/rss.xml"}]},
-    {"id":"reliefweb","name":{"en":"ReliefWeb","ar":"ريليف ويب"},"cat":"en","type":"un","site":"https://reliefweb.int/country/sdn","feeds":[{"url":"https://reliefweb.int/updates/rss.xml?advanced-search=%28PC220%29"}]},
-    {"id":"tnh","name":{"en":"The New Humanitarian","ar":"ذا نيو هيومانيتيريان"},"cat":"en","type":"un","site":"https://www.thenewhumanitarian.org/africa/sudan","filter":"sudan","feeds":[{"gnews":"site:thenewhumanitarian.org Sudan","lang":"en"}]},
-
-    {"id":"dabanga-ar","name":{"en":"Dabanga Arabic","ar":"دبنقا"},"cat":"ar","type":"sd","site":"https://www.dabangasudan.org/ar","feeds":[{"url":"https://www.dabangasudan.org/ar/feed"},{"gnews":"site:dabangasudan.org/ar السودان","lang":"ar"}]},
-    {"id":"st-ar","name":{"en":"Sudan Tribune Arabic","ar":"سودان تربيون"},"cat":"ar","type":"sd","site":"https://sudantribune.net","feeds":[{"url":"https://sudantribune.net/feed/"},{"gnews":"site:sudantribune.net","lang":"ar"}]},
-    {"id":"tamazuj-ar","name":{"en":"Radio Tamazuj Arabic","ar":"راديو تمازج"},"cat":"ar","type":"sd","site":"https://www.radiotamazuj.org/ar","filter":"sudan","feeds":[{"gnews":"site:radiotamazuj.org/ar السودان","lang":"ar"}]},
-    {"id":"taghyeer","name":{"en":"Al-Taghyeer","ar":"التغيير"},"cat":"ar","type":"sd","site":"https://www.altaghyeer.info","feeds":[{"url":"https://www.altaghyeer.info/feed/"},{"gnews":"site:altaghyeer.info","lang":"ar"}]},
-    {"id":"rakoba","name":{"en":"Al-Rakoba","ar":"الراكوبة"},"cat":"ar","type":"sd","site":"https://www.alrakoba.net","feeds":[{"url":"https://www.alrakoba.net/feed/"},{"gnews":"site:alrakoba.net","lang":"ar"}]},
-    {"id":"tayar","name":{"en":"Al-Tayar","ar":"التيار"},"cat":"ar","type":"sd","site":"https://al-tayar.net","feeds":[{"url":"https://al-tayar.net/feed/"},{"gnews":"site:al-tayar.net","lang":"ar"}]},
-    {"id":"sayha","name":{"en":"Assayha","ar":"الصيحة"},"cat":"ar","type":"sd","site":"https://www.assayha.net","feeds":[{"url":"https://www.assayha.net/feed/"},{"gnews":"site:assayha.net","lang":"ar"}]},
-    {"id":"suna","name":{"en":"SUNA","ar":"سونا"},"cat":"ar","type":"gov","site":"https://suna-sd.net","feeds":[{"url":"https://suna-sd.net/feed/"},{"gnews":"site:suna-sd.net","lang":"ar"}]},
-    {"id":"aja","name":{"en":"Al Jazeera Arabic","ar":"الجزيرة نت"},"cat":"ar","type":"reg","site":"https://www.aljazeera.net/where/mideast/arab/sudan/","filter":"sudan","feeds":[{"gnews":"site:aljazeera.net السودان","lang":"ar"}]},
-    {"id":"aawsat","name":{"en":"Asharq Al-Awsat","ar":"الشرق الأوسط"},"cat":"ar","type":"reg","site":"https://aawsat.com","filter":"sudan","feeds":[{"gnews":"site:aawsat.com السودان","lang":"ar"}]},
-    {"id":"arabiya","name":{"en":"Al Arabiya","ar":"العربية"},"cat":"ar","type":"reg","site":"https://www.alarabiya.net/arab-and-world/sudan","filter":"sudan","feeds":[{"gnews":"site:alarabiya.net السودان","lang":"ar"}]},
-    {"id":"skyar","name":{"en":"Sky News Arabia","ar":"سكاي نيوز عربية"},"cat":"ar","type":"reg","site":"https://www.skynewsarabia.com","filter":"sudan","feeds":[{"gnews":"site:skynewsarabia.com السودان","lang":"ar"}]},
-    {"id":"bbcar","name":{"en":"BBC Arabic","ar":"بي بي سي عربي"},"cat":"ar","type":"intl","site":"https://www.bbc.com/arabic","filter":"sudan","feeds":[{"url":"https://feeds.bbci.co.uk/arabic/rss.xml"}]},
-    {"id":"qahera","name":{"en":"Al Qahera News","ar":"القاهرة الإخبارية"},"cat":"ar","type":"egy","site":"https://alqaheranews.net","filter":"sudan","feeds":[{"gnews":"site:alqaheranews.net السودان","lang":"ar"}]},
-    {"id":"ahram","name":{"en":"Al-Ahram","ar":"بوابة الأهرام"},"cat":"ar","type":"egy","site":"https://gate.ahram.org.eg","filter":"sudan","feeds":[{"gnews":"site:gate.ahram.org.eg السودان","lang":"ar"}]},
-    {"id":"un-ar","name":{"en":"UN News Arabic","ar":"أخبار الأمم المتحدة"},"cat":"ar","type":"un","site":"https://news.un.org/ar","filter":"sudan","feeds":[{"url":"https://news.un.org/feed/subscribe/ar/news/region/africa/feed/rss.xml"}]},
-
-    {"id":"state","name":{"en":"US State Department","ar":"الخارجية الأمريكية"},"cat":"off","type":"off","langs":"EN · AR","site":"https://www.state.gov/countries-areas/sudan/","feeds":[{"gnews":"site:state.gov Sudan","lang":"en"}]},
-    {"id":"usenvoy","name":{"en":"US Senior Advisor for Africa","ar":"كبير مستشاري الرئيس الأمريكي لأفريقيا"},"cat":"off","type":"off","langs":"EN","site":"https://www.state.gov","feeds":[{"gnews":"\"Massad Boulos\" Sudan","lang":"en"}]},
-    {"id":"fcdo","name":{"en":"UK Foreign Office (FCDO)","ar":"الخارجية البريطانية"},"cat":"off","type":"off","langs":"EN · AR","site":"https://www.gov.uk/world/sudan","feeds":[{"url":"https://www.gov.uk/search/news-and-communications.atom?world_locations%5B%5D=sudan"}]},
-    {"id":"frmfa","name":{"en":"France · Foreign Ministry","ar":"الخارجية الفرنسية"},"cat":"off","type":"off","langs":"EN · FR · AR","site":"https://www.diplomatie.gouv.fr/en/","feeds":[{"gnews":"site:diplomatie.gouv.fr Sudan","lang":"en"}]},
-    {"id":"eu","name":{"en":"European Union","ar":"الاتحاد الأوروبي"},"cat":"off","type":"off","langs":"EN · AR","site":"https://www.eeas.europa.eu/delegations/sudan_en","feeds":[{"gnews":"(site:consilium.europa.eu OR site:eeas.europa.eu) Sudan","lang":"en"}]},
-    {"id":"au","name":{"en":"African Union","ar":"الاتحاد الأفريقي"},"cat":"off","type":"off","langs":"EN · AR","site":"https://www.peaceau.org","feeds":[{"gnews":"(site:peaceau.org OR site:au.int) Sudan","lang":"en"}]},
-    {"id":"igad","name":{"en":"IGAD","ar":"إيقاد"},"cat":"off","type":"off","langs":"EN","site":"https://igad.int","filter":"sudan","feeds":[{"url":"https://igad.int/feed/"},{"gnews":"site:igad.int Sudan","lang":"en"}]},
-    {"id":"sdmfa","name":{"en":"Sudan · Foreign Ministry","ar":"الخارجية السودانية"},"cat":"off","type":"off","langs":"AR · EN","site":"https://mofa.gov.sd","feeds":[{"gnews":"\"وزارة الخارجية السودانية\" بيان","lang":"ar"}]},
-    {"id":"tsc","name":{"en":"Transitional Sovereignty Council","ar":"مجلس السيادة الانتقالي"},"cat":"off","type":"off","langs":"AR · EN","site":"https://suna-sd.net","feeds":[{"gnews":"\"مجلس السيادة\" السودان","lang":"ar"}]},
-
-    {"id":"safwa","name":{"en":"Al-Safwa","ar":"الصفوة"},"cat":"sport","type":"sport","site":"https://elsfwah.com","filter":"teams","feeds":[{"url":"https://elsfwah.com/feed/"},{"gnews":"site:elsfwah.com","lang":"ar"}]},
-    {"id":"cover","name":{"en":"Cover","ar":"كفر ووتر"},"cat":"sport","type":"sport","site":"https://www.cover-sd.com","filter":"teams","feeds":[{"gnews":"site:cover-sd.com","lang":"ar"}]},
-    {"id":"sudanile","name":{"en":"Sudanile","ar":"سودانايل"},"cat":"sport","type":"sport","site":"https://sudanile.com","filter":"teams","feeds":[{"url":"https://sudanile.com/feed/"}]},
-    {"id":"kooora","name":{"en":"Kooora","ar":"كووورة"},"cat":"sport","type":"sport","site":"https://www.kooora.com","filter":"teams","feeds":[{"gnews":"site:kooora.com (\"الهلال السوداني\" OR \"المريخ السوداني\" OR \"منتخب السودان\")","lang":"ar"}]},
-    {"id":"sport-gnews","name":{"en":"More sports media","ar":"مصادر رياضية أخرى"},"cat":"sport","type":"sport","site":"https://news.google.com","filter":"teams","feeds":[{"gnews":"\"الهلال السوداني\" OR \"المريخ السوداني\" OR \"منتخب السودان\" OR \"صقور الجديان\"","lang":"ar"}]}
-  ]
+ "_help": "cat: en | ar | off (official) | sport. type: sd intl reg un gov egy off sport. feeds are tried in order until one returns items. 'gnews' = Google News RSS search query (fallback for sites without a public feed). filter: 'sudan' keeps only Sudan-related items, 'teams' keeps only Al-Hilal / Al-Merrikh / national team items. Run `npm run check-feeds` to see which feeds work. domains: Google News results are kept only if published on one of these domains.",
+ "sources": [
+  {
+   "id": "dabanga-en",
+   "name": {
+    "en": "Dabanga",
+    "ar": "دبنقا"
+   },
+   "cat": "en",
+   "type": "sd",
+   "site": "https://www.dabangasudan.org/en",
+   "feeds": [
+    {
+     "url": "https://www.dabangasudan.org/en/feed"
+    },
+    {
+     "gnews": "site:dabangasudan.org/en Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "dabangasudan.org"
+   ]
+  },
+  {
+   "id": "st-en",
+   "name": {
+    "en": "Sudan Tribune",
+    "ar": "سودان تربيون"
+   },
+   "cat": "en",
+   "type": "sd",
+   "site": "https://sudantribune.com",
+   "feeds": [
+    {
+     "url": "https://sudantribune.com/feed/"
+    },
+    {
+     "gnews": "site:sudantribune.com",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "sudantribune.com"
+   ]
+  },
+  {
+   "id": "tamazuj-en",
+   "name": {
+    "en": "Radio Tamazuj",
+    "ar": "راديو تمازج"
+   },
+   "cat": "en",
+   "type": "sd",
+   "site": "https://www.radiotamazuj.org/en",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://www.radiotamazuj.org/en/rss"
+    },
+    {
+     "gnews": "radiotamazuj Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "radiotamazuj.org"
+   ]
+  },
+  {
+   "id": "swm",
+   "name": {
+    "en": "Sudan War Monitor",
+    "ar": "مرصد حرب السودان"
+   },
+   "cat": "en",
+   "type": "sd",
+   "site": "https://sudanwarmonitor.com",
+   "feeds": [
+    {
+     "url": "https://sudanwarmonitor.com/feed"
+    }
+   ]
+  },
+  {
+   "id": "aje",
+   "name": {
+    "en": "Al Jazeera English",
+    "ar": "الجزيرة الإنجليزية"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.aljazeera.com/where/sudan/",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+     "gnews": "Al Jazeera Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "aljazeera.com"
+   ]
+  },
+  {
+   "id": "bbc",
+   "name": {
+    "en": "BBC News",
+    "ar": "بي بي سي نيوز"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.bbc.com/news/world/africa",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
+    },
+    {
+     "gnews": "BBC Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "bbc.com",
+    "bbc.co.uk"
+   ]
+  },
+  {
+   "id": "guardian",
+   "name": {
+    "en": "The Guardian",
+    "ar": "الغارديان"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.theguardian.com/world/sudan",
+   "feeds": [
+    {
+     "url": "https://www.theguardian.com/world/sudan/rss"
+    }
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "reuters",
+   "name": {
+    "en": "Reuters",
+    "ar": "رويترز"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.reuters.com/world/africa/",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:reuters.com Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "reuters.com"
+   ]
+  },
+  {
+   "id": "ap",
+   "name": {
+    "en": "AP News",
+    "ar": "أسوشيتد برس"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://apnews.com/hub/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:apnews.com Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "apnews.com"
+   ]
+  },
+  {
+   "id": "cnn",
+   "name": {
+    "en": "CNN",
+    "ar": "سي إن إن"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.cnn.com/world/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "http://rss.cnn.com/rss/edition_africa.rss"
+    },
+    {
+     "url": "http://rss.cnn.com/rss/edition_world.rss"
+    },
+    {
+     "gnews": "CNN Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "cnn.com"
+   ]
+  },
+  {
+   "id": "nyt",
+   "name": {
+    "en": "The New York Times",
+    "ar": "نيويورك تايمز"
+   },
+   "cat": "en",
+   "type": "intl",
+   "pay": true,
+   "site": "https://www.nytimes.com/topic/destination/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://rss.nytimes.com/services/xml/rss/nyt/Africa.xml"
+    },
+    {
+     "gnews": "New York Times Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "nytimes.com"
+   ]
+  },
+  {
+   "id": "wsj",
+   "name": {
+    "en": "The Wall Street Journal",
+    "ar": "وول ستريت جورنال"
+   },
+   "cat": "en",
+   "type": "intl",
+   "pay": true,
+   "site": "https://www.wsj.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+    },
+    {
+     "gnews": "Wall Street Journal Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "wsj.com"
+   ]
+  },
+  {
+   "id": "skyuk",
+   "name": {
+    "en": "Sky News",
+    "ar": "سكاي نيوز البريطانية"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://news.sky.com/world",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://feeds.skynews.com/feeds/rss/world.xml"
+    },
+    {
+     "gnews": "Sky News Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "news.sky.com",
+    "sky.com"
+   ]
+  },
+  {
+   "id": "africanews",
+   "name": {
+    "en": "Africanews",
+    "ar": "أفريكا نيوز"
+   },
+   "cat": "en",
+   "type": "intl",
+   "site": "https://www.africanews.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://www.africanews.com/feed/rss"
+    },
+    {
+     "url": "https://www.africanews.com/feed/"
+    },
+    {
+     "gnews": "africanews Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "africanews.com"
+   ]
+  },
+  {
+   "id": "africaint",
+   "name": {
+    "en": "Africa Intelligence",
+    "ar": "أفريكا إنتليجنس"
+   },
+   "cat": "en",
+   "type": "intl",
+   "pay": true,
+   "site": "https://www.africaintelligence.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:africaintelligence.com Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "africaintelligence.com"
+   ]
+  },
+  {
+   "id": "mee",
+   "name": {
+    "en": "Middle East Eye",
+    "ar": "ميدل إيست آي"
+   },
+   "cat": "en",
+   "type": "reg",
+   "site": "https://www.middleeasteye.net/countries/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://www.middleeasteye.net/rss"
+    },
+    {
+     "gnews": "Middle East Eye Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "middleeasteye.net"
+   ]
+  },
+  {
+   "id": "addis",
+   "name": {
+    "en": "Addis Standard",
+    "ar": "أديس ستاندرد"
+   },
+   "cat": "en",
+   "type": "reg",
+   "site": "https://addisstandard.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://addisstandard.com/feed/"
+    },
+    {
+     "gnews": "site:addisstandard.com Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "addisstandard.com"
+   ]
+  },
+  {
+   "id": "un-en",
+   "name": {
+    "en": "UN News",
+    "ar": "أخبار الأمم المتحدة"
+   },
+   "cat": "en",
+   "type": "un",
+   "site": "https://news.un.org/en/focus/sudan-conflict",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://news.un.org/feed/subscribe/en/news/region/africa/feed/rss.xml"
+    }
+   ]
+  },
+  {
+   "id": "reliefweb",
+   "name": {
+    "en": "ReliefWeb",
+    "ar": "ريليف ويب"
+   },
+   "cat": "en",
+   "type": "un",
+   "site": "https://reliefweb.int/country/sdn",
+   "feeds": [
+    {
+     "url": "https://reliefweb.int/country/sdn/rss.xml"
+    },
+    {
+     "gnews": "site:reliefweb.int Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "reliefweb.int"
+   ]
+  },
+  {
+   "id": "tnh",
+   "name": {
+    "en": "The New Humanitarian",
+    "ar": "ذا نيو هيومانيتيريان"
+   },
+   "cat": "en",
+   "type": "un",
+   "site": "https://www.thenewhumanitarian.org/africa/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://www.thenewhumanitarian.org/rss/all.xml"
+    },
+    {
+     "gnews": "\"The New Humanitarian\" Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "thenewhumanitarian.org"
+   ]
+  },
+  {
+   "id": "dabanga-ar",
+   "name": {
+    "en": "Dabanga Arabic",
+    "ar": "دبنقا"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://www.dabangasudan.org/ar",
+   "feeds": [
+    {
+     "url": "https://www.dabangasudan.org/ar/feed"
+    },
+    {
+     "gnews": "site:dabangasudan.org/ar السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "dabangasudan.org"
+   ]
+  },
+  {
+   "id": "st-ar",
+   "name": {
+    "en": "Sudan Tribune Arabic",
+    "ar": "سودان تربيون"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://sudantribune.net",
+   "feeds": [
+    {
+     "url": "https://sudantribune.net/feed/"
+    },
+    {
+     "gnews": "site:sudantribune.net",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "sudantribune.net"
+   ]
+  },
+  {
+   "id": "tamazuj-ar",
+   "name": {
+    "en": "Radio Tamazuj Arabic",
+    "ar": "راديو تمازج"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://www.radiotamazuj.org/ar",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:radiotamazuj.org/ar السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "radiotamazuj.org"
+   ]
+  },
+  {
+   "id": "taghyeer",
+   "name": {
+    "en": "Al-Taghyeer",
+    "ar": "التغيير"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://www.altaghyeer.info",
+   "feeds": [
+    {
+     "url": "https://www.altaghyeer.info/feed/"
+    },
+    {
+     "gnews": "site:altaghyeer.info",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "altaghyeer.info"
+   ]
+  },
+  {
+   "id": "rakoba",
+   "name": {
+    "en": "Al-Rakoba",
+    "ar": "الراكوبة"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://www.alrakoba.net",
+   "feeds": [
+    {
+     "url": "https://www.alrakoba.net/feed/"
+    },
+    {
+     "gnews": "site:alrakoba.net",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "alrakoba.net"
+   ]
+  },
+  {
+   "id": "tayar",
+   "name": {
+    "en": "Al-Tayar",
+    "ar": "التيار"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://al-tayar.net",
+   "feeds": [
+    {
+     "url": "https://al-tayar.net/feed/"
+    },
+    {
+     "gnews": "site:al-tayar.net",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "al-tayar.net"
+   ]
+  },
+  {
+   "id": "sayha",
+   "name": {
+    "en": "Assayha",
+    "ar": "الصيحة"
+   },
+   "cat": "ar",
+   "type": "sd",
+   "site": "https://www.assayha.net",
+   "feeds": [
+    {
+     "url": "https://www.assayha.net/feed/"
+    },
+    {
+     "gnews": "site:assayha.net",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "assayha.net"
+   ]
+  },
+  {
+   "id": "suna",
+   "name": {
+    "en": "SUNA",
+    "ar": "سونا"
+   },
+   "cat": "ar",
+   "type": "gov",
+   "site": "https://suna-sd.net",
+   "feeds": [
+    {
+     "url": "https://suna-sd.net/feed/"
+    },
+    {
+     "url": "https://suna-sd.net/rss"
+    },
+    {
+     "gnews": "سونا السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "suna-sd.net"
+   ]
+  },
+  {
+   "id": "aja",
+   "name": {
+    "en": "Al Jazeera Arabic",
+    "ar": "الجزيرة نت"
+   },
+   "cat": "ar",
+   "type": "reg",
+   "site": "https://www.aljazeera.net/where/mideast/arab/sudan/",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:aljazeera.net السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "aljazeera.net"
+   ]
+  },
+  {
+   "id": "aawsat",
+   "name": {
+    "en": "Asharq Al-Awsat",
+    "ar": "الشرق الأوسط"
+   },
+   "cat": "ar",
+   "type": "reg",
+   "site": "https://aawsat.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:aawsat.com السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "aawsat.com"
+   ]
+  },
+  {
+   "id": "arabiya",
+   "name": {
+    "en": "Al Arabiya",
+    "ar": "العربية"
+   },
+   "cat": "ar",
+   "type": "reg",
+   "site": "https://www.alarabiya.net/arab-and-world/sudan",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:alarabiya.net السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "alarabiya.net"
+   ]
+  },
+  {
+   "id": "skyar",
+   "name": {
+    "en": "Sky News Arabia",
+    "ar": "سكاي نيوز عربية"
+   },
+   "cat": "ar",
+   "type": "reg",
+   "site": "https://www.skynewsarabia.com",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:skynewsarabia.com السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "skynewsarabia.com"
+   ]
+  },
+  {
+   "id": "bbcar",
+   "name": {
+    "en": "BBC Arabic",
+    "ar": "بي بي سي عربي"
+   },
+   "cat": "ar",
+   "type": "intl",
+   "site": "https://www.bbc.com/arabic",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://feeds.bbci.co.uk/arabic/rss.xml"
+    }
+   ]
+  },
+  {
+   "id": "qahera",
+   "name": {
+    "en": "Al Qahera News",
+    "ar": "القاهرة الإخبارية"
+   },
+   "cat": "ar",
+   "type": "egy",
+   "site": "https://alqaheranews.net",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:alqaheranews.net السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "alqaheranews.net"
+   ]
+  },
+  {
+   "id": "ahram",
+   "name": {
+    "en": "Al-Ahram",
+    "ar": "بوابة الأهرام"
+   },
+   "cat": "ar",
+   "type": "egy",
+   "site": "https://gate.ahram.org.eg",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "gnews": "site:gate.ahram.org.eg السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "gate.ahram.org.eg"
+   ]
+  },
+  {
+   "id": "un-ar",
+   "name": {
+    "en": "UN News Arabic",
+    "ar": "أخبار الأمم المتحدة"
+   },
+   "cat": "ar",
+   "type": "un",
+   "site": "https://news.un.org/ar",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://news.un.org/feed/subscribe/ar/news/region/africa/feed/rss.xml"
+    }
+   ]
+  },
+  {
+   "id": "state",
+   "name": {
+    "en": "US State Department",
+    "ar": "الخارجية الأمريكية"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · AR",
+   "site": "https://www.state.gov/countries-areas/sudan/",
+   "feeds": [
+    {
+     "gnews": "site:state.gov Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "state.gov"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "usenvoy",
+   "name": {
+    "en": "US Senior Advisor for Africa",
+    "ar": "كبير مستشاري الرئيس الأمريكي لأفريقيا"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN",
+   "site": "https://www.state.gov",
+   "feeds": [
+    {
+     "gnews": "Boulos Sudan (site:state.gov OR site:usembassy.gov)",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "state.gov",
+    "whitehouse.gov",
+    "usembassy.gov"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "fcdo",
+   "name": {
+    "en": "UK Foreign Office (FCDO)",
+    "ar": "الخارجية البريطانية"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · AR",
+   "site": "https://www.gov.uk/world/sudan",
+   "feeds": [
+    {
+     "url": "https://www.gov.uk/search/news-and-communications.atom?world_locations%5B%5D=sudan"
+    },
+    {
+     "gnews": "site:gov.uk Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "gov.uk"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "frmfa",
+   "name": {
+    "en": "France · Foreign Ministry",
+    "ar": "الخارجية الفرنسية"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · FR · AR",
+   "site": "https://www.diplomatie.gouv.fr/en/",
+   "feeds": [
+    {
+     "gnews": "site:diplomatie.gouv.fr Sudan",
+     "lang": "en"
+    },
+    {
+     "gnews": "site:diplomatie.gouv.fr Soudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "diplomatie.gouv.fr"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "eu",
+   "name": {
+    "en": "European Union",
+    "ar": "الاتحاد الأوروبي"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · AR",
+   "site": "https://www.eeas.europa.eu/delegations/sudan_en",
+   "feeds": [
+    {
+     "gnews": "(site:consilium.europa.eu OR site:eeas.europa.eu) Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "europa.eu"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "au",
+   "name": {
+    "en": "African Union",
+    "ar": "الاتحاد الأفريقي"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · AR",
+   "site": "https://www.peaceau.org",
+   "feeds": [
+    {
+     "gnews": "(site:peaceau.org OR site:au.int) Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "au.int",
+    "peaceau.org"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "igad",
+   "name": {
+    "en": "IGAD",
+    "ar": "إيقاد"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN",
+   "site": "https://igad.int",
+   "filter": "sudan",
+   "feeds": [
+    {
+     "url": "https://igad.int/feed/"
+    },
+    {
+     "gnews": "site:igad.int Sudan",
+     "lang": "en"
+    }
+   ],
+   "domains": [
+    "igad.int"
+   ]
+  },
+  {
+   "id": "sdmfa",
+   "name": {
+    "en": "Sudan · Foreign Ministry",
+    "ar": "الخارجية السودانية"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "AR · EN",
+   "site": "https://mofa.gov.sd",
+   "feeds": [
+    {
+     "gnews": "site:mofa.gov.sd",
+     "lang": "ar"
+    },
+    {
+     "gnews": "site:suna-sd.net وزارة الخارجية",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "mofa.gov.sd",
+    "suna-sd.net"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "tsc",
+   "name": {
+    "en": "Transitional Sovereignty Council",
+    "ar": "مجلس السيادة الانتقالي"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "AR · EN",
+   "site": "https://suna-sd.net",
+   "feeds": [
+    {
+     "gnews": "site:suna-sd.net مجلس السيادة",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "sovereign.sd",
+    "suna-sd.net"
+   ],
+   "filter": "sudan"
+  },
+  {
+   "id": "safwa",
+   "name": {
+    "en": "Al-Safwa",
+    "ar": "الصفوة"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://elsfwah.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "url": "https://elsfwah.com/feed/"
+    },
+    {
+     "gnews": "site:elsfwah.com",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "elsfwah.com"
+   ]
+  },
+  {
+   "id": "cover",
+   "name": {
+    "en": "Cover",
+    "ar": "كفر ووتر"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://www.cover-sd.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "gnews": "site:cover-sd.com",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "cover-sd.com"
+   ]
+  },
+  {
+   "id": "sudanile",
+   "name": {
+    "en": "Sudanile",
+    "ar": "سودانايل"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://sudanile.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "url": "https://sudanile.com/feed/"
+    }
+   ]
+  },
+  {
+   "id": "kooora",
+   "name": {
+    "en": "Kooora",
+    "ar": "كووورة"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://www.kooora.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "gnews": "kooora الهلال السوداني OR المريخ السوداني OR منتخب السودان",
+     "lang": "ar"
+    }
+   ],
+   "domains": [
+    "kooora.com"
+   ]
+  },
+  {
+   "id": "sport-gnews",
+   "name": {
+    "en": "More sports media",
+    "ar": "مصادر رياضية أخرى"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "site": "https://news.google.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "gnews": "\"الهلال السوداني\" OR \"المريخ السوداني\" OR \"منتخب السودان\" OR \"صقور الجديان\"",
+     "lang": "ar"
+    }
+   ]
+  }
+ ]
 }
