@@ -15,7 +15,7 @@ const ICONS = {
   sources: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7"/>'
 };
 const icon = k => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]}</svg>`;
-const LOGO = `<svg viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="11" fill="var(--teal)"/><path d="M8 21c4-6 8-9 12-9s8 3 12 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><circle cx="20" cy="22" r="5" fill="#fff" opacity=".35"/><circle cx="22" cy="20.5" r="1.6" fill="var(--gold)"/></svg>`;
+const LOGO = `<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="15" fill="none" stroke="var(--teal)" stroke-width="4.6"/><path d="M20 5A15 15 0 0 1 35 20" fill="none" stroke="#C9A15E" stroke-width="4.6" stroke-linecap="round"/><circle cx="20" cy="20" r="6" fill="var(--teal)"/></svg>`;
 
 export function layout(ctx, page, body, ld = []) {
   const { cfg, lang } = ctx; const t = T[lang]; const o = t.other;
@@ -46,7 +46,7 @@ export function layout(ctx, page, body, ld = []) {
 <meta property="og:locale:alternate" content="${T[o].ogLocale}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#2D6F78">
-<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="Lamha" href="${cfg.siteUrl}/${lang}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
@@ -241,7 +241,7 @@ export function rootPage(cfg) {
 <meta name="description" content="لمحة مجمّع أخبار السودان المستقل بالعربية والإنجليزية. Lamha is an independent Sudan news aggregator in Arabic and English.">
 <link rel="canonical" href="${cfg.siteUrl}/">
 <link rel="alternate" hreflang="ar" href="${cfg.siteUrl}/ar/"><link rel="alternate" hreflang="en" href="${cfg.siteUrl}/en/"><link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}/">
-<link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/apple-touch-icon.png"><link rel="stylesheet" href="/static/style.css">
 <script>try{var l=localStorage.getItem("lamha-lang")||((navigator.language||"").slice(0,2)==="ar"?"ar":"en");location.replace("/"+(l==="ar"?"ar":"en")+"/");}catch(e){}</script>
 </head><body><main class="chooser"><h1>لمحة · Lamha</h1><p>اختر اللغة · Choose your language</p><p><a class="btn primary" href="/ar/" hreflang="ar">العربية</a> <a class="btn" href="/en/" hreflang="en">English</a></p></main></body></html>`;
 }
