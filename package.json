@@ -1,0 +1,14 @@
+{
+  "name": "lamha",
+  "private": true,
+  "type": "module",
+  "description": "Lamha (لمحة): independent bilingual Sudan news aggregator. Static site, zero dependencies.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:offline": "node src/build.mjs --offline",
+    "build:render": "node src/build.mjs --render",
+    "check-feeds": "node src/build.mjs --check",
+    "preview": "node src/serve.mjs"
+  }
+}

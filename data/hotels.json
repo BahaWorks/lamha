@@ -1,0 +1,138 @@
+[
+ {
+  "city": "khartoum",
+  "en": "Al Salam Hotel",
+  "ar": "فندق السلام",
+  "sub": {
+   "en": "Formerly Al Salam Rotana",
+   "ar": "سابقاً السلام روتانا"
+  },
+  "addr": {
+   "en": "Africa Road, Khartoum",
+   "ar": "شارع أفريقيا، الخرطوم"
+  },
+  "phone": "+249 187 007 777",
+  "site": "https://alsalamhotel.com",
+  "facts": {
+   "en": [
+    "Five-star",
+    "225 rooms · 11 suites",
+    "5 restaurants & cafés",
+    "Events & weddings",
+    "Airport transfer"
+   ],
+   "ar": [
+    "خمس نجوم",
+    "225 غرفة · 11 جناحاً",
+    "5 مطاعم ومقاهٍ",
+    "مناسبات وأفراح",
+    "توصيل من المطار"
+   ]
+  }
+ },
+ {
+  "city": "khartoum",
+  "en": "Grand Hotel Khartoum",
+  "ar": "الفندق الكبير",
+  "sub": {
+   "en": "Grand Hotel Sudan",
+   "ar": "جراند هوتيل السودان"
+  },
+  "addr": {
+   "en": "Nile Avenue, Khartoum",
+   "ar": "شارع النيل، الخرطوم"
+  },
+  "phone": "+249 183 774 039",
+  "site": "https://grandhotelsudan.com",
+  "nile": true,
+  "facts": {
+   "en": [
+    "On the Nile",
+    "Spa, gym & pool",
+    "Ballroom for 600",
+    "Free Wi-Fi",
+    "24/7 transfers"
+   ],
+   "ar": [
+    "على النيل",
+    "سبا ونادٍ صحي ومسبح",
+    "قاعة تتسع لـ600",
+    "واي فاي مجاني",
+    "توصيل على مدار الساعة"
+   ]
+  }
+ },
+ {
+  "city": "port",
+  "en": "Marina Hotel Port Sudan",
+  "ar": "فندق مارينا بورتسودان",
+  "sub": {
+   "en": "Seafront, formerly the Port Sudan Hilton",
+   "ar": "على البحر، سابقاً هيلتون بورتسودان"
+  },
+  "addr": {
+   "en": "Port Sudan",
+   "ar": "بورتسودان"
+  },
+  "site": "https://marinahotelportsudan.com",
+  "confirm": true,
+  "facts": {
+   "en": [
+    "Red Sea seafront"
+   ],
+   "ar": [
+    "واجهة البحر الأحمر"
+   ]
+  }
+ },
+ {
+  "city": "port",
+  "en": "Grand Sahil Hotel",
+  "ar": "فندق جراند الساحل",
+  "sub": {
+   "en": "Port Sudan",
+   "ar": "بورتسودان"
+  },
+  "addr": {
+   "en": "Port Sudan",
+   "ar": "بورتسودان"
+  },
+  "site": "https://grandsahil.com",
+  "confirm": true,
+  "facts": {
+   "en": [],
+   "ar": []
+  }
+ },
+ {
+  "city": "port",
+  "en": "Flora Hotel",
+  "ar": "فندق فلورا",
+  "sub": {
+   "en": "Near Port Sudan International Airport",
+   "ar": "بالقرب من مطار بورتسودان الدولي"
+  },
+  "addr": {
+   "en": "South East Transit Square, behind Abualfadil Plaza, Port Sudan",
+   "ar": "ميدان العبور الجنوبي الشرقي، خلف أبو الفاضل بلازا، بورتسودان"
+  },
+  "phone": "+249 910 088 888",
+  "site": "https://florahotelsd.com",
+  "facts": {
+   "en": [
+    "Restaurant",
+    "Airport transfer",
+    "Business corner",
+    "24/7 reception",
+    "Rooms from $95"
+   ],
+   "ar": [
+    "مطعم",
+    "توصيل من المطار",
+    "ركن أعمال",
+    "استقبال على مدار الساعة",
+    "الغرف من 95 دولاراً"
+   ]
+  }
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "siteUrl": "https://lamha-sd.com",
+  "name": { "en": "Lamha", "ar": "لمحة" },
+  "keepDays": 7,
+  "showHours": 72,
+  "maxItemsPerSource": 25,
+  "contactEmail": "contact@lamha-sd.com",
+  "ai": {
+    "enabled": false,
+    "model": "claude-sonnet-5-5",
+    "translateOfficialAndSports": true,
+    "dailyBrief": true
+  }
+}
