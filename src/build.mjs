@@ -120,7 +120,11 @@ if (OFFLINE) {
   brief = await readJson("fixtures/sample-brief.json", null);
   for (const L of ["en", "ar"]) for (const b of brief?.[L] || []) if (b.key) b.i = clusters[L].findIndex(c => c.members.some(m => m.title.includes(b.key)));
 }
-if (brief && !OFFLINE && lastUpdate - brief.ts > 12 * 3600e3) brief = null; // never show a stale brief
+// Brief items point at a headline URL; resolve to the story that currently contains it.
+for (const L of ["en", "ar"]) for (const b of brief?.[L] || []) if (b.url) b.i = clusters[L].findIndex(c => c.members.some(m => m.url === b.url));
+const briefTs = brief ? (typeof brief.ts === "string" ? Date.parse(brief.ts) : brief.ts) : 0;
+if (brief) brief.ts = Number.isFinite(briefTs) && briefTs > 0 ? briefTs : lastUpdate;
+if (brief && !OFFLINE && Date.now() - brief.ts > 30 * 3600e3) brief = null; // never show a stale brief
 
 /* ---------- 6. counts ---------- */
 // Per-language counts: each language edition counts only its own headlines.

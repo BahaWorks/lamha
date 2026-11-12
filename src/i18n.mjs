@@ -33,7 +33,7 @@ export const T = {
       about: "Lamha is an independent, unaffiliated news aggregator for Sudan. Every headline links to its original publisher."
     },
     lastUp: "Last updated", gmt: "GMT", stat: (n, s) => `<b>${n}</b> headlines · <b>${s}</b> sources`,
-    briefH: "Today in brief", briefNote: "Compiled from the headlines below. Each point links to the source coverage.",
+    briefH: "Today in brief", briefNote: "A neutral summary of the most widely reported stories below, written by Lamha. Each point links to the original coverage.",
     topStory: "Most covered story", topStoryNote: "How different outlets reported it", sourcesN: n => `${n} sources`,
     allHeadlines: "All headlines", countNote: n => `${n} stories`, today: "Today", yesterday: "Yesterday", earlier: "Earlier",
     all: "All", allSrc: "All sources", search: "Search headlines…",
@@ -91,7 +91,7 @@ export const T = {
       about: "لمحة مجمّع أخبار مستقل وغير تابع لأي جهة، وكل عنوان فيه مرتبط بناشره الأصلي."
     },
     lastUp: "آخر تحديث", gmt: "بتوقيت غرينتش", stat: (n, s) => `<b>${n}</b> عنواناً · <b>${s}</b> مصدراً`,
-    briefH: "موجز اليوم", briefNote: "مُستخلص من العناوين أدناه، وكل نقطة مرتبطة بتغطية مصادرها.",
+    briefH: "موجز اليوم", briefNote: "ملخص محايد لأبرز الأخبار المتداولة أدناه من إعداد لمحة، وكل نقطة مرتبطة بتغطيتها الأصلية.",
     topStory: "الخبر الأكثر تغطية", topStoryNote: "كيف تناولته المنافذ المختلفة", sourcesN: n => `${n} مصادر`,
     allHeadlines: "كل العناوين", countNote: n => `${n} خبراً`, today: "اليوم", yesterday: "أمس", earlier: "في وقت سابق",
     all: "الكل", allSrc: "كل المصادر", search: "ابحث في العناوين…",

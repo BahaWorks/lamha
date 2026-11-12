@@ -109,8 +109,8 @@ export function newsPage(ctx) {
   const cl = ctx.clusters[L];
   const lead = [...cl].filter(c => c.sources >= 2 && ctx.lastUpdate - c.ts < 48 * 3600e3).sort((a, b) => b.sources - a.sources || b.members.length - a.members.length)[0];
   const brief = ctx.brief?.[L]?.length ? `<section class="brief" aria-labelledby="bh"><h2 id="bh">${esc(t.briefH)}</h2><ol>${ctx.brief[L].map(b => {
-    const c = cl[b.i]; return `<li>${esc(b.text)}${c ? ` <a ${ext(c.lead.url)}>↗ ${esc(sn(ctx, c.lead.src))}${c.members.length > 1 ? ` +${c.members.length - 1}` : ""}</a>` : ""}</li>`;
-  }).join("")}</ol><small>${esc(t.briefNote)}</small></section>` : "";
+    const c = b.i >= 0 ? cl[b.i] : null; return `<li>${esc(b.text)}${c ? ` <a ${ext(c.lead.url)}>↗ ${esc(sn(ctx, c.lead.src))}${c.members.length > 1 ? ` +${c.members.length - 1}` : ""}</a>` : ""}</li>`;
+  }).join("")}</ol><small>${esc(t.briefNote)} · ${esc(t.lastUp)}: <time datetime="${new Date(ctx.brief.ts).toISOString()}">${esc(fmtStamp(L, ctx.brief.ts))}</time> ${esc(t.gmt)}</small></section>` : "";
   const leadHtml = lead ? `<div class="sec-h"><h2>${esc(t.topStory)}</h2><span>${esc(t.topStoryNote)}</span></div>
   <article class="lead"><div class="band"></div><div class="in">
     <div class="meta"><span class="pill gold">${esc(t.sourcesN(lead.sources))}</span><span>${esc(fmtDate(L, lead.ts))}</span><span class="pill ghost">${esc(t.topics[lead.topic])}</span></div>
