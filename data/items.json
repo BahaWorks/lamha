@@ -3191,16 +3191,6 @@
   "summary": "أبوجا يقود المريخ أمام صن رايز &nbsp;&nbsp; cover-sd.com"
  },
  {
-  "id": "b3ddebd04733",
-  "src": "cover",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "رايون يكشف عيوب وسط الهلال",
-  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBjM0RjUmFNblVFU1QtRnhreDJjLUp6RzRuMzJjS0pzUnFtS0FmWnVWS25hODVJV0hMYS04X2s4MjVXdXR1dnpJWDRLOA?oc=5",
-  "ts": 1793848957000,
-  "summary": "رايون يكشف عيوب وسط الهلال &nbsp;&nbsp; cover-sd.com"
- },
- {
   "id": "f4838c242edd",
   "src": "sudanile",
   "cat": "sport",
@@ -3726,16 +3716,6 @@
   "summary": "Thematic Session | Humanitarian Principles in Negotiations | Khartoum, Sudan &nbsp;&nbsp; ReliefWeb"
  },
  {
-  "id": "ce3569839c18",
-  "src": "reliefweb",
-  "cat": "en",
-  "lang": "en",
-  "title": "Sudan: Vaccine-preventable disease outbreaks in Darfur - Findings from MSF-supported Health Facilities (January 2024- April 2026)",
-  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaUFsVDMyS0E2ZG1VenBmbUsxeWt3TDdDb3VzclZOc0xhOWtuX2RQYTRTM0VVcFc1bVBFSGlNcEtfZTAxRkNfTUFlR280eFJqdGVJWnhRX2E1Wkx1aXFCcXNTTnZTMjdzSUh4SnkwbUU1TkpfaDk3UlU0bmtzMVN6Zkl2cFFMS1E1YmtwcjZqNXpsS1JOZ3NMX1B1ZTJPbU5UY3k4VmhsQ1JWVjQ2QUh5a1ktdkhORWtPRmYtaFZnc1hwX3QzRGZMejZMdzNobVIxOU9qYTZFTWJaRXRzZWRPdWV6VmI?oc=5",
-  "ts": 1793848159000,
-  "summary": "Sudan: Vaccine-preventable disease outbreaks in Darfur - Findings from MSF-supported Health Facilities (January 2024- April 2026) &nbsp;&nbsp; ReliefWeb"
- },
- {
   "id": "ac22fc190aab",
   "src": "dabanga-ar",
   "cat": "ar",
@@ -3917,5 +3897,46 @@
   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBxVV9wS2NLbGtUclRwLTRCS1M3c0FteXo3QUltWjdNZFlHWUE0cDBsMnMtM2RGZFdnaFpBU1Y0YjhVMDJINEl6S0Jxc2tvXzVk?oc=5",
   "ts": 1793921065000,
   "summary": "Sudan 2027 budget prioritizes war effort, reconstruction amid economic crisis &nbsp;&nbsp; Sudan Tribune"
+ },
+ {
+  "id": "0eb990fcc711",
+  "src": "swm",
+  "cat": "en",
+  "lang": "ar",
+  "title": "مبادرة المجتمع المدني باقليم النيل الازرق تكشف عن الاعتقالات العشوائية والتصنيف المناطقي والقبلي",
+  "url": "https://sudanwarmonitor.com/p/51c",
+  "ts": 1794454245000,
+  "summary": "رفض تحويل الاختلافات المناطقية والروابط الاسرية الي تهم امنية و الكشف عن أماكن احتجاز جميع المعتقلين"
+ },
+ {
+  "id": "3add072389eb",
+  "src": "tayar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "توقيف أحمد هارون..",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2YybHRqSEN3S2VZbzVHQmxmU0JyZzRGOFhXY3RSRVEzMVczZGRpeWxTQUxjeHJjSU1FWTVEWFM2ZnNVSlVMY2tydmpqR3Z3QXRFMXFDemNwQWNKd0V2VGh6NWhwdkhKaURTSUZZWlFqNjdXUHk0dmlEVHNlYXdqOFEwU1E3WkVhWUh6T3FQeGtfVXp5VWxmWWJkbVdzcmxOcEtieE9UdmlwTjV4?oc=5",
+  "ts": 1794249763000,
+  "summary": "توقيف أحمد هارون.. &nbsp;&nbsp; صحيفة التيار"
+ },
+ {
+  "id": "534f090b4969",
+  "src": "aja",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "مع عودة بعض السكان.. الخرطوم تستعيد مظاهر الحياة تدريجيا",
+  "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQZkZxbkxsYlo0UWk1Y253VUxienNTU1d2VWk4Z2FSUHd2V3NzdVk5VDNTM0lzX2pTYzFHTU4xdF9rMjRxbWdpOE5YZHBndVZreHl2MExReVl2aVJ6LWIxckdBbDJ2ay1SUzdUQzFEaWtEeTRvbGFaZnRza2pjUEltcVQ5SG5Rdm5yTUZXbVF5bFBnWDBLOWpNV3kyUXVJZjdON1dJVUxoWXBYNkQyU3ZDWXF1Q2xxeGtla3lENmhVQ2VoRVVNTzJtSEk2NTZxbjN2Rmt1SUh2cERNdGNsY1JkVEw2UF9lWTRPeTRvRkhUdzJwNnV3UEpSRzNmMTV2NG9tMFRGZGd6REtkSWprOU1DbGNFRkZhYks0aFVPR3ZQRHVialZwWjE4eW5EQlVFWWdMNFd5M0t5RlUxUFVEMnVv?oc=5",
+  "ts": 1794232041000,
+  "summary": "مع عودة بعض السكان.. الخرطوم تستعيد مظاهر الحياة تدريجيا &nbsp;&nbsp; الجزيرة نت"
+ },
+ {
+  "id": "a4700a7aae39",
+  "src": "sport-gnews",
+  "cat": "sport",
+  "lang": "ar",
+  "title": "الهلال السوداني يستعيد لقب الدوري الممتاز بقرار رسمي بعد أزمة مباراة المريخ",
+  "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5XUXhxYk5ZQmNLci00LUpFVF9hTWZPQXZJR3ctTWM2emZYXzdFLURJQmZrNGY5dEhmR2lhUjRZeWRJUTA?oc=5",
+  "ts": 1794331915000,
+  "summary": "الهلال السوداني يستعيد لقب الدوري الممتاز بقرار رسمي بعد أزمة مباراة المريخ &nbsp;&nbsp; www.youlyou.com",
+  "_tk": {}
  }
 ]
