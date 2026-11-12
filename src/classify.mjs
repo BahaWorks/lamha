@@ -21,6 +21,8 @@ export function teamsOf(text) {
   const t = [];
   for (const [k, re] of Object.entries(TEAMS)) if (re.test(text)) t.push(k);
   if (t.includes("hilal") && NOT_SUDAN_HILAL.test(text) && !/السوداني|أم درمان|omdurman/i.test(text)) t.splice(t.indexOf("hilal"), 1);
+  // In English, "Al-Hilal" usually means the Saudi club; require a Sudan reference.
+  if (t.includes("hilal") && !/[\u0600-\u06FF]/.test(text) && !/omdurman|sudan/i.test(text)) t.splice(t.indexOf("hilal"), 1);
   return t;
 }
 

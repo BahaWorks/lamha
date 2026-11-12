@@ -378,6 +378,76 @@
    ]
   },
   {
+   "id": "jpost",
+   "name": {
+    "en": "The Jerusalem Post",
+    "ar": "جيروزاليم بوست"
+   },
+   "cat": "en",
+   "type": "isr",
+   "site": "https://www.jpost.com",
+   "filter": "sudan",
+   "domains": [
+    "jpost.com"
+   ],
+   "feeds": [
+    {
+     "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx"
+    },
+    {
+     "gnews": "site:jpost.com Sudan",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "haaretz",
+   "name": {
+    "en": "Haaretz",
+    "ar": "هآرتس"
+   },
+   "cat": "en",
+   "type": "isr",
+   "pay": true,
+   "site": "https://www.haaretz.com",
+   "filter": "sudan",
+   "domains": [
+    "haaretz.com"
+   ],
+   "feeds": [
+    {
+     "url": "https://www.haaretz.com/srv/haaretz-latest-headlines"
+    },
+    {
+     "gnews": "site:haaretz.com Sudan",
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "toi",
+   "name": {
+    "en": "The Times of Israel",
+    "ar": "تايمز أوف إسرائيل"
+   },
+   "cat": "en",
+   "type": "isr",
+   "site": "https://www.timesofisrael.com",
+   "filter": "sudan",
+   "domains": [
+    "timesofisrael.com"
+   ],
+   "feeds": [
+    {
+     "url": "https://www.timesofisrael.com/feed/"
+    },
+    {
+     "gnews": "site:timesofisrael.com Sudan",
+     "lang": "en"
+    }
+   ]
+  },
+  {
    "id": "un-en",
    "name": {
     "en": "UN News",
@@ -782,12 +852,20 @@
     {
      "gnews": "site:state.gov Sudan",
      "lang": "en"
+    },
+    {
+     "gnews": "site:state.gov السودان",
+     "lang": "ar"
     }
    ],
    "domains": [
     "state.gov"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "usenvoy",
@@ -810,7 +888,10 @@
     "whitehouse.gov",
     "usembassy.gov"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en"
+   ]
   },
   {
    "id": "fcdo",
@@ -829,12 +910,20 @@
     {
      "gnews": "site:gov.uk Sudan",
      "lang": "en"
+    },
+    {
+     "gnews": "site:gov.uk السودان",
+     "lang": "ar"
     }
    ],
    "domains": [
     "gov.uk"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "frmfa",
@@ -854,12 +943,20 @@
     {
      "gnews": "site:diplomatie.gouv.fr Soudan",
      "lang": "en"
+    },
+    {
+     "gnews": "site:diplomatie.gouv.fr السودان",
+     "lang": "ar"
     }
    ],
    "domains": [
     "diplomatie.gouv.fr"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "eu",
@@ -875,12 +972,20 @@
     {
      "gnews": "(site:consilium.europa.eu OR site:eeas.europa.eu) Sudan",
      "lang": "en"
+    },
+    {
+     "gnews": "(site:eeas.europa.eu OR site:consilium.europa.eu) السودان",
+     "lang": "ar"
     }
    ],
    "domains": [
     "europa.eu"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "au",
@@ -896,13 +1001,21 @@
     {
      "gnews": "(site:peaceau.org OR site:au.int) Sudan",
      "lang": "en"
+    },
+    {
+     "gnews": "(site:au.int OR site:peaceau.org) السودان",
+     "lang": "ar"
     }
    ],
    "domains": [
     "au.int",
     "peaceau.org"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "igad",
@@ -926,6 +1039,9 @@
    ],
    "domains": [
     "igad.int"
+   ],
+   "pageLangs": [
+    "en"
    ]
   },
   {
@@ -952,7 +1068,11 @@
     "mofa.gov.sd",
     "suna-sd.net"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
   },
   {
    "id": "tsc",
@@ -974,7 +1094,40 @@
     "sovereign.sd",
     "suna-sd.net"
    ],
-   "filter": "sudan"
+   "filter": "sudan",
+   "pageLangs": [
+    "en",
+    "ar"
+   ]
+  },
+  {
+   "id": "ilgov",
+   "name": {
+    "en": "Israel · Government & Foreign Ministry",
+    "ar": "إسرائيل · الحكومة والخارجية"
+   },
+   "cat": "off",
+   "type": "off",
+   "langs": "EN · AR",
+   "pageLangs": [
+    "en",
+    "ar"
+   ],
+   "site": "https://www.gov.il/en/departments/ministry_of_foreign_affairs",
+   "filter": "sudan",
+   "domains": [
+    "gov.il"
+   ],
+   "feeds": [
+    {
+     "gnews": "site:gov.il Sudan",
+     "lang": "en"
+    },
+    {
+     "gnews": "site:gov.il السودان",
+     "lang": "ar"
+    }
+   ]
   },
   {
    "id": "safwa",
@@ -997,6 +1150,9 @@
    ],
    "domains": [
     "elsfwah.com"
+   ],
+   "pageLangs": [
+    "ar"
    ]
   },
   {
@@ -1017,6 +1173,9 @@
    ],
    "domains": [
     "cover-sd.com"
+   ],
+   "pageLangs": [
+    "ar"
    ]
   },
   {
@@ -1033,6 +1192,9 @@
     {
      "url": "https://sudanile.com/feed/"
     }
+   ],
+   "pageLangs": [
+    "ar"
    ]
   },
   {
@@ -1053,6 +1215,9 @@
    ],
    "domains": [
     "kooora.com"
+   ],
+   "pageLangs": [
+    "ar"
    ]
   },
   {
@@ -1069,6 +1234,29 @@
     {
      "gnews": "\"الهلال السوداني\" OR \"المريخ السوداني\" OR \"منتخب السودان\" OR \"صقور الجديان\"",
      "lang": "ar"
+    }
+   ],
+   "pageLangs": [
+    "ar"
+   ]
+  },
+  {
+   "id": "sport-gnews-en",
+   "name": {
+    "en": "Sports media (English)",
+    "ar": "إعلام رياضي إنجليزي"
+   },
+   "cat": "sport",
+   "type": "sport",
+   "pageLangs": [
+    "en"
+   ],
+   "site": "https://news.google.com",
+   "filter": "teams",
+   "feeds": [
+    {
+     "gnews": "\"Al-Hilal Omdurman\" OR \"Al Hilal Omdurman\" OR \"Al-Merrikh\" OR \"Al Merrikh\" OR \"Sudan national team\" OR \"Falcons of Jediane\"",
+     "lang": "en"
     }
    ]
   }

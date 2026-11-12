@@ -70,7 +70,8 @@ const history = OFFLINE ? [] : await readJson("data/items.json", []);
 const byId = new Map(history.map(i => [i.id, i]));
 for (const f of fresh) {
   const s = SRC[f.src]; if (!s) continue;
-  const lang = s.cat === "en" ? "en" : s.cat === "ar" ? "ar" : (hasArabic(f.title) ? "ar" : "en");
+  // Language comes from the headline itself, so a bilingual source lands on the right page.
+  const lang = hasArabic(f.title) ? "ar" : "en";
   const id = idOf(f.url);
   const prev = byId.get(id);
   byId.set(id, { id, src: f.src, cat: s.cat, lang, title: f.title, url: f.url, ts: prev?.ts ?? f.ts, tr: prev?.tr || f.tr, summary: f.summary });
@@ -92,7 +93,8 @@ if (useAI && cfg.ai.translateOfficialAndSports) {
 /* ---------- 4. shape sections ---------- */
 const showMin = lastUpdate - cfg.showHours * 3600e3;
 const clusters = {};
-for (const L of ["en", "ar"]) clusters[L] = cluster(all.filter(i => i.cat === L && (i.ts >= showMin || OFFLINE)));
+for (const i of all) i.lang = hasArabic(i.title) ? "ar" : "en";
+for (const L of ["en", "ar"]) clusters[L] = cluster(all.filter(i => (i.cat === "en" || i.cat === "ar") && i.lang === L && (i.ts >= showMin || OFFLINE)));
 
 const pinned = await readJson("data/official-pinned.json", []);
 const offFeed = all.filter(i => i.cat === "off");
@@ -101,8 +103,9 @@ const official = [...offFeed, ...pinned.filter(p => !seenUrl.has(p.url)).map(p =
   .sort((a, b) => b.ts - a.ts).slice(0, 40);
 
 const sportItems = all.filter(i => i.cat === "sport" && (i.ts >= lastUpdate - 7 * 864e5 || OFFLINE));
-const sports = cluster(sportItems, 0.5, { ignoreLang: true }).map(c => {
-  const teams = [...new Set(c.members.flatMap(m => teamsOf(`${m.title} ${m.tr?.en || ""} ${m.tr?.ar || ""}`)))];
+const sports = {};
+for (const L of ["en", "ar"]) sports[L] = cluster(sportItems.filter(i => i.lang === L), 0.5).map(c => {
+  const teams = [...new Set(c.members.flatMap(m => teamsOf(m.title)))];
   return { ...c, teams };
 });
 
@@ -120,14 +123,16 @@ if (OFFLINE) {
 if (brief && !OFFLINE && lastUpdate - brief.ts > 12 * 3600e3) brief = null; // never show a stale brief
 
 /* ---------- 6. counts ---------- */
-const counts = {}; const srcCount = {};
+// Per-language counts: each language edition counts only its own headlines.
+const counts = {}; const srcCount = { en: {}, ar: {} };
+const bump = (L, k) => { srcCount[L][k] = (srcCount[L][k] || 0) + 1; };
 for (const L of ["en", "ar"]) {
   const ms = clusters[L].flatMap(c => c.members);
   counts[L] = { heads: ms.length, srcs: new Set(ms.map(m => m.src)).size };
-  for (const m of ms) srcCount[m.src] = (srcCount[m.src] || 0) + 1;
+  for (const m of ms) bump(L, m.src);
+  for (const c of sports[L]) for (const m of c.members) bump(L, m.src);
 }
-for (const o of official) { srcCount[o.src] = (srcCount[o.src] || 0) + 1; for (const w of o.with || []) srcCount[w] = (srcCount[w] || 0) + 1; }
-for (const c of sports) for (const m of c.members) srcCount[m.src] = (srcCount[m.src] || 0) + 1;
+for (const o of official) { bump(o.lang, o.src); for (const w of o.with || []) bump(o.lang, w); }
 
 /* ---------- 7. render ---------- */
 const hotels = await readJson("data/hotels.json", []);
@@ -158,4 +163,4 @@ if (!OFFLINE && !RENDER) {
   await writeJson("data/items.json", all);
   await writeJson("data/translations.json", trCache);
 }
-console.log(`Built ${new Date(lastUpdate).toISOString()} · EN ${counts.en.heads} headlines / ${clusters.en.length} stories · AR ${counts.ar.heads} / ${clusters.ar.length} · official ${official.length} · sports ${sports.length}`);
+console.log(`Built ${new Date(lastUpdate).toISOString()} · EN ${counts.en.heads} headlines / ${clusters.en.length} stories · AR ${counts.ar.heads} / ${clusters.ar.length} · official ${official.length} · sports EN ${sports.en.length} / AR ${sports.ar.length}`);

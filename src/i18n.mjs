@@ -39,7 +39,7 @@ export const T = {
     all: "All", allSrc: "All sources", search: "Search headlines…",
     also: n => `${n} more ${n === 1 ? "report" : "reports"} on this story`, none: "No headlines match these filters.",
     trFromAr: "Translated from Arabic", trFromEn: "Translated from English", via: "via",
-    types: { sd: "Sudanese", intl: "International", reg: "Regional", un: "UN & aid", gov: "State media", egy: "Egyptian state media", off: "Official", sport: "Sports" },
+    types: { sd: "Sudanese", intl: "International", reg: "Regional", un: "UN & aid", gov: "State media", egy: "Egyptian state media", isr: "Israeli", off: "Official", sport: "Sports" },
     topics: { pol: "Politics", war: "Conflict", hum: "Humanitarian", eco: "Economy", reg: "Region", cul: "Culture" },
     issuers: "All issuers",
     teams: { hilal: ["Al-Hilal", "Omdurman · Blue"], merrikh: ["Al-Merrikh", "Omdurman · Red"], nat: ["National team", "Falcons of Jediane"] },
@@ -47,7 +47,7 @@ export const T = {
     cities: { khartoum: ["Khartoum", "On the Nile"], port: ["Port Sudan", "Red Sea coast"] },
     site: "Website", copied: "Phone number copied", toConfirm: "Details to be confirmed with the hotel",
     colName: "Source", colType: "Type", colLang: "Language", colStatus: "In this edition", live: "No recent items", paywall: "Paywalled",
-    tbl: { en: "English news sources", ar: "Arabic news sources", off: "Official sources (English & Arabic)", sport: "Sports sources" },
+    tbl: { en: "News sources", ar: "News sources", off: "Official sources", sport: "Sports sources" },
     aboutP: [
       "Lamha is an independent news aggregator for Sudan. It gathers headlines from Sudanese, regional and international news outlets, together with official statements from governments and international organisations, in English and Arabic. The feed is updated throughout the day.",
       "Lamha does not write the news and does not take sides. It is not owned by, funded by or affiliated with any government, political party, armed group or foreign state. Every headline carries the name of its publisher and links to the original article, so readers can compare how different outlets cover the same event and decide for themselves.",
@@ -56,6 +56,7 @@ export const T = {
     princ: [["Source on every headline", "Each item names its publisher and opens the original article."], ["Many voices, side by side", "Stories covered by several outlets are grouped for comparison."], ["Clear labels", "State media and official sources are marked as such."], ["No commentary", "Lamha selects and organises. It does not rewrite, editorialise or rank sides."]],
     contact: "Corrections and feedback",
     foot: "Lamha links to original publishers and does not host their articles. Headlines remain the property of their publishers.",
+    copyName: "Lamha-Sd", builtBy: "Designed & built by",
     chooser: "Choose your language"
   },
   ar: {
@@ -95,7 +96,7 @@ export const T = {
     all: "الكل", allSrc: "كل المصادر", search: "ابحث في العناوين…",
     also: n => `${n} ${n === 1 ? "تغطية أخرى" : "تغطيات أخرى"} لهذا الخبر`, none: "لا توجد عناوين تطابق هذا الاختيار.",
     trFromAr: "مترجم من العربية", trFromEn: "مترجم من الإنجليزية", via: "عبر",
-    types: { sd: "سوداني", intl: "دولي", reg: "إقليمي", un: "أممي وإنساني", gov: "إعلام رسمي", egy: "إعلام مصري رسمي", off: "جهة رسمية", sport: "رياضي" },
+    types: { sd: "سوداني", intl: "دولي", reg: "إقليمي", un: "أممي وإنساني", gov: "إعلام رسمي", egy: "إعلام مصري رسمي", isr: "إسرائيلي", off: "جهة رسمية", sport: "رياضي" },
     topics: { pol: "سياسة", war: "النزاع", hum: "إنساني", eco: "اقتصاد", reg: "إقليمي", cul: "ثقافة" },
     issuers: "كل الجهات",
     teams: { hilal: ["الهلال", "أم درمان · الأزرق"], merrikh: ["المريخ", "أم درمان · الأحمر"], nat: ["المنتخب الوطني", "صقور الجديان"] },
@@ -103,7 +104,7 @@ export const T = {
     cities: { khartoum: ["الخرطوم", "على ضفاف النيل"], port: ["بورتسودان", "ساحل البحر الأحمر"] },
     site: "الموقع", copied: "تم نسخ رقم الهاتف", toConfirm: "التفاصيل تُؤكَّد مع الفندق",
     colName: "المصدر", colType: "النوع", colLang: "اللغة", colStatus: "في هذه النشرة", live: "لا جديد حالياً", paywall: "باشتراك",
-    tbl: { en: "المصادر الإخبارية الإنجليزية", ar: "المصادر الإخبارية العربية", off: "المصادر الرسمية (عربي وإنجليزي)", sport: "المصادر الرياضية" },
+    tbl: { en: "المصادر الإخبارية", ar: "المصادر الإخبارية", off: "المصادر الرسمية", sport: "المصادر الرياضية" },
     aboutP: [
       "لمحة مُجمِّع أخبار مستقل للسودان. يجمع العناوين من المنافذ الإخبارية السودانية والإقليمية والدولية، إلى جانب البيانات الرسمية للحكومات والمنظمات الدولية، باللغتين العربية والإنجليزية، ويُحدَّث على مدار اليوم.",
       "لا تكتب لمحة الأخبار ولا تنحاز لأي طرف، وليست مملوكة أو ممولة أو تابعة لأي حكومة أو حزب سياسي أو جماعة مسلحة أو دولة أجنبية. يحمل كل عنوان اسم ناشره ويرتبط بالمقال الأصلي، ليقارن القارئ كيف تناولت المنافذ المختلفة الحدث نفسه ويحكم بنفسه.",
@@ -112,6 +113,7 @@ export const T = {
     princ: [["المصدر مع كل عنوان", "كل خبر يحمل اسم ناشره ويفتح المقال الأصلي."], ["أصوات متعددة جنباً إلى جنب", "تُجمع تغطيات المنافذ المختلفة للخبر الواحد للمقارنة."], ["وسوم واضحة", "يُميَّز الإعلام الرسمي والجهات الرسمية بوسوم صريحة."], ["بلا تعليق", "لمحة تختار وتنظّم، ولا تعيد الصياغة أو تعلّق أو تفاضل بين الأطراف."]],
     contact: "للتصحيحات والملاحظات",
     foot: "تربط لمحة بالناشرين الأصليين ولا تستضيف مقالاتهم، وتبقى العناوين ملكاً لناشريها.",
+    copyName: "لمحة", builtBy: "تصميم وتطوير",
     chooser: "اختر اللغة"
   }
 };

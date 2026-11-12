@@ -71,6 +71,8 @@ export function layout(ctx, page, body, ld = []) {
 ${body}
   <footer>
     <span>${esc(t.foot)}</span>
+    <span class="credit">© ${new Date(ctx.lastUpdate).getUTCFullYear()} ${esc(t.copyName)}</span>
+    <span class="credit">${esc(t.builtBy)} <bdi>BahaWorks</bdi></span>
     <span>${esc(t.contact)}: <bdi>${esc(cfg.contactEmail)}</bdi></span>
     <span><a href="${pagePath(lang, "about")}">${esc(t.nav.about)}</a> · <a href="${pagePath(lang, "sources")}">${esc(t.nav.sources)}</a> · <a href="${pagePath(o, page)}" hreflang="${o}" data-setlang="${o}">${esc(T[o].nav[page])}</a></span>
   </footer>
@@ -147,9 +149,10 @@ export function newsPage(ctx) {
 /* ---------- Official ---------- */
 export function officialPage(ctx) {
   const t = T[ctx.lang];
-  const issuers = [...new Set(ctx.official.map(o => o.src))];
+  const items = ctx.official.filter(o => o.lang === ctx.lang);
+  const issuers = [...new Set(items.map(o => o.src))];
   const chips = ["all", ...issuers].map(k => `<button class="chip" type="button" data-issuer="${k}" aria-pressed="${k === "all"}">${esc(k === "all" ? t.issuers : sn(ctx, k))}</button>`).join("");
-  const rows = ctx.official.map(o => {
+  const rows = items.map(o => {
     const { title, note, langAttr } = titleFor(ctx, o);
     const sum = o.summary?.[ctx.lang];
     const withs = (o.with || []).map(k => sn(ctx, k));
@@ -167,7 +170,7 @@ export function sportsPage(ctx) {
   const t = T[ctx.lang];
   const kit = { hilal: "k-hilal", merrikh: "k-merrikh", nat: "k-nat" };
   const teams = Object.entries(t.teams).map(([k, [n, s]]) => `<button class="team" type="button" data-team="${k}" aria-pressed="false"><i class="${kit[k]}"></i><span><b>${esc(n)}</b><small>${esc(s)}</small></span></button>`).join("");
-  const rows = ctx.sports.map(c => {
+  const rows = ctx.sports[ctx.lang].map(c => {
     const { title, note, langAttr } = titleFor(ctx, c.lead);
     const more = c.members.slice(1);
     return `<article class="row" data-teams="${esc(c.teams.join(" "))}">
@@ -201,14 +204,19 @@ export function staysPage(ctx) {
 export function sourcesPage(ctx) {
   const t = T[ctx.lang];
   const tbl = cat => {
-    const ids = ctx.sourceList.filter(s => s.cat === cat);
+    const L = ctx.lang;
+    const news = cat === "en" || cat === "ar";
+    const has = s => (ctx.srcCount[L][s.id] || 0) > 0;
+    const ids = ctx.sourceList.filter(s => news
+      ? ((s.cat === "en" || s.cat === "ar") && (s.cat === L || has(s)))
+      : (s.cat === cat && ((s.pageLangs || ["en", "ar"]).includes(L) || has(s))));
     const rows = ids.map(s => {
-      const n = ctx.srcCount[s.id] || 0;
+      const n = ctx.srcCount[L][s.id] || 0;
       return `<tr><td><a ${ext(s.site)}>${esc(s.name[ctx.lang])}</a></td><td>${typePill(ctx, s.id)}${s.pay ? ` <span class="pill ghost">${esc(t.paywall)}</span>` : ""}</td>${cat === "off" ? `<td>${esc(s.langs || "")}</td>` : ""}<td>${n ? `<span class="dot on"></span>${n}` : `<span class="dot"></span>${esc(t.live)}`}</td></tr>`;
     }).join("");
     return `<div class="sec-h"><h2>${esc(t.tbl[cat])}</h2><span>${ids.length}</span></div><div class="tbl"><table><thead><tr><th>${esc(t.colName)}</th><th>${esc(t.colType)}</th>${cat === "off" ? `<th>${esc(t.colLang)}</th>` : ""}<th>${esc(t.colStatus)}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   };
-  return layout(ctx, "sources", `<section>${tbl("en")}${tbl("ar")}${tbl("off")}${tbl("sport")}</section>`);
+  return layout(ctx, "sources", `<section>${tbl(ctx.lang)}${tbl("off")}${tbl("sport")}</section>`);
 }
 
 /* ---------- About ---------- */
