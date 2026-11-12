@@ -132,7 +132,7 @@ for (const L of ["en", "ar"]) {
   for (const m of ms) bump(L, m.src);
   for (const c of sports[L]) for (const m of c.members) bump(L, m.src);
 }
-for (const o of official) { bump(o.lang, o.src); for (const w of o.with || []) bump(o.lang, w); }
+for (const o of official) for (const L of ["en", "ar"]) if (o.lang === L || o.tr?.[L]) { bump(L, o.src); for (const w of o.with || []) bump(L, w); }
 
 /* ---------- 7. render ---------- */
 const hotels = await readJson("data/hotels.json", []);

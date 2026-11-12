@@ -149,7 +149,8 @@ export function newsPage(ctx) {
 /* ---------- Official ---------- */
 export function officialPage(ctx) {
   const t = T[ctx.lang];
-  const items = ctx.official.filter(o => o.lang === ctx.lang);
+  // Statements in the page language, plus statements in the other language that have a translation (marked as translated).
+  const items = ctx.official.filter(o => o.lang === ctx.lang || o.tr?.[ctx.lang]);
   const issuers = [...new Set(items.map(o => o.src))];
   const chips = ["all", ...issuers].map(k => `<button class="chip" type="button" data-issuer="${k}" aria-pressed="${k === "all"}">${esc(k === "all" ? t.issuers : sn(ctx, k))}</button>`).join("");
   const rows = items.map(o => {
