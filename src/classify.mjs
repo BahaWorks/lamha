@@ -1,6 +1,6 @@
 // Relevance filters, topic tagging and story clustering.
 
-const SUDAN = /\b(sudan(?:ese)?|khartoum|omdurman|darfur|kordofan|el[- ]?fasher|port sudan|rsf|rapid support forces|burhan|hemedti|el[- ]?obeid|blue nile|gezira|abyei)\b|السودان|سوداني|الخرطوم|أم درمان|ام درمان|دارفور|كردفان|الفاشر|بورتسودان|بورت سودان|الدعم السريع|البرهان|حميدتي|الأبيض|النيل الأزرق|الجزيرة\s?السودانية|أبيي/i;
+const SUDAN = /\b(sudan(?:ese)?|khartoum|omdurman|darfur|kordofan|el[- ]?fasher|port sudan|rsf|rapid support forces|burhan|hemedti|el[- ]?obeid|blue nile|gezira|abyei)\b|السودان|سوداني|الخرطوم|أم درمان|ام درمان|دارفور|كردفان|الفاشر|بورتسودان|بورت سودان|الدعم السريع|البرهان|حميدتي|(?<!البيت\s)(?<!البيت\s«)(?<!البيت\s")الأبيض(?!\s*المتوسط)|النيل الأزرق|الجزيرة\s?السودانية|أبيي/i;
 const SOUTH_ONLY = /south sudan|جنوب السودان/i;
 
 export function isSudan(text) {
