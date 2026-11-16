@@ -190,7 +190,7 @@ export function sportsPage(ctx) {
 }
 
 /* ---------- Stays ---------- */
-export function staysPage(ctx) {
+export function hotelsPage(ctx) {
   const t = T[ctx.lang]; const L = ctx.lang;
   const city = key => {
     const [label, note] = t.cities[key];

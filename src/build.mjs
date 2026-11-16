@@ -150,7 +150,7 @@ await fs.rm(DIST, { recursive: true, force: true });
 await fs.mkdir(DIST, { recursive: true });
 await fs.cp(P("static"), path.join(DIST, "static"), { recursive: true });
 const version = lastUpdate.toString(36);
-const renderers = { news: R.newsPage, official: R.officialPage, sports: R.sportsPage, hotels: R.staysPage, sources: R.sourcesPage, about: R.aboutPage };
+const renderers = { news: R.newsPage, official: R.officialPage, sports: R.sportsPage, hotels: R.hotelsPage, sources: R.sourcesPage, about: R.aboutPage };
 for (const lang of ["ar", "en"]) {
   const ctx = { cfg, lang, src: SRC, sourceList: sources, clusters, official, sports, hotels, brief, lastUpdate, counts, srcCount, version };
   for (const page of PAGES) {
