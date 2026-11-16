@@ -1,6 +1,9 @@
 {
   "siteUrl": "https://lamha-sd.com",
-  "name": { "en": "Lamha", "ar": "لمحة" },
+  "name": {
+    "en": "Lamha",
+    "ar": "لمحة"
+  },
   "keepDays": 7,
   "showHours": 72,
   "maxItemsPerSource": 25,
@@ -10,5 +13,6 @@
     "model": "claude-sonnet-5-5",
     "translateOfficialAndSports": true,
     "dailyBrief": true
-  }
+  },
+  "indexNowKey": "4b9c94b0e19b30c4964a2e436b4d011a"
 }

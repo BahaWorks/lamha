@@ -38,3 +38,11 @@ jobs:
           git commit -m "Headlines $(date -u +'%Y-%m-%d %H:%M') UTC"
           git pull --rebase --autostash
           git push
+      - name: Tell search engines the pages changed (IndexNow)
+        continue-on-error: true
+        run: |
+          sleep 180  # give Cloudflare Pages time to publish the new build
+          KEY=$(node -p "require('./config/site.json').indexNowKey")
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"lamha-sd.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://lamha-sd.com/$KEY.txt\",\"urlList\":[\"https://lamha-sd.com/ar/\",\"https://lamha-sd.com/en/\",\"https://lamha-sd.com/ar/official/\",\"https://lamha-sd.com/en/official/\",\"https://lamha-sd.com/ar/sports/\",\"https://lamha-sd.com/en/sports/\"]}"

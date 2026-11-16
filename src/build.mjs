@@ -164,6 +164,8 @@ await fs.writeFile(path.join(DIST, "index.html"), R.rootPage(cfg));
 await fs.writeFile(path.join(DIST, "404.html"), R.notFound());
 await fs.writeFile(path.join(DIST, "sitemap.xml"), R.sitemap(cfg, lastUpdate));
 await fs.writeFile(path.join(DIST, "robots.txt"), R.robots(cfg));
+// IndexNow key file (lets Bing and other engines accept our update pings).
+if (cfg.indexNowKey) await fs.writeFile(path.join(DIST, `${cfg.indexNowKey}.txt`), cfg.indexNowKey);
 // The old /stays/ addresses were removed on purpose (now 404). Drop any old _redirects file.
 await fs.rm(path.join(DIST, "_redirects"), { force: true });
 await fs.writeFile(path.join(DIST, "_headers"), "/static/*\n  Cache-Control: public, max-age=86400\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n");
