@@ -164,8 +164,8 @@ await fs.writeFile(path.join(DIST, "index.html"), R.rootPage(cfg));
 await fs.writeFile(path.join(DIST, "404.html"), R.notFound());
 await fs.writeFile(path.join(DIST, "sitemap.xml"), R.sitemap(cfg, lastUpdate));
 await fs.writeFile(path.join(DIST, "robots.txt"), R.robots(cfg));
-// The hotels page used to be called "stays"; send old links to the new address.
-await fs.writeFile(path.join(DIST, "_redirects"), "/en/stays/ /en/hotels/ 301\n/ar/stays/ /ar/hotels/ 301\n/en/stays /en/hotels/ 301\n/ar/stays /ar/hotels/ 301\n");
+// The old /stays/ addresses were removed on purpose (now 404). Drop any old _redirects file.
+await fs.rm(path.join(DIST, "_redirects"), { force: true });
 await fs.writeFile(path.join(DIST, "_headers"), "/static/*\n  Cache-Control: public, max-age=86400\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n");
 
 /* ---------- 8. persist ---------- */
