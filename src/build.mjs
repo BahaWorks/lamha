@@ -158,11 +158,20 @@ for (const lang of ["ar", "en"]) {
     await fs.mkdir(dir, { recursive: true });
     await fs.writeFile(path.join(dir, "index.html"), renderers[page](ctx));
   }
+  // Hotel pages, city guides and club pages.
+  const sub = async (p, html) => { const d = path.join(DIST, p); await fs.mkdir(d, { recursive: true }); await fs.writeFile(path.join(d, "index.html"), html); };
+  for (const h of hotels) await sub(R.hotelPath(lang, h), R.hotelPage(ctx, h));
+  for (const c of ["port", "khartoum"]) await sub(R.guidePath(lang, c), R.guidePage(ctx, c));
+  for (const k of R.CLUB_KEYS) await sub(R.clubPath(lang, k), R.clubPage(ctx, k));
   await fs.writeFile(path.join(DIST, lang, "feed.xml"), R.rss(ctx));
 }
+const extraUrls = [
+  ...["port", "khartoum"].map(c => ({ ar: R.guidePath("ar", c), en: R.guidePath("en", c) })),
+  ...hotels.map(h => ({ ar: R.hotelPath("ar", h), en: R.hotelPath("en", h) })),
+  ...R.CLUB_KEYS.map(k => ({ ar: R.clubPath("ar", k), en: R.clubPath("en", k), freq: "daily" }))];
 await fs.writeFile(path.join(DIST, "index.html"), R.rootPage(cfg));
 await fs.writeFile(path.join(DIST, "404.html"), R.notFound());
-await fs.writeFile(path.join(DIST, "sitemap.xml"), R.sitemap(cfg, lastUpdate));
+await fs.writeFile(path.join(DIST, "sitemap.xml"), R.sitemap(cfg, lastUpdate, extraUrls));
 await fs.writeFile(path.join(DIST, "robots.txt"), R.robots(cfg));
 // IndexNow key file (lets Bing and other engines accept our update pings).
 if (cfg.indexNowKey) await fs.writeFile(path.join(DIST, `${cfg.indexNowKey}.txt`), cfg.indexNowKey);

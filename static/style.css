@@ -217,3 +217,32 @@ main > section:not(.hero) > :first-child{margin-top:18px}
 .trnote{margin:2px 0 0;padding:8px 12px;border-radius:10px;background:var(--sunk);color:var(--muted);font-size:13px;line-height:1.55}
 .trnote a{color:var(--teal);text-decoration:none;font-weight:500}
 .trnote a:hover{text-decoration:underline}
+
+/* WhatsApp share */
+.wa-i{width:15px;height:15px;flex:none}
+.wa-share{display:inline-flex;align-items:center;gap:7px;justify-self:start;font:600 13px var(--display);color:#1f7a4d;background:var(--surface);border:1px solid color-mix(in srgb,#1f7a4d 30%,transparent);border-radius:999px;padding:6px 12px;text-decoration:none}
+.wa-share:hover{background:color-mix(in srgb,#1f7a4d 8%,var(--surface))}
+.wa-mini{display:inline-flex;align-items:center;color:var(--muted);margin-inline-start:auto;padding:2px 4px;border-radius:6px}
+.wa-mini:hover{color:#1f7a4d}
+.wa-link{display:inline-flex;align-items:center;gap:6px;color:#1f7a4d}
+/* Hotel, guide and club pages */
+.guide-link{font:500 13px var(--body);color:var(--teal);margin-inline-start:auto;text-decoration:none}
+.city-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.hotel h3 a{text-decoration:none;color:inherit}
+.hotel h3 a:hover{color:var(--teal)}
+.hotel-detail{display:grid;gap:14px}
+.kv{margin:0;display:grid;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.kv div{display:grid;gap:4px}
+.kv dt{font:600 12px var(--display);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+:root[dir="rtl"] .kv dt{letter-spacing:0}
+.kv dd{margin:0}
+.tipbox{background:var(--teal-soft);border:1px solid color-mix(in srgb,var(--teal) 18%,transparent);border-radius:var(--r);padding:14px 16px;display:grid;gap:6px}
+.tipbox b{font:600 14px var(--display);color:var(--teal)}
+.tipbox p,.tipbox ul{margin:0}
+.tipbox ul{padding-inline-start:20px;display:grid;gap:4px}
+.link-list{margin:0;padding-inline-start:20px;display:grid;gap:6px}
+.small{font-size:13px}
+.club-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.comps{margin:4px 0 8px}
+.kv .facts{display:flex;flex-wrap:wrap;gap:6px}
+.kv .facts span{width:auto}

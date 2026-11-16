@@ -28,7 +28,18 @@
     "مناسبات وأفراح",
     "توصيل من المطار"
    ]
-  }
+  },
+  "slug": "al-salam-hotel",
+  "fb": null,
+  "desc": {
+   "en": "A five-star hotel on Africa Road in Khartoum, close to the airport, known for many years as Al Salam Rotana. It has 225 rooms and 11 suites, five restaurants and cafés, and halls for conferences and weddings. In January 2026 it was one of the hotels the prime minister toured to check their readiness to host international delegations.",
+   "ar": "فندق من فئة خمس نجوم في شارع أفريقيا بالخرطوم، قريب من المطار، عُرف سنوات طويلة باسم «السلام روتانا». يضم 225 غرفة و11 جناحاً وخمسة مطاعم ومقاهٍ، وقاعات للمؤتمرات والأفراح. وفي يناير 2026 كان من الفنادق التي تفقّدها رئيس الوزراء للتأكد من جاهزيتها لاستقبال الوفود الدولية."
+  },
+  "tip": {
+   "en": "Khartoum's hotels are reopening in stages. Call before you travel to confirm the hotel is open and taking bookings.",
+   "ar": "تعود فنادق الخرطوم إلى العمل على مراحل، فاتصل بالفندق قبل السفر للتأكد من أنه يعمل ويستقبل الحجوزات."
+  },
+  "confirm": false
  },
  {
   "city": "khartoum",
@@ -60,49 +71,96 @@
     "واي فاي مجاني",
     "توصيل على مدار الساعة"
    ]
-  }
+  },
+  "slug": "grand-hotel-khartoum",
+  "fb": "https://www.facebook.com/grandholidayvillakhartoum/",
+  "desc": {
+   "en": "One of Khartoum's oldest hotels, a historic building from the late 1800s on Nile Avenue, by the Blue Nile. It has also operated as the Grand Holiday Villa. Facilities include a spa, gym and pool, and a ballroom for up to 600 guests. In January 2026 the prime minister directed its management to speed up maintenance work.",
+   "ar": "من أقدم فنادق الخرطوم، مبنى تاريخي يعود إلى أواخر القرن التاسع عشر في شارع النيل على ضفة النيل الأزرق، وعمل أيضاً باسم «جراند هوليداي فيلا». يضم سبا ونادياً صحياً ومسبحاً، وقاعة تتسع لـ600 ضيف. وفي يناير 2026 وجّه رئيس الوزراء إدارة الفندق بتسريع أعمال الصيانة."
+  },
+  "tip": {
+   "en": "Maintenance was still under way in early 2026. Check with the hotel before planning a stay.",
+   "ar": "كانت أعمال الصيانة مستمرة مطلع 2026، فتأكّد من الفندق قبل التخطيط للإقامة."
+  },
+  "confirm": false
  },
  {
   "city": "port",
   "en": "Marina Hotel Port Sudan",
   "ar": "فندق مارينا بورتسودان",
   "sub": {
-   "en": "Seafront, formerly the Port Sudan Hilton",
-   "ar": "على البحر، سابقاً هيلتون بورتسودان"
+   "en": "Seafront, formerly the Port Sudan Hilton and Coral Port Sudan",
+   "ar": "على البحر، سابقاً هيلتون ثم كورال بورتسودان"
   },
   "addr": {
-   "en": "Port Sudan",
-   "ar": "بورتسودان"
+   "en": "Entrance of Port Sudan harbour",
+   "ar": "مدخل ميناء بورتسودان"
   },
   "site": "https://marinahotelportsudan.com",
-  "confirm": true,
+  "confirm": false,
   "facts": {
    "en": [
-    "Red Sea seafront"
+    "Red Sea seafront",
+    "Harbour views",
+    "Historic hotel"
    ],
    "ar": [
-    "واجهة البحر الأحمر"
+    "واجهة البحر الأحمر",
+    "إطلالة على الميناء",
+    "فندق عريق"
    ]
-  }
+  },
+  "slug": "marina-hotel-port-sudan",
+  "fb": "https://www.facebook.com/p/Marina-Port-Sudan-Hotel-61554915203839/",
+  "desc": {
+   "en": "A seafront hotel at the entrance of Port Sudan's harbour, with views over the Red Sea. The building opened as the Port Sudan Hilton, was later run as the Coral Port Sudan, and took the Marina name in the late 2010s. It remains one of the city's best-known addresses for business visitors and delegations.",
+   "ar": "فندق على البحر عند مدخل ميناء بورتسودان، بإطلالة على البحر الأحمر. افتُتح المبنى باسم «هيلتون بورتسودان»، ثم أُدير باسم «كورال بورتسودان»، قبل أن يحمل اسم «مارينا» أواخر العقد الثاني من القرن الحالي. ولا يزال من أشهر عناوين المدينة لزوار الأعمال والوفود."
+  },
+  "tip": {
+   "en": "Since Port Sudan became the seat of government, rooms are in heavy demand. Book well ahead and confirm by phone, because online listings are often out of date.",
+   "ar": "منذ أن أصبحت بورتسودان مقراً للحكومة صار الطلب على الغرف كبيراً، فاحجز مبكراً وتأكّد بالهاتف، لأن بيانات مواقع الحجز كثيراً ما تكون قديمة."
+  },
+  "phone": null
  },
  {
   "city": "port",
   "en": "Grand Sahil Hotel",
   "ar": "فندق جراند الساحل",
   "sub": {
-   "en": "Port Sudan",
-   "ar": "بورتسودان"
+   "en": "Seaside, Port Sudan",
+   "ar": "على البحر، بورتسودان"
   },
   "addr": {
    "en": "Port Sudan",
    "ar": "بورتسودان"
   },
   "site": "https://grandsahil.com",
-  "confirm": true,
+  "confirm": false,
   "facts": {
-   "en": [],
-   "ar": []
-  }
+   "en": [
+    "Sea views",
+    "Free breakfast",
+    "Free internet",
+    "Afternoon lounge"
+   ],
+   "ar": [
+    "إطلالة على البحر",
+    "إفطار مجاني",
+    "إنترنت مجاني",
+    "استراحة مسائية"
+   ]
+  },
+  "slug": "grand-sahil-hotel",
+  "fb": null,
+  "desc": {
+   "en": "A seaside hotel in Port Sudan with sea views. Its website lists a complimentary continental breakfast, an afternoon lounge with tea, coffee and snacks, cable TV in every room and free high-speed internet.",
+   "ar": "فندق على البحر في بورتسودان بإطلالة بحرية. يذكر موقعه إفطاراً قارياً مجانياً، واستراحة مسائية بالشاي والقهوة والوجبات الخفيفة، وتلفزيوناً بقنوات فضائية في كل غرفة، وإنترنت سريعاً مجانياً."
+  },
+  "tip": {
+   "en": "The website lists no phone number or address, so ask locally or through the website for directions and rates.",
+   "ar": "لا يذكر الموقع رقم هاتف أو عنواناً، فاسأل محلياً أو عبر الموقع عن الطريق والأسعار."
+  },
+  "phone": null
  },
  {
   "city": "port",
@@ -133,6 +191,211 @@
     "استقبال على مدار الساعة",
     "الغرف من 95 دولاراً"
    ]
-  }
+  },
+  "slug": "flora-hotel",
+  "fb": null,
+  "desc": {
+   "en": "A hotel near Port Sudan International Airport, at South East Transit Square behind Abualfadil Plaza. It has a restaurant, a business corner, 24-hour reception and airport transfers, with rooms listed from $95 a night.",
+   "ar": "فندق قريب من مطار بورتسودان الدولي، في ميدان العبور الجنوبي الشرقي خلف أبو الفاضل بلازا. يضم مطعماً وركناً للأعمال واستقبالاً على مدار الساعة، ويوفر التوصيل من المطار، والغرف تبدأ من 95 دولاراً لليلة."
+  },
+  "tip": {
+   "en": "A practical choice before an early flight, as the airport is close by.",
+   "ar": "خيار عملي قبل الرحلات المبكرة لقربه من المطار."
+  },
+  "confirm": false
+ },
+ {
+  "slug": "baasher-palace-hotel",
+  "city": "port",
+  "en": "Baasher Palace Hotel",
+  "ar": "فندق باشر بالاس",
+  "sub": {
+   "en": "Family-run since 1975",
+   "ar": "فندق عائلي منذ 1975"
+  },
+  "addr": {
+   "en": "Near the Corniche and the souk, Port Sudan",
+   "ar": "قرب الكورنيش والسوق، بورتسودان"
+  },
+  "fb": "https://www.facebook.com/baasherpalacehotel1975/",
+  "site": null,
+  "facts": {
+   "en": [
+    "Three-star",
+    "69 en-suite rooms",
+    "Air conditioning",
+    "Airport transfers",
+    "About $70–150"
+   ],
+   "ar": [
+    "ثلاث نجوم",
+    "69 غرفة بحمّام خاص",
+    "تكييف",
+    "توصيل من المطار",
+    "نحو 70–150 دولاراً"
+   ]
+  },
+  "desc": {
+   "en": "A family-run hotel founded in 1975, a short walk from the souk and the promenade overlooking the port. It describes itself as the oldest three-star hotel in Port Sudan. Its 69 en-suite rooms have air conditioning, satellite TV and mini-fridges, and the management can arrange airport transfers and trips.",
+   "ar": "فندق عائلي تأسس عام 1975، على بُعد خطوات من السوق والممشى المطل على الميناء، ويصف نفسه بأنه أقدم فنادق الثلاث نجوم في بورتسودان. غرفه الـ69 مزودة بحمّامات خاصة وتكييف وتلفزيون فضائي وثلاجات صغيرة، ويمكن لإدارته ترتيب التوصيل من المطار والرحلات."
+  },
+  "tip": {
+   "en": "Its central location puts the market, the Corniche and several ministries within easy reach.",
+   "ar": "موقعه في وسط المدينة يجعل السوق والكورنيش وعدداً من الوزارات في متناولك."
+  },
+  "confirm": false,
+  "phone": null
+ },
+ {
+  "slug": "basiri-plaza-hotel",
+  "city": "port",
+  "en": "Basiri Plaza Hotel",
+  "ar": "فندق البصيري بلازا",
+  "sub": {
+   "en": "Central Port Sudan",
+   "ar": "وسط بورتسودان"
+  },
+  "addr": {
+   "en": "Red Sea University Street, Port Sudan",
+   "ar": "شارع جامعة البحر الأحمر، بورتسودان"
+  },
+  "phone": "+249 91 213 3278",
+  "site": "https://basiriplaza.com",
+  "fb": "https://www.facebook.com/basiriplazaportsudan/",
+  "facts": {
+   "en": [
+    "Rooftop pool",
+    "Meeting rooms",
+    "Wi-Fi",
+    "About $70–150"
+   ],
+   "ar": [
+    "مسبح على السطح",
+    "قاعات اجتماعات",
+    "واي فاي",
+    "نحو 70–150 دولاراً"
+   ]
+  },
+  "desc": {
+   "en": "A hotel in central Port Sudan on Red Sea University Street, widely used by aid workers and consultants. It offers air-conditioned rooms with private bathrooms, meeting rooms, a rooftop pool and Wi-Fi.",
+   "ar": "فندق في وسط بورتسودان بشارع جامعة البحر الأحمر، يقصده كثير من العاملين في المنظمات والاستشاريين. يوفر غرفاً مكيفة بحمّامات خاصة، وقاعات اجتماعات، ومسبحاً على السطح، وإنترنت لاسلكياً."
+  },
+  "tip": {
+   "en": "The hotel has several pages on Facebook; the phone number above is the one listed on its main page.",
+   "ar": "للفندق أكثر من صفحة على فيسبوك، ورقم الهاتف أعلاه هو المذكور في صفحته الرئيسية."
+  },
+  "confirm": false
+ },
+ {
+  "slug": "belmar-residence",
+  "city": "port",
+  "en": "BelMar Residence",
+  "ar": "بلمار ريزيدنس",
+  "sub": {
+   "en": "Serviced apartments, Hai Al Matar",
+   "ar": "شقق فندقية، حي المطار"
+  },
+  "addr": {
+   "en": "Hai Al Matar, Port Sudan",
+   "ar": "حي المطار، بورتسودان"
+  },
+  "site": "https://vocd-sd.com",
+  "fb": null,
+  "facts": {
+   "en": [
+    "Studios & 2-bedroom units",
+    "24/7 backup power",
+    "Fibre internet",
+    "Restaurant",
+    "About $150–300"
+   ],
+   "ar": [
+    "استوديوهات وشقق بغرفتين",
+    "كهرباء احتياطية دائمة",
+    "إنترنت ألياف",
+    "مطعم",
+    "نحو 150–300 دولار"
+   ]
+  },
+  "desc": {
+   "en": "Serviced apartments in Hai Al Matar, popular with international organisations. The fully furnished studios and two-bedroom units come with a 24-hour backup generator, on-site water treatment, fibre-optic internet and a private restaurant.",
+   "ar": "شقق فندقية في حي المطار، يفضّلها كثير من موظفي المنظمات الدولية. الاستوديوهات والشقق ذات الغرفتين مفروشة بالكامل، مع مولد احتياطي يعمل على مدار الساعة، ومحطة لمعالجة المياه، وإنترنت بالألياف الضوئية، ومطعم خاص."
+  },
+  "tip": {
+   "en": "Best suited to longer stays and teams that need reliable power and internet.",
+   "ar": "مناسب أكثر للإقامات الطويلة وفرق العمل التي تحتاج كهرباء وإنترنت مستقرين."
+  },
+  "confirm": false,
+  "phone": null
+ },
+ {
+  "slug": "solitaire-hotel",
+  "city": "port",
+  "en": "Solitaire Hotel",
+  "ar": "فندق سوليتير",
+  "sub": {
+   "en": "Al-Shati district",
+   "ar": "حي الشاطئ"
+  },
+  "addr": {
+   "en": "Al-Shati district, south-west of the Police Hospital, Port Sudan",
+   "ar": "حي الشاطئ، جنوب غرب مستشفى الشرطة، بورتسودان"
+  },
+  "fb": "https://www.facebook.com/SolitaireHotelPorSudan/",
+  "site": null,
+  "facts": {
+   "en": [],
+   "ar": []
+  },
+  "desc": {
+   "en": "A hotel in Port Sudan's Al-Shati district, south-west of the Police Hospital, in the coastal part of the city.",
+   "ar": "فندق في حي الشاطئ ببورتسودان، جنوب غرب مستشفى الشرطة، في الجزء الساحلي من المدينة."
+  },
+  "tip": {
+   "en": "Contact the hotel through its Facebook page to check rooms and rates.",
+   "ar": "تواصل مع الفندق عبر صفحته على فيسبوك للاستفسار عن الغرف والأسعار."
+  },
+  "confirm": false,
+  "phone": null
+ },
+ {
+  "slug": "al-rabwa-tourism-complex",
+  "city": "port",
+  "en": "Al Rabwa Tourism Complex",
+  "ar": "مجمع الربوة السياحي",
+  "sub": {
+   "en": "Restaurant, café and events hall",
+   "ar": "مطعم وكافيه وقاعة مناسبات"
+  },
+  "addr": {
+   "en": "Port Sudan",
+   "ar": "بورتسودان"
+  },
+  "phone": "+249 10 069 2656",
+  "fb": "https://www.facebook.com/TourismComplexSudanPort/",
+  "site": null,
+  "facts": {
+   "en": [
+    "Restaurant",
+    "Café",
+    "Events hall",
+    "Outdoor seating"
+   ],
+   "ar": [
+    "مطعم",
+    "كافيه",
+    "قاعة مناسبات",
+    "جلسات خارجية"
+   ]
+  },
+  "desc": {
+   "en": "A tourism complex in Port Sudan with a restaurant, a café with outdoor seating and an events hall. It is listed as a hotel resort, but its own description focuses on dining and events.",
+   "ar": "مجمع سياحي في بورتسودان يضم مطعماً وكافيه بجلسات خارجية وقاعة للمناسبات. يُصنَّف منتجعاً فندقياً، لكن وصفه يركّز على المطعم والمناسبات."
+  },
+  "tip": {
+   "en": "Ask directly whether rooms are available before planning to stay overnight.",
+   "ar": "اسأل مباشرة عن توفّر غرف قبل التخطيط للمبيت."
+  },
+  "confirm": false
  }
 ]
