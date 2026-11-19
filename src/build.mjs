@@ -149,7 +149,9 @@ const DIST = P("dist");
 await fs.rm(DIST, { recursive: true, force: true });
 await fs.mkdir(DIST, { recursive: true });
 await fs.cp(P("static"), path.join(DIST, "static"), { recursive: true });
-const version = lastUpdate.toString(36);
+// Asset version: changes with each update and whenever the script or styles change.
+const assetHash = (await import("node:crypto")).createHash("sha1").update(await fs.readFile(P("static/app.js"))).update(await fs.readFile(P("static/style.css"))).digest("hex").slice(0, 8);
+const version = `${lastUpdate.toString(36)}-${assetHash}`;
 const renderers = { news: R.newsPage, official: R.officialPage, sports: R.sportsPage, hotels: R.hotelsPage, sources: R.sourcesPage, about: R.aboutPage };
 for (const lang of ["ar", "en"]) {
   const ctx = { cfg, lang, src: SRC, sourceList: sources, clusters, official, sports, hotels, brief, lastUpdate, counts, srcCount, version };
