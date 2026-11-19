@@ -4,10 +4,12 @@
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
   // Remember language choice for the root redirect.
+  // Remember the reader's language (the cookie lets the home page send them straight there).
+  function setLang(l) { if (l !== "ar" && l !== "en") return; try { localStorage.setItem("lamha-lang", l); } catch (e) {} document.cookie = "lamha-lang=" + l + "; path=/; max-age=31536000; samesite=lax; secure"; }
   $$("[data-setlang]").forEach(function (a) {
-    a.addEventListener("click", function () { try { localStorage.setItem("lamha-lang", a.getAttribute("data-setlang")); } catch (e) {} });
+    a.addEventListener("click", function () { setLang(a.getAttribute("data-setlang")); });
   });
-  try { localStorage.setItem("lamha-lang", document.body.getAttribute("data-lang")); } catch (e) {}
+  setLang(document.body.getAttribute("data-lang"));
 
   var feed = $("#feed");
   var rows = feed ? $$(".row", feed) : [];

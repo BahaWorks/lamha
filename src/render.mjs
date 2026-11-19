@@ -41,7 +41,7 @@ export function layout(ctx, page, body, ld = [], sub = null) {
 <link rel="canonical" href="${url}">
 <link rel="alternate" hreflang="${lang}" href="${url}">
 <link rel="alternate" hreflang="${o}" href="${alt(o)}">
-<link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}/">
+<link rel="alternate" hreflang="x-default" href="${alt("en")}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lamha لمحة">
 <meta property="og:title" content="${esc(docT)}">
@@ -238,6 +238,10 @@ const GUIDES = {
         "The Corinthia, the egg-shaped landmark on the Nile, was damaged during the war. Other well-known names include Kanon Hotel in Khartoum 2 and Coral Khartoum in the Al Mogran area; Lamha could not confirm their current status.",
         "Electricity, water and other services are being restored gradually, so ask each hotel what is working before you travel."],
       groups: [["Hotels with details on Lamha", ["al-salam-hotel", "grand-hotel-khartoum"]]],
+      more: { h: "Other well-known Khartoum hotels", items: [
+        ["Corinthia Hotel Khartoum", "Nile Road. A five-star hotel opened in 2008, known for its sail-shaped tower at the meeting of the Blue and White Nile. It was damaged during the war."],
+        ["Kanon Hotel", "37th Street, Khartoum 2. One of the hotels the prime minister inspected in January 2026 to check its readiness to host delegations."],
+        ["Coral Khartoum Hotel", "Al Mogran area, close to the Blue Nile. A large business hotel with about 270 rooms; its current status could not be confirmed."]] },
       tipsH: "Before you book", tips: ["Call the hotel to confirm it is open and taking bookings.", "Ask about power, water and internet.", "Check your government's latest travel advice: several governments still advise against travel to Sudan."] },
     ar: { title: "فنادق الخرطوم: أيها عاد للعمل (2026) · لمحة", h1: "فنادق الخرطوم", eyebrow: "دليل الفنادق",
       lede: "أي فنادق الخرطوم تعود إلى العمل، وما الذي تتأكد منه قبل الحجز.",
@@ -246,6 +250,10 @@ const GUIDES = {
         "تضرر فندق كورنثيا، المبنى البيضاوي الشهير على النيل، خلال الحرب. ومن الأسماء المعروفة أيضاً فندق كانون في الخرطوم 2 وفندق كورال الخرطوم في منطقة المقرن، ولم تتمكن لمحة من التأكد من وضعهما الحالي.",
         "تعود خدمات الكهرباء والمياه وغيرها تدريجياً، فاسأل كل فندق عمّا يعمل لديه قبل السفر."],
       groups: [["فنادق لها صفحات تفصيلية في لمحة", ["al-salam-hotel", "grand-hotel-khartoum"]]],
+      more: { h: "فنادق معروفة أخرى في الخرطوم", items: [
+        ["فندق كورنثيا الخرطوم", "شارع النيل. فندق خمس نجوم افتُتح عام 2008، يشتهر ببرجه المصمم على شكل شراع عند ملتقى النيلين الأزرق والأبيض، وتضرر خلال الحرب."],
+        ["فندق كانون", "شارع 37، الخرطوم 2. من الفنادق التي تفقّدها رئيس الوزراء في يناير 2026 للتأكد من جاهزيتها لاستقبال الوفود."],
+        ["فندق كورال الخرطوم", "منطقة المقرن قرب النيل الأزرق. فندق أعمال كبير يضم نحو 270 غرفة، ولم نتمكن من التأكد من وضعه الحالي."]] },
       tipsH: "قبل الحجز", tips: ["اتصل بالفندق للتأكد من أنه يعمل ويستقبل الحجوزات.", "اسأل عن الكهرباء والمياه والإنترنت.", "راجع آخر تحذيرات السفر لحكومتك: ما زالت عدة حكومات تنصح بعدم السفر إلى السودان."] }
   }
 };
@@ -294,6 +302,7 @@ export function guidePage(ctx, key) {
   const L = ctx.lang, g = GUIDES[key][L], by = Object.fromEntries(ctx.hotels.map(h => [h.slug, h]));
   const body = `<section><div class="notice">${T[L].stayNotice}</div><div class="prose">${g.intro.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     ${g.groups.map(([h, slugs]) => `<h2 class="city-h">${esc(h)}</h2><div class="hotels">${slugs.filter(x => by[x]).map(x => hotelCard(ctx, by[x])).join("")}</div>`).join("")}
+    ${g.more ? `<h2 class="city-h">${esc(g.more.h)}</h2><dl class="kv">${g.more.items.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
     <div class="tipbox"><b>${esc(g.tipsH)}</b><ul>${g.tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
     <p class="muted small">${esc(HS[L].note)}</p><p><a href="${pagePath(L, "hotels")}">${BACK(L)} ${esc(HS[L].all)}</a></p></section>`;
   const list = g.groups.flatMap(([, s]) => s).filter(x => by[x]);
@@ -307,21 +316,29 @@ const CLUBS = {
       lede: "News on Al-Hilal from Sudanese, Rwandan and African football sources, updated through the day.",
       desc: "Al-Hilal Omdurman latest news and results in the Rwanda Premier League and the CAF Champions League, from Sudanese, Rwandan and African sources.",
       intro: "Al-Hilal Club of Omdurman, founded in 1930 and known for its blue and white colours, is one of Sudan's two biggest football clubs. With football in Sudan disrupted by the war, Al-Hilal and Al-Merrikh are playing this season in the Rwanda Premier League.",
+      facts: [["Founded", "13 February 1930, Omdurman"], ["Home ground", "Al-Hilal Stadium, “the Blue Jewel” (opened 1968, renovated and reopened in 2018)"], ["Nicknames", "Sayed Al-Balad (Leader of the Country), Al-Mawj Al-Azraq (the Blue Wave)"], ["Sudan league", "The most titles of any club in Sudan"], ["Africa", "CAF Champions League runners-up in 1987 and 1992; semi-finalists in 2007, 2009, 2011 and 2015"], ["This season", "Rwanda Premier League (temporarily, because of the war) and the CAF Champions League"]],
+      history: ["Al-Hilal was founded in Omdurman in 1930 by a group of graduates of Gordon Memorial College, and its motto is “God – the Nation – Al-Hilal”. Its rivalry with Al-Merrikh, also from Omdurman, is the biggest fixture in Sudanese football.", "Since the war began in April 2023, league football in Sudan has been disrupted. Al-Hilal has played abroad, and this season it is a guest team in the Rwanda Premier League while also representing Sudan in the CAF Champions League."],
       comps: ["Rwanda Premier League", "CAF Champions League"] },
     ar: { name: "الهلال أم درمان", h1: "الهلال أم درمان: آخر الأخبار والنتائج", eyebrow: "صفحة النادي",
       lede: "أخبار الهلال من الصحافة الرياضية السودانية والرواندية والأفريقية، تُحدَّث على مدار اليوم.",
       desc: "آخر أخبار ونتائج الهلال أم درمان في الدوري الرواندي الممتاز ودوري أبطال أفريقيا، من المصادر السودانية والرواندية والأفريقية.",
       intro: "نادي الهلال بأم درمان، تأسس عام 1930 ويُعرف باللونين الأزرق والأبيض، وهو أحد أكبر ناديين لكرة القدم في السودان. ومع توقف النشاط الكروي في السودان بسبب الحرب، يشارك الهلال والمريخ هذا الموسم في الدوري الرواندي الممتاز.",
+      facts: [["التأسيس", "13 فبراير 1930، أم درمان"], ["الملعب", "استاد الهلال «الجوهرة الزرقاء» (افتُتح 1968، وأُعيد افتتاحه بعد التجديد في 2018)"], ["الألقاب", "سيد البلد، الموج الأزرق"], ["الدوري السوداني", "صاحب أكبر عدد من ألقاب الدوري في السودان"], ["أفريقياً", "وصيف دوري أبطال أفريقيا عامي 1987 و1992، وبلغ نصف النهائي في 2007 و2009 و2011 و2015"], ["هذا الموسم", "الدوري الرواندي الممتاز (بصورة مؤقتة بسبب الحرب) ودوري أبطال أفريقيا"]],
+      history: ["تأسس الهلال في أم درمان عام 1930 على يد مجموعة من خريجي كلية غردون التذكارية، وشعاره «الله – الوطن – الهلال». ومواجهته مع المريخ، جاره في أم درمان، هي أكبر مباراة في الكرة السودانية.", "منذ اندلاع الحرب في أبريل 2023 تعطّل النشاط الكروي في السودان، فلعب الهلال خارج البلاد، ويشارك هذا الموسم ضيفاً في الدوري الرواندي الممتاز، إلى جانب تمثيله السودان في دوري أبطال أفريقيا."],
       comps: ["الدوري الرواندي الممتاز", "دوري أبطال أفريقيا"] } },
   merrikh: { en: { name: "Al-Merrikh", h1: "Al-Merrikh: latest news and results", eyebrow: "Club page",
       lede: "News on Al-Merrikh from Sudanese, Rwandan and African football sources, updated through the day.",
       desc: "Al-Merrikh latest news and results in the Rwanda Premier League, from Sudanese, Rwandan and African sources.",
       intro: "Al-Merrikh Sporting Club of Omdurman, known for its red and yellow colours, is one of Sudan's oldest and most popular football clubs. With football in Sudan disrupted by the war, Al-Merrikh and Al-Hilal are playing this season in the Rwanda Premier League.",
+      facts: [["Founded", "1908 as Al-Masalma Sporting Club; renamed Al-Merrikh (“Mars”) on 14 November 1927"], ["Home ground", "Al-Merrikh Stadium, “the Red Castle”, in Omdurman (opened 1964, capacity about 43,000), also used by Sudan's national team"], ["Nickname", "Al-Zaeem (the Chief)"], ["Africa", "African Cup Winners' Cup winners in 1989, the only continental title won by a Sudanese club; CAF Confederation Cup runners-up in 2007"], ["Region", "CECAFA Clubs Cup winners in 1986, 1994 and 2014"], ["This season", "Rwanda Premier League (temporarily, because of the war)"]],
+      history: ["Al-Merrikh is one of the oldest football clubs in Africa. It began in 1908 as Al-Masalma Sporting Club, founded by students from the Al-Masalma district of Omdurman, and took the name Al-Merrikh, Arabic for Mars, in 1927. Its rivalry with Al-Hilal is the biggest fixture in Sudanese football.", "Since the war began in April 2023, league football in Sudan has been disrupted, and Al-Merrikh is playing this season as a guest team in the Rwanda Premier League."],
       comps: ["Rwanda Premier League"] },
     ar: { name: "المريخ", h1: "المريخ: آخر الأخبار والنتائج", eyebrow: "صفحة النادي",
       lede: "أخبار المريخ من الصحافة الرياضية السودانية والرواندية والأفريقية، تُحدَّث على مدار اليوم.",
       desc: "آخر أخبار ونتائج نادي المريخ في الدوري الرواندي الممتاز، من المصادر السودانية والرواندية والأفريقية.",
       intro: "نادي المريخ الرياضي بأم درمان، يُعرف باللونين الأحمر والأصفر، وهو من أعرق أندية كرة القدم في السودان وأكثرها شعبية. ومع توقف النشاط الكروي في السودان بسبب الحرب، يشارك المريخ والهلال هذا الموسم في الدوري الرواندي الممتاز.",
+      facts: [["التأسيس", "1908 باسم نادي المسالمة الرياضي، وتغيّر اسمه إلى المريخ في 14 نوفمبر 1927"], ["الملعب", "استاد المريخ «القلعة الحمراء» في أم درمان (افتُتح 1964، ويتسع لنحو 43 ألف متفرج)، ويلعب عليه المنتخب الوطني أيضاً"], ["اللقب", "الزعيم"], ["أفريقياً", "بطل كأس الكؤوس الأفريقية 1989، وهو اللقب القاري الوحيد لنادٍ سوداني، ووصيف كأس الكونفدرالية 2007"], ["إقليمياً", "بطل كأس سيكافا للأندية أعوام 1986 و1994 و2014"], ["هذا الموسم", "الدوري الرواندي الممتاز (بصورة مؤقتة بسبب الحرب)"]],
+      history: ["المريخ من أقدم أندية كرة القدم في أفريقيا، بدأ عام 1908 باسم نادي المسالمة الرياضي على يد طلاب من حي المسالمة بأم درمان، ثم حمل اسم المريخ عام 1927. ومواجهته مع الهلال هي أكبر مباراة في الكرة السودانية.", "منذ اندلاع الحرب في أبريل 2023 تعطّل النشاط الكروي في السودان، ويشارك المريخ هذا الموسم ضيفاً في الدوري الرواندي الممتاز."],
       comps: ["الدوري الرواندي الممتاز"] } }
 };
 export const clubPath = (l, k) => `/${l}/sports/${k}/`;
@@ -336,6 +353,9 @@ export function clubPage(ctx, key) {
   const other = key === "hilal" ? "merrikh" : "hilal";
   const body = `<section><div class="prose"><p>${esc(c.intro)}</p></div>
     <div class="meta comps">${c.comps.map(x => `<span class="pill">${esc(x)}</span>`).join("")}</div>
+    <div class="sec-h"><h2>${esc(L === "ar" ? "عن النادي" : "About the club")}</h2></div>
+    <dl class="kv">${c.facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+    <div class="prose">${c.history.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <div class="sec-h"><h2>${esc(L === "ar" ? "آخر الأخبار" : "Latest news")}</h2><span>${ctx.sports[L].filter(x => x.teams.includes(key)).length}</span></div>
     <div class="list">${rows || `<div class="empty">${esc(t.none)}</div>`}</div>
     <p><a href="${clubPath(L, other)}">${esc(CLUBS[other][L].name)} ${FWD(L)}</a> · <a href="${pagePath(L, "sports")}">${esc(t.nav.sports)}</a></p></section>`;
@@ -375,8 +395,7 @@ export function rootPage(cfg) {
   return `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>لمحة · Lamha · أخبار السودان في لمحة · Sudan news at a glance</title>
 <meta name="description" content="لمحة: أخبار السودان في مكان واحد، موقع مستقل بالعربية والإنجليزية. Lamha is an independent Sudan news aggregator in Arabic and English.">
-<link rel="canonical" href="${cfg.siteUrl}/">
-<link rel="alternate" hreflang="ar" href="${cfg.siteUrl}/ar/"><link rel="alternate" hreflang="en" href="${cfg.siteUrl}/en/"><link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}/">
+<meta name="robots" content="noindex, follow">
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/apple-touch-icon.png"><link rel="stylesheet" href="/static/style.css">
 <script>try{var l=localStorage.getItem("lamha-lang")||((navigator.language||"").slice(0,2)==="ar"?"ar":"en");location.replace("/"+(l==="ar"?"ar":"en")+"/");}catch(e){}</script>
 </head><body><main class="chooser"><h1>لمحة · Lamha</h1><p>اختر اللغة · Choose your language</p><p><a class="btn primary" href="/ar/" hreflang="ar">العربية</a> <a class="btn" href="/en/" hreflang="en">English</a></p></main></body></html>`;
@@ -384,11 +403,11 @@ export function rootPage(cfg) {
 export function sitemap(cfg, lastUpdate, extra = []) {
   const lm = new Date(lastUpdate).toISOString();
   const urls = PAGES.flatMap(p => ["ar", "en"].map(l => `<url><loc>${cfg.siteUrl}${pagePath(l, p)}</loc><lastmod>${lm}</lastmod><changefreq>${p === "news" || p === "sports" || p === "official" ? "hourly" : "monthly"}</changefreq><priority>${p === "news" ? "1.0" : "0.7"}</priority>
-  <xhtml:link rel="alternate" hreflang="ar" href="${cfg.siteUrl}${pagePath("ar", p)}"/><xhtml:link rel="alternate" hreflang="en" href="${cfg.siteUrl}${pagePath("en", p)}"/><xhtml:link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}/"/></url>`));
+  <xhtml:link rel="alternate" hreflang="ar" href="${cfg.siteUrl}${pagePath("ar", p)}"/><xhtml:link rel="alternate" hreflang="en" href="${cfg.siteUrl}${pagePath("en", p)}"/><xhtml:link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}${pagePath("en", p)}"/></url>`));
   // extra: [{ ar, en, freq }] paths for hotel, guide and club pages.
   for (const e of extra) for (const l of ["ar", "en"]) urls.push(`<url><loc>${cfg.siteUrl}${e[l]}</loc><lastmod>${lm}</lastmod><changefreq>${e.freq || "monthly"}</changefreq><priority>0.6</priority>
-  <xhtml:link rel="alternate" hreflang="ar" href="${cfg.siteUrl}${e.ar}"/><xhtml:link rel="alternate" hreflang="en" href="${cfg.siteUrl}${e.en}"/></url>`);
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n<url><loc>${cfg.siteUrl}/</loc><lastmod>${lm}</lastmod></url>\n${urls.join("\n")}\n</urlset>\n`;
+  <xhtml:link rel="alternate" hreflang="ar" href="${cfg.siteUrl}${e.ar}"/><xhtml:link rel="alternate" hreflang="en" href="${cfg.siteUrl}${e.en}"/><xhtml:link rel="alternate" hreflang="x-default" href="${cfg.siteUrl}${e.en}"/></url>`);
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`;
 }
 export const robots = cfg => `User-agent: *\nAllow: /\n\nSitemap: ${cfg.siteUrl}/sitemap.xml\n`;
 export function rss(ctx) {
