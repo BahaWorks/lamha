@@ -1,310 +1,5 @@
 [
  {
-  "id": "e9601f68c0b4",
-  "src": "st-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "Sudan’s Burhan meets Turkish, Pakistani, and Libyan leaders in Antalya",
-  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Ga1ItZURJOEVvVUh5aE9lMjB4anFkRi1fajZ5bkZWZVU1QUtoSXJlaTNnUmdsZnR3NExRcDdkci13RUhlWGhXTFFQR0ZScTRz?oc=5",
-  "ts": 1794518556000,
-  "summary": "Sudan’s Burhan meets Turkish, Pakistani, and Libyan leaders in Antalya &nbsp;&nbsp; Sudan Tribune"
- },
- {
-  "id": "f2b937724909",
-  "src": "swm",
-  "cat": "en",
-  "lang": "ar",
-  "title": "المنسقية العامة للنازحين واللاجئين منطقة طويلة تستضيف 1,117 نازحا في الأيام القليلة الماضية",
-  "url": "https://sudanwarmonitor.com/p/1117",
-  "ts": 1794519767000,
-  "summary": "ادم رجال : أسباب النزوح بسبب تفاقم الجوع والارتفاع الحاد في اسعار السلع الاساسية"
- },
- {
-  "id": "ed007a7078a4",
-  "src": "swm",
-  "cat": "en",
-  "lang": "ar",
-  "title": "حريق قرية ساق النعام في محلية كلمندو يتسبب في نزوح سبع اسر",
-  "url": "https://sudanwarmonitor.com/p/1b2",
-  "ts": 1794510995000,
-  "summary": "سودان وور مونيتور : ولاية شمال دارفور"
- },
- {
-  "id": "31024217e580",
-  "src": "st-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "الجمارك السودانية تعلن وقف إعفاء أثاثات العائدين من الخارج",
-  "url": "https://sudantribune.net/article/321157",
-  "ts": 1794515712000,
-  "summary": "الخرطوم12 نوفمبر 2026 – أعلنت الجمارك السودانية، الخميس، انتهاء فترة الإعفاء الجمركي الممنوح للأثاثات المنزلية والأجهزة الكهربائية الخاصة بالسودانيين العائدين من الخارج، اعتباراً من 2 نوفمبر الحالي، وذلك عقب اكتمال المدة المحددة للإعفاء بموجب قرار مجلس الوزراء رقم (174) لسنة 2025م. وكان رئيس الوزراء السوداني كامل إدريس قد أصدر في نوفمبر من العام الماضي القرار رقم (174) لسنة 2025، القاضي بإعفاء الأ"
- },
- {
-  "id": "50d638751ee9",
-  "src": "taghyeer",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "بعد مسيرة حافلة بالعطاء .. كرستيانو رونالدو يعتزل اللعب الدولي مع منتخب البرتغال",
-  "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQMThJZkVjeTNvV1YzRGlYWGM4U1I4bVhzOTVlSTJJQUR3NHlSWW1OUDZQRlJiSllhOHFGUE9DN1VKWExLNDE5eDBZZjdSMWxxNU94d1hFSlREOUp2YWR2TDN6U25nYVhDOVNteXU1Y0VRWnkwTmxVOUN6bDlUNmNfa0xqRV81d3RsT2RFcWhFazJCNkxCdGdieEphNFRSN1VjbmJNYkYxekVDcFh6ZFg3SDZ3ZndaNzJGdWpFZlF4WFZxQm1rRFRBLXVBQ3hVTy1uQnM5U3hxcjEwWktqbE5jb2NlR0s1ZnRHUFdIdTZPNTRnU1pueU5qNUJGalVNcGRLX092a3JaQjk0M2M3eklneHFqNzJib3pab1pFZmpWVndUbnR5bWFSWF9hVEs4c3JmT3o3Z1ZhQmFnOGJKMUFvSExLbXY0RWFWLVpSa2lJZjFZeHBPTUxvUUlWNmE?oc=5",
-  "ts": 1794514547000,
-  "summary": "بعد مسيرة حافلة بالعطاء .. كرستيانو رونالدو يعتزل اللعب الدولي مع منتخب البرتغال &nbsp;&nbsp; صحيفة التغيير السودانية"
- },
- {
-  "id": "89a6c241d990",
-  "src": "taghyeer",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "مصر تلوّح باستخدام اتفاقية الدفاع المشترك مع السودان",
-  "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOSUVnOWZPa000VzhlYTdDM1prRlc1NnJMQjFrS0pCZ0xVN2NNYlhMd19QeTlEc1lLMzAwSzB5ME1jXzg3Z0VoMndyWUQ1c1R3QnhMdEN1YjVUQ3VuVFdXQk41TlNoLW5oSXNCUGV0Zmhod2lDN19JN2xfZG5CV1ZDMlE4MERjSVZYNjZyaS1lZ0NmcThyaXFqMDRpblhNZ0t6OUhQOTAwTVpUb2dGTkVnTjNXdzlsOUR0eHhvZHBjTjNJMndrOVRuNUE2eENEOHVNMU1wdkdDdjBwVW5BNGRIemVaMFZ3RnZfdWswQ0pFOWVzeFVfY1hac0ZXN0ZmRXZiTE5WSV9IRHlrV0NjeHp1VUNRYjVhQUE5djhFeXpZWkRBcTdKSkhiVl9IU2FUX2dRQmhpMzFteEVZeWtOeC1hS0NlQlk2WjhSNjJBZnpJUkt0YXZibmdhaGJuMzc?oc=5",
-  "ts": 1794510925000,
-  "summary": "مصر تلوّح باستخدام اتفاقية الدفاع المشترك مع السودان &nbsp;&nbsp; صحيفة التغيير السودانية"
- },
- {
-  "id": "d56a03a9e0cc",
-  "src": "rakoba",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "السودان: حربٌ تلتهم الوطن واقتصادٌ يقتات على أنقاضه",
-  "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSVZndUVDRGFlZjExNlRtYUYwYjJYYXR2T0YzZndjTVlNNU1ZTkV2TVlQVjFPYUhSRlRDbE92bFVoQnhXWHNKV3YtMEJ4ZTlrczJkbnVST1BMYjZpMkxwWGhpRXZhcGk0dFBpUE55aEJQbUVwTkQ2ejRxYXBPenQtTEJLWmFwN1o5UmtkV3VzbERxTENISF9RSERhT1FMS0p2U0w3MTZZM1JENmIyamxwc0JBaDdEYktBOW0xZVBnMTVTdk9HNVIyb0YtMkxUVFlDYVBReXg3VENqV2h5VVJoOHdTRFM3WjVFd0R2OVJHUWpaaVNwUlE1Ykw4a0ZlUGIzNkEyS2NUN2pyNkdpQU5DS29QQmlseldNQkZXaFVoM1VjbEZMc2J0TXE1aWJ2dS1uMEdVUTJublpzWGpCU1FFNHo5UGhFM054UVM1LXMyYXBDZw?oc=5",
-  "ts": 1794517779000,
-  "summary": "السودان: حربٌ تلتهم الوطن واقتصادٌ يقتات على أنقاضه &nbsp;&nbsp; صحيفة الراكوبة"
- },
- {
-  "id": "f71962404348",
-  "src": "aja",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "كيف تضعف السياسة الأمريكية الجيش السوداني؟",
-  "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNVWsxUU91VmVoWXBTNHpMZzdLQ0VnbENkWG1ldjRlOWZfMUN0bVdZT1R4YThqWVpQWDltQ1RjSlhtSElQSzNNSEUzbWhBS3BMUjVVdVlveDBPTEROcFg5a1NkS2o5SXJpem5raXR5V0hERGJsX1czNXBUSDJlU0ktTDlTYWFBdkFyX1J5azlpSjNZRmI2Z2hNTFAtbUxONEk0NW9ILTVsR01IdGJ5RV95T2Uyc2N5V0FYX1c4NmI3elljbE1jdGIyT1N3OHlqYlRKX0ZocFczdFd5Y3lZRFpraEZOcTk0TzFKWXZoakxVa1dxUWpsMjFOaXNObWlmaEVxdG1aX1k2dnBySTd4SXFuN1RlWF9fZzA2RjFtVDFPeDQ0R3c1aWRuMlM5ekVXQlQ4aldLLWRYUVVIYlB6c2VXdGU4Wmc4c1FLTFE?oc=5",
-  "ts": 1794513560000,
-  "summary": "كيف تضعف السياسة الأمريكية الجيش السوداني؟ &nbsp;&nbsp; الجزيرة نت"
- },
- {
-  "id": "2211e59928a7",
-  "src": "safwa",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "السنغال تقسو على صقور الجديان برباعية في تصفيات أمم أفريقيا",
-  "url": "https://elsfwah.com/52977/",
-  "ts": 1794518134000,
-  "summary": "الصفوة – الأخبار تلقى المنتخب الوطني السوداني خسارة ثقيلة أمام مضيفه المنتخب السنغالي بنتيجة 4-1، في المواجهة التي جمعت المنتخبين مساء اليوم، ضمن منافسات الجولة الثالثة من التصفيات المؤهلة إلى نهائيات كأس الأمم الأفريقية 2027. وفرض المنتخب السنغالي أفضليته على مجريات المباراة، مستفيداً من عاملي الأرض والجمهور، ونجح في استثمار تفوقه الهجومي للوصول إلى شباك … The post السنغال تقسو على صقور الجديان ب"
- },
- {
-  "id": "b1ef20ad3ccf",
-  "src": "sport-gnews",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "نتيجة مباراة السودان والسنغال اليوم.. أسود التيرانجا يكتسحون صقور الجديان برباعية في تصفيات أمم أفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VWWRfeTdOdXZCWUhsZmpiZkV1ZlhNOVZwZ2QtNmJKWVVreDlPbHBWdEdkWkk1aWJXLS1WTWJjNURVVFAtNWdCNFNLaC1Qem8?oc=5",
-  "ts": 1794517190000,
-  "summary": "نتيجة مباراة السودان والسنغال اليوم.. أسود التيرانجا يكتسحون صقور الجديان برباعية في تصفيات أمم أفريقيا &nbsp;&nbsp; المشهد اليمني"
- },
- {
-  "id": "0c31a93294a8",
-  "src": "st-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "Sudan joins Turkey's Mavi Balina-2026 naval exercises as observer",
-  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2Z1ZXSUliREM1Nk5UaDFPcmd1dUtueEdVNF9fMEpRU2c1MnJOXzFxbmxkbjB5XzRuN1ZxTV9GVnYtVTdWWWo0eFVXOTlucVFr?oc=5",
-  "ts": 1794528638000,
-  "summary": "Sudan joins Turkey's Mavi Balina-2026 naval exercises as observer &nbsp;&nbsp; Sudan Tribune"
- },
- {
-  "id": "3eed4709ecec",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "محكمة في بورتسودان تتداول في قضية تم شطبها وبلاغ تزوير لأفراد في الخلية الأمنية",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ad%d9%83%d9%85%d8%a9-%d9%81%d9%8a-%d8%a8%d9%88%d8%b1%d8%aa%d8%b3%d9%88%d8%af%d8%a7%d9%86-%d8%aa%d8%aa%d8%af%d8%a7%d9%88%d9%84-%d9%81%d9%8a-%d9%82%d8%b6%d9%8a%d8%a9-%d8%aa%d9%85-%d8%b4%d8%b7",
-  "ts": 1794527724000,
-  "summary": "امستردام: 12 نوفمبر 2026م: راديو دبنقا شهدت مداولات جلسة محاكمة رجل الأعمال ممدوح وجدي وديع... The post محكمة في بورتسودان تتداول في قضية تم شطبها وبلاغ تزوير لأفراد في الخلية الأمنية appeared first on Dabanga Radio TV Online ."
- },
- {
-  "id": "95e2cc8fe5f7",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "محلية الطينة: الاف النازحين الجديد ووضع انساني لا يطاق ونداءات للاغاثة",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ad%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b7%d9%8a%d9%86%d8%a9-%d8%a7%d9%84%d8%a7%d9%81-%d8%a7%d9%84%d9%86%d8%a7%d8%b2%d8%ad%d9%8a%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d9%88%d9%88%d8%b6",
-  "ts": 1794525537000,
-  "summary": "الطينة :12 نوفمبر 2026: راديو دبنقا رصد مجلس غرف الطوارئ محلية الطينة وصول 721 أسرة... The post محلية الطينة: الاف النازحين الجديد ووضع انساني لا يطاق ونداءات للاغاثة appeared first on Dabanga Radio TV Online ."
- },
- {
-  "id": "5d7bdf7c3954",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "عاصفة كرياندنغو تشرد أسرًا سودانية بأوغندا ومبادرات اللاجئين تستعيد مواد الإيواء",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%b9%d8%a7%d8%b5%d9%81%d8%a9-%d9%83%d8%b1%d9%8a%d8%a7%d9%86%d8%af%d9%86%d8%ba%d9%88-%d8%aa%d8%b4%d8%b1%d8%af-%d8%a3%d8%b3%d8%b1%d9%8b%d8%a7-%d8%b3%d9%88%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d8%a8%d8%a3",
-  "ts": 1794523459000,
-  "summary": "كمبالا: 12 نوفمبر 2026: راديو دبنقا تقرير: عبد المنعم مادبو في الوقت الذي يحاول فيه... The post عاصفة كرياندنغو تشرد أسرًا سودانية بأوغندا ومبادرات اللاجئين تستعيد مواد الإيواء appeared first on Dabanga Radio TV Online .",
-  "_tk": {}
- },
- {
-  "id": "d1a886a04df0",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "الجزيرة: جوال الذرة يتجاوز حاجز المليون جنيه",
-  "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQWDRxTGdaRnlXSWZxZ3hKNTZobTlvNHBWSkdTNXhDTmNudm4wR0xNMGpRZW0yOTFCS2F3ZGVYZmFLNkRlSFdFYktCTVZvcTkxckVBejJCcW5hdVFZUDR3Q3ZIV2pHWGx3TFlrY3pCX2FqTmR3X28wUEdkWU96am1odGZ6VGh6akdmNWtGdktWU1Y1aDRiVjlueVptN19JMV9Ec2E2SkNiSlhmNkZJbjRLYlBvZXM4eC1ObXlBSXBxeEdkX01NOVhxZUlRbVVkMkZmUFFRZjlIOTN0SmZTangwMWF3c1RHN3puRXhuSHpxci1JSGFOeElsT1FGM1BYN1F3QWZkNTFVZTVqUzZmSlRkSDBxaGdNb1Z2RUVoSUxXNEQ0ME5GUjNJRjJiU2xXTHQtR2NYRXI0NEJaYU13ZjFCZjNhLS1lYkdKTmFTUzhrYVpSZ1NfWjA4TVlWTUwwcW5rVmlvZg?oc=5",
-  "ts": 1794522730000,
-  "summary": "الجزيرة: جوال الذرة يتجاوز حاجز المليون جنيه &nbsp;&nbsp; Radio Dabanga"
- },
- {
-  "id": "405c6dbdf80d",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "الجزيرة: جوال الذرة يتجاوز حاجز المليون جنيه",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%ac%d8%b2%d9%8a%d8%b1%d8%a9-%d8%ac%d9%88%d8%a7%d9%84-%d8%a7%d9%84%d8%b0%d8%b1%d8%a9-%d9%8a%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d8%ad%d8%a7%d8%ac%d8%b2-%d8%a7%d9%84%d9%85%d9%84%d9%8a%d9%88",
-  "ts": 1794522640000,
-  "summary": "الجزيرة: 12 نوفمبر 2026: راديو دبنقا قفزت أسعار الذرة في ولاية الجزيرة إلى مستويات غير... The post الجزيرة: جوال الذرة يتجاوز حاجز المليون جنيه appeared first on Dabanga Radio TV Online .",
-  "_tk": {}
- },
- {
-  "id": "9be5945757ec",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "مدير برنامج الغذاء العالمي يدعو لوقف حرب السودان ودعم الإغاثة",
-  "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOSjBLN3NvTk84UVlkbXltOWZQLWlhbVBlS0VYM1ZvX2otNW5aa0FITkhPSU1MaFJibG5kTkZjcE4xZU5Mc1g3QXQyeEpoanlGZFNJVEwyZVNYMXdDNlhrT0hGaEtma094LWtobDZMLXZlZER3bVZNSkpmYzVpbUpvWmdJVHduNG1ib3B6cWowX3B1d3NyeVZmQ2EtZ1oydlpjUURYZnhZT08zb3F2M0g5UGNCREZGX2x3amQzb0tmUjdxOC1jTmZheWttVXZPX2ROSEhfeEFST29ncDJqcXFyRllpUWpsWnVidzRkdGEwMW0wUGVaQ0FiU21NQW0wZk9MVUNlZGVuTTdZZDVXX2NCR2RxZVlicGV3eTJBZVpBcXNNdUlfd0VHRS1ucTlwdEtGalBkMEw4N3BodW9LOUczMUFkbGNjcE9tXzhsTlVrNXBFZDVXVGtJN3BKV0xjX0Y3VTExYWRn?oc=5",
-  "ts": 1794522048000,
-  "summary": "مدير برنامج الغذاء العالمي يدعو لوقف حرب السودان ودعم الإغاثة &nbsp;&nbsp; Radio Dabanga"
- },
- {
-  "id": "594f70a7e1e6",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "مدير برنامج الغذاء العالمي يدعو لوقف حرب السودان ودعم الإغاثة",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%af%d9%8a%d8%b1-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ba%d8%b0%d8%a7%d8%a1-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%8a%d8%af%d8%b9%d9%88-%d9%84%d9%88%d9%82%d9%81-%d8%ad",
-  "ts": 1794521963000,
-  "summary": "أمستردام :12 نوفمبر 2026 : راديو دبنقا دعا المدير التنفيذي لبرنامج الأغذية العالمي لوك ليندبرغ... The post مدير برنامج الغذاء العالمي يدعو لوقف حرب السودان ودعم الإغاثة appeared first on Dabanga Radio TV Online .",
-  "_tk": {}
- },
- {
-  "id": "c811f71da41b",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "مجموعة الدول الصناعية السبع تطالب بهدنة في السودان وتوصيل الاغاثة بلا قيود",
-  "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPUU45eWY3RkdVNldMTUpKa3A1THZfYXk0S2xHaUNEUlVobHJlWmlHT1FIaHRBY3dQVG5yclBjcUxzZHBqUWtjOGtFa05kOW12M0NXbGpadUxXVXpuY0xrRnBvSlB0U2s4NHJnaUIzM2hucGQ2aEhZbFpRc0dlMXhyMWdlUjRGRTZGeml3bVdqdElaenpLZG9zNkZ5SEREOFljSjVIUjRpZl9ENVA4ZVVTOF8tNGhENkRhUWZmdTE0R0JkNFJwcFd1U0dvQlI4VHowUTBkMzhsdmg2MlVBaFFtSDlBeVFQWDllSEl2Z3NVUjFGMGp5cWRpQlN5RnRQSEhzbHFZb19mbDAybkpzWlhna3VyaWlNc0lrczQ2dmZQQXVqOWNNclhMREtobFZKTDJfekRYRzVfY0Q0ZHZIYm9SRHBpMzVNaVlKLWdfcjRQUjg2blhJd1o3ZVdSMDdtMVpBV2c1aw?oc=5",
-  "ts": 1794521700000,
-  "summary": "مجموعة الدول الصناعية السبع تطالب بهدنة في السودان وتوصيل الاغاثة بلا قيود &nbsp;&nbsp; Radio Dabanga"
- },
- {
-  "id": "b7350e973bb1",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "مجموعة الدول الصناعية السبع تطالب بهدنة في السودان وتوصيل الاغاثة بلا قيود",
-  "url": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%af%d9%88%d9%84-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d9%8a%d8%a9-%d8%a7%d9%84%d8%b3%d8%a8%d8%b9-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%87%d8%af",
-  "ts": 1794521693000,
-  "summary": "أمستردام:12 نوفمبر 2026 : راديو دبنقا دعت مجموعة الدول الصناعية السبع (G7) الجيش السوداني وقوات... The post مجموعة الدول الصناعية السبع تطالب بهدنة في السودان وتوصيل الاغاثة بلا قيود appeared first on Dabanga Radio TV Online .",
-  "_tk": {}
- },
- {
-  "id": "ee2d2e7594e2",
-  "src": "aawsat",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "تصفيات «أمم أفريقيا»: السودان يخسر برباعية أمام السنغال",
-  "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxQdmxaeFFoWG1qWHVVNzNGRGpLM1BRb3JCemVTQmY0RVJVdVk3cmhjdnMxNlVjSS1mZmlha1hMd09ZSzJBa1ZVcC1tOFZRRmt5Si1vZ2VrRU9PbExqNERmdWRRRFI0aUVVZkJmNDdkWUpNVnRQZkFZaHJ5Z1Uwc3pZdC1haXJKNFUzVTZMZjRhLVIxbU1jdFVBZzl2T3I2cklUMUJlbjJLSW02UkNoYmt4RFptbU5tQUx6YXlnTFdDVW5PUXdDSDVfUjlmSFV5QTZKZ1EtYjVlbmxlbUptemFUbGFZNDFfa3dEZkcwS3lPd19oWWY2ZkFNQkdFR0lucHl6c2pIcXB2d3dScTg2TEk4MlIwcUVoOGg2aTkxNVlvc1dsWjdOSTZvb3ozYXJER21lSjJOUl9CVlNVX1NXdm9XOVg1RTN5MVh0WGRuWFI5ekk1eG53Nkt4WkdZUFl3QVFXc09DRVhhR2pfQnR3Zm5jNjZ5eVRGM0k5UUFVNFROTTk2ZU91MlNsODFMYXNGa2FYbmF3dkNkaEZkc0F0WGRYTEU5UmFjTFlZNkRQZDV1dWFLaldfbk51UFZ0eVJ5eVNUcWwzOHdPMVdVSldBZ0xnY0dmZzg4U05OVTZpLXEtZjlVOEJsV0RwQ1dabGxhQUpZNFlmUURyVS1BWnNoanZYZjBGUU9sX0EtS2V2TkUtMGlLc2s1REZLN3MyTVk1MVQyb19VRjU3cXZIT09XQ0EtQUhLSkRkNDlfZl9jNTQtY0FMWnluNVE?oc=5",
-  "ts": 1794524766000,
-  "summary": "تصفيات «أمم أفريقيا»: السودان يخسر برباعية أمام السنغال &nbsp;&nbsp; الشرق الأوسط"
- },
- {
-  "id": "5aaad128580d",
-  "src": "qahera",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "السنغال تسقط السودان برباعية في تصفيات أمم إفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxPZGxOS0kzT3pJR0RQdkIwcmVHT1JyR3hJOGM1NVI0WXlGOVpFV3lIYU1tSzh0c0cwNjRENGtsSGRWNFBPemRyZDB3VHZtU1NWRlQ4a0VEQVc0UU0tdDJHRk9JaG1BcGVnMWRRc0Zzd3JmdjN2eGRpbV9YZWF2dTM5ZW1ESFlYR3NJbEVFcGxPQkdFSU1LbW1QczZnbml5T3I2RGZWbG9VeHRGVDdLY0RjVVFIbHRGZHNCek40NS1yMGpkWl9Za2dMWDJYRkhjMnQyY0FxVnZ4QWpuaE5aUTdLVEYxYkVfU1VteGwzXzM3S3VxYS1mRkszOFRmSGpQMC1QaDJEb2x6T25xNmhQWDFEU0pPaVBpMFU3SEV2LUgxRmtSSFlNTHhPMUhPOE5VRUc1NUNVcVo0R1lFLVVtZDNQTEpOWUFVbUdyLXJYZTZhUGZ2YzhUYjJhTWtZaW91bkJqdGxJWDR4a0U0ZkdqV05CYXozTHVJQXdibnF5NnhTRzk4M3lpWGFWTE94SGFoQkFPSHBWZGk3akludmZvZjF1UXhHZWtka3VjWTJSXzRuTQ?oc=5",
-  "ts": 1794524731000,
-  "summary": "السنغال تسقط السودان برباعية في تصفيات أمم إفريقيا &nbsp;&nbsp; القاهرة الاخبارية"
- },
- {
-  "id": "b0bd26af1220",
-  "src": "sport-gnews",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "منتخب السودان يتلقى خسارة كبيرة أمام السنغال 1-4 في تصفيات أمم إفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMirwRBVV95cUxNLTJPaS05alZfSkVienBUQ0dDaWpMSkhHdXhJZWdUNm92QXVIc3E0cWNnbkd6Q1g1MjZhMWxDX0xxLWN2Z3BqbTN3YmZaMHRNNm5RMjFwVlFiMGdjd2wzSnZQSTNzTzJWV1VBZEFrYk5HVDhHaV9vdlJsYV8wbnFQR3ZGRTlLT0pkYno3NldnNU42OS05TGppaXk3RGRsN3Z5c00tWmpBWE9VUnRPMzJFcGduQ3RVZjk4TzdkSk5lUTZjQk04eWUyTlFVVFdVX2xZeDhHaXF1TlMzZERZcjJNdElHVk1JYVhVY2c3U2tFQmVCT0tIeXd0cmJSZmp6TXFCUE9relotQWtGMFN3TFJ5alZQbmxDak9xQ0FnUWhpVzlfZi14VHoxY0M5aVh0dmxtNUlNOVZPbjF4WF9GMkhsS3hYN0FRaThYdkhXVnZza1djQkJwdzQwX05DVFA0RkxCbFB3V2lVLXozWGcwRUk2cE52MFdIQUN2dS1pMTVPTDh4WjRoQXhaRXQwaWpub0JiTXVUWWdWMWdBeGFKX0FrdElwa3lSYTZjSGptOFIwN3hQaFItRjZaWllEQ1RORnNib2JvZG45c2o2aXJjbGhySlp4cjNVUzYxeUpBakRBeUJfSk5HbmlIUEl1MnJWSHI5RjRnTEduUkRjWGhpS0dTdG1uczhaYnlZZWdXX1Z5TWc5LXkxLVRzdFlRdXQtX0dFYWRSa0U2XzhzaURtVEFj?oc=5",
-  "ts": 1794523440000,
-  "summary": "منتخب السودان يتلقى خسارة كبيرة أمام السنغال 1-4 في تصفيات أمم إفريقيا &nbsp;&nbsp; الهيئة الوطنية للإعلام"
- },
- {
-  "id": "142fb49485ed",
-  "src": "sport-gnews",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "صقور الجديان في مهب الريح.. السودان ينهار أمام أسود التيرانغا",
-  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tODZKVGNlSGQ2RnhON05PbE1fejZoYV9LVkN5Vl9xS2liWENDQkdBa2c4VGtfUllfSmZWR04yNEkzR2h2dmh4YnJDYWV6V0FxUXRWOU01ZlkyWEVUV1RPck5rQTBPUXAy?oc=5",
-  "ts": 1794522219000,
-  "summary": "صقور الجديان في مهب الريح.. السودان ينهار أمام أسود التيرانغا &nbsp;&nbsp; السودان اليوم"
- },
- {
-  "id": "b9e92ff8bec7",
-  "src": "tamazuj-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "RSF makes arrests amid Rizeigat-Habbaniya tribal clashes in East Darfur",
-  "url": "https://www.radiotamazuj.org/en/news/article/rsf-makes-arrests-amid-rizeigat-habbaniya-tribal-clashes-in-east-darfur",
-  "ts": 1794551828000,
-  "summary": "The Rapid Support Forces (RSF) have arrested several members of the Rizeigat tribe suspected of The post RSF makes arrests amid Rizeigat-Habbaniya tribal clashes in East Darfur appeared first on Radio Tamazuj ."
- },
- {
-  "id": "8ae635cfbaab",
-  "src": "tamazuj-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "SAF gunfire creates panic in Damazin",
-  "url": "https://www.radiotamazuj.org/en/news/article/saf-gunfire-creates-panic-in-damazin",
-  "ts": 1794551789000,
-  "summary": "Fear and anxiety have gripped residents of Damazin, the capital of Sudan’s Blue Nile State, The post SAF gunfire creates panic in Damazin appeared first on Radio Tamazuj ."
- },
- {
-  "id": "d5d159910a44",
-  "src": "tamazuj-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "IDPs living in dire situation in North Darfur’s Al-Lait Jar Al-Nabi",
-  "url": "https://www.radiotamazuj.org/en/news/article/idps-living-in-dire-situation-in-north-darfurs-al-lait-jar-al-nabi",
-  "ts": 1794551428000,
-  "summary": "The General Coordination of Displaced Persons and Refugees Camps has warned about the worsening humanitarian The post IDPs living in dire situation in North Darfur’s Al-Lait Jar Al-Nabi appeared first on Radio Tamazuj .",
-  "_tk": {}
- },
- {
-  "id": "684a01e66a96",
-  "src": "africanews",
-  "cat": "en",
-  "lang": "en",
-  "title": "UN food agency chief calls for end to Sudan war as famine crisis deepens",
-  "url": "http://www.africanews.com/2026/11/13/un-food-agency-chief-calls-for-end-to-sudan-war-as-famine-crisis-deepens/",
-  "ts": 1794549942000,
-  "summary": "The UN says around 34 million people — nearly two-thirds of Sudan’s population — need humanitarian assistance. It has also warned that drone attacks by both sides have killed civilians, including children, and disrupted essential services."
- },
- {
-  "id": "d5ef550afb08",
-  "src": "addis",
-  "cat": "en",
-  "lang": "en",
-  "title": "Sudan joins Türkiye’s Mavi_Balina-2026 naval exercises as observer amid expanding defense ties",
-  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pZzk3VUc3T0FDMVdZSlNCZTk3a09EUGxnUGlrSE5Ud2pndjhuQ3ZVTEt6US00SFBwbTFSZTBRUkc1UDhGMmxicDJZbGc3VFB4Mnc?oc=5",
-  "ts": 1794553611000,
-  "summary": "Daily_Brief: #Sudan joins #Türkiye’s #Mavi_Balina-2026 naval exercises as observer amid expanding defense ties &nbsp;&nbsp; Addis Standard"
- },
- {
-  "id": "c15eba5383a7",
-  "src": "tamazuj-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "White Nile records 96% pass rate in intermediate school exams",
-  "url": "https://www.radiotamazuj.org/en/news/article/white-nile-records-96-pass-rate-in-intermediate-school-exams",
-  "ts": 1794556322000,
-  "summary": "The Ministry of Education in Sudan’s White Nile State has announced a 96 percent pass The post White Nile records 96% pass rate in intermediate school exams appeared first on Radio Tamazuj ."
- },
- {
   "id": "14b3e1811c93",
   "src": "swm",
   "cat": "en",
@@ -313,16 +8,6 @@
   "url": "https://sudanwarmonitor.com/p/e31",
   "ts": 1794561296000,
   "summary": "الحريق دمر المساكن جميع في القرية"
- },
- {
-  "id": "81b9adaf70cb",
-  "src": "addis",
-  "cat": "en",
-  "lang": "en",
-  "title": "Pakistan reaffirms support for Sudan’s sovereignty during Burhan-Sharif meeting in Antalya",
-  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94UE02cldBZ2lOM2ZXR3NvcFI2TFk0UXNZU0RvTDZoRkNpOFI0MEhxRk1CRUN0S3QtZ2VnYkVFcjhYR2J6aGRsMEFjUGU1ZXBWX1E?oc=5",
-  "ts": 1794552359000,
-  "summary": "Daily_Brief: #Pakistan reaffirms support for #Sudan’s sovereignty during Burhan-Sharif meeting in #Antalya &nbsp;&nbsp; Addis Standard"
  },
  {
   "id": "634d18931730",
@@ -346,16 +31,6 @@
   "_tk": {}
  },
  {
-  "id": "b6d8718e5a9a",
-  "src": "dabanga-ar",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "عاصفة كرياندنغو تشرد أسرًا سودانية بأوغندا ومبادرات اللاجئين تستعيد مواد الإيواء",
-  "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQNDYzZ1JYSVRpejl6VjZFa2pMWUduRTc3dFFfY1I5cUk3dEVNc3ZIWG9DYmNqOGFFLS1peXpqOWV1eHpQcERxRG1CZzNEZEljSThKRjNwTnJuR3BkRTBQYWdibmVzeHlKMFZjQ0dsLVc1UkV3cWc5bnZfRkJzY20tVFluWEhiaTFNM2xBNjkwb0xTVjUzNkRYbjR4Q19LNEV0OHFSZVNaVHFxS2hnV2tYOXBKUmw3bG5WYTZyMzFXSjlXS3k5QWx5YlZoNkQwOHIxdzFELTlmTy1iY0lGTlJqeUxaWU13cFYzU0lmX1BnY0UwTDcwd1VjU0ZGZDRCbVFXdnRFdWo2QXlnUmxkX2ZVeXJEMFdkYThmNWU3YnNTbVlTV2JQTm5oeFBfYWFraktSc01oZTdsRG96MXBHVlhmMkIyelF5SDNhZ1lKY0ZycWtVUlpEN2xHazFaYXpuT2N2NmE1VA?oc=5",
-  "ts": 1794523604000,
-  "summary": "عاصفة كرياندنغو تشرد أسرًا سودانية بأوغندا ومبادرات اللاجئين تستعيد مواد الإيواء &nbsp;&nbsp; Radio Dabanga"
- },
- {
   "id": "f968944d5e9b",
   "src": "rakoba",
   "cat": "ar",
@@ -364,36 +39,6 @@
   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQajJodUhzaDNDeWM3WWhKRWZKaTNJb0lNa1c4dHRvajI1SEFkVktKQi1ac254bFZ6X003VlhCNW5mbTZEakVNMmc0NFRRN3QtRjRTeWh6S3FuSHJ4N2YtTHozYThIS0NudUpHTzRlQnF2MjZDQ3NTaTE4eGdCX0J6NnI4cGl6ZWhRamQybHU2VEk0V2JjTWdrMDJ3S3JVYWNhcmZ3aTBHMWJGNjYxY3VrOHFJSU1zcDJic2IxeG5iVktSLXZPc2pRblRGMEdQN0YydzktYi1GLWtyRkQzNHJTSmR1V1ZaRlNxWVdlc1RZV1pHejN5Y0V0bDJEalo0LVpHaDN6aHZfa2xMX19BVnlHTGJRMkwwaUd2ZUdsdmFQZTVWVEIyc0E3QTJwNmxuc2JJQXFjelpNUlJCZzRlVTJxLWpWelBpNVRUTzBFQ2tCVGUxdw?oc=5",
   "ts": 1794559928000,
   "summary": "السودان.. تقرير يوثق عنفاً عرقياً للجيش ضد سكان الكنابي &nbsp;&nbsp; صحيفة الراكوبة"
- },
- {
-  "id": "22cc42e9b1b0",
-  "src": "rakoba",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "قصة قصيرة لجارسيا ماركيز: أجمل غريق في العالم!",
-  "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPUG52M2I0VmlOMjB4VWI2aC13WGgxTVdKSnVQbnh6NEdrR2N3Z2dCNkNLOF9Ock1wV0NQWEJ1RjdhamF3UUUta2g4bnBLMEpybktnUmZoSERFejc3NWFQOENWZk9oVU44TmtZcmVWLVJqdlo4eEJsc1ZUZ2lySWtuMnVZaUI0c08xX2trenBub2hmbWxoc3ZEUjNpNE5pY2l6Q2ozRzZYYkdzeGFEQXhhcTFfS01KQTJHa2tWMVlUWGIzZ1JZSzE3aVVMSW51WG5kNjVTeDlLVlVPb1FneUx4S0Zpc09ySkgzTmw4RG11X2NlbmRoZ1J2Zlc0VGpzREdkbU1GZGxrUTRCQ1NlZlhpWFozZDhfY3ozT3BLSVZZOEFrWjZmWkdfU0RsaWlvOXduM1dKOHBROGhQN3NBX0ROYVRJcVhfN2M2SHBFenRlM09SaGFH?oc=5",
-  "ts": 1794544451000,
-  "summary": "قصة قصيرة لجارسيا ماركيز: أجمل غريق في العالم! &nbsp;&nbsp; صحيفة الراكوبة"
- },
- {
-  "id": "4c17d6261361",
-  "src": "aja",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "الرمال تحاصر قرى في الولاية الشمالية بالسودان وتهدد المنازل والأراضي الزراعية",
-  "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOVW5YR18wc0o2OEE0SGtseURocE82cHJaTjJjcjA1TlpmMDduZGJpSXZhbkpBNnJLSEtfM1h0cUNSU2JDaEJTNDliX0hzZGNDT0FOMlVOSFhYTjZVWS1TMG9MdFpWR2hrMU1OUEdIN3pZdTlFMDIydkQ0TzN3X2tCZlVJS1ZpeUxHeG5sLVVLT0ZJeHBqbC1xSHkwQ3gtWWNzUlR2SFpoVVBMc0FhTUh2VVY2MndfZ3F1UHdFUFFBWlRKOExLZU4yUW5kX0xGT3ZJaFQxbWJlY3dRNHB1TWtpQjdIdUNhNlkxeHd1TU8tMmVUdXBkS2tCcEp6QmR4cWVjN3pYS205cGxaYXIydVRXN3VheldHSlg3bXF4NGxySmdSY0pucWNOTkdocklGY2l6a1pLNnRmc2Fkb2ZUXzRqYjNVTmNwS2Y4cFRSNlJvTjVIc2c?oc=5",
-  "ts": 1794556294000,
-  "summary": "الرمال تحاصر قرى في الولاية الشمالية بالسودان وتهدد المنازل والأراضي الزراعية &nbsp;&nbsp; الجزيرة نت"
- },
- {
-  "id": "177d853c2154",
-  "src": "arabiya",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "حل سودانى للأزمة السودانية",
-  "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNHhxMnBPU2xlODlrWF9zWTlfLUd6c3FScUpsamhBb1laZzBCcFFlbFZPZGVSQWlMcnhtd1A3UmVlTzNlbTBXTnV5YVNraTFzQmdJSGp4RUt1WW1mVTdaSzhnVklNUWlOWmZjNmFsWnZ2dU5jblVsWFg3SF9sUnJ2bjRXQ21ocWFHdGxfSWJoemVLOVRaVTM0VFJVRW5Ma3pmUFpMdjZQTjhzOHdSX3lyRlVsRkVkNUFmY2Z4LUNjaXYyZWFYWnk5OW4tOWp1RVRuUHlSV0tiTU1XSV9UWncxd2RqWHhzSmZXNnZEUmpfUE13MWlLMkVoQk50X2RBTW9rZjktV0RsaWJ0aUhpYjRCUTlhUUc5SGlROHBJ0gGbAkFVX3lxTE80eHEycE9TbGU4OWtYX3NZOV8tR3pzcVJxSmxqaEFvWVpnMEJwUWVsVk9kZVJBaUxyeG13UDdSZWVPM2VtMFdOdXlhU2tpMXNCZ0lIanhFS3VZbWZVN1pLOGdWSU1RaU5aZmM2YWxadnZ1TmNuVWxYWDdIX2xScnZuNFdDbWhxYUd0bF9JYmh6ZUs5VFpVMzRUUlVFbkxremZQWkx2NlBOOHM4d1JfeXJGVWxGRWQ1QWZjZngtQ2NpdjJlYVhaeTk5bi05anVFVG5QeVJXS2JNTVdJX1RadzF3ZGpYeHNKZlc2dkRSal9QTXcxaUsyRWhCTnRfZEFNb2tmOS1XRGxpYnRpSGliNEJROWFRRzlIaVE4cEk?oc=5",
-  "ts": 1794555240000,
-  "summary": "حل سودانى للأزمة السودانية &nbsp;&nbsp; العربية"
  },
  {
   "id": "a6079b1343be",
@@ -496,16 +141,6 @@
   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOX1EyMHhvaGQ3dG14TjgxMEtFQ1BXUHRNbGVFR1gtalNheWxPb1NvVFM0dWJXV0hjUVZ4MlVxUHRRYk8tMUI4a0ZkMXJIaVNlbWs5VExzWmYyNHpNQkh5dWg1U05nVUdDV04wS2JjRXg1TmFSQ3ZMelBabFZyUFA3ZEpjRGR1REhGOXBobThJYXlNYXptR1Jqa3lTYWVOOE9NbVBpWThuWmhyU1l5QmlqLTA4aGNrRXhidEZtWnQ2WUF6OTRzVmFrbUY2c05lWklZRFZrcnFkQURHdTdtRWpiclBiM3loTWFPcDMxLU8tSDFXd09uVWdDN3FRTktaSjZCc25qNXQtaTNTODBPVHY3MFhGQ1E5OUlzVVoxRjhBZ2gtTTJCOXVCWmFTYURLZk9OSFE1R3VKWS1kNWVORk5XbWRyS0o?oc=5",
   "ts": 1794566189000,
   "summary": "ترتيب مجموعة السودان بعد مواجهة السنغال ضد السودان.. صقور الجديان يتراجعون وموقف التأهل يشتعل &nbsp;&nbsp; موقع الحرية الإخباري"
- },
- {
-  "id": "a35416d80649",
-  "src": "st-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "WFP chief urges end to Sudan fighting as funding cuts leave 900,000 without food aid",
-  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hbGxzNGh3NXJCQUFWUng2RGh6S09GLWNnQ0o4dGNyTWZCblkyOUEycmxfTnZGUUpiMHdKQ3dGSnlhc0RfQWtsSTNQck1ON2RQ?oc=5",
-  "ts": 1794525363000,
-  "summary": "WFP chief urges end to Sudan fighting as funding cuts leave 900,000 without food aid &nbsp;&nbsp; Sudan Tribune"
  },
  {
   "id": "f5d4454e2f86",
@@ -1319,17 +954,6 @@
   "summary": "بحث وزير الخارجية المصري بدر عبد العاطي، الجمعة، مع مستشار الرئيس الأمريكي للشؤون العربية والإفريقية مسعد بولس، جهود التوصل إلى تسويتين سياسيتين في السودان وليبيا، وتطورات الأوضاع في منطقة القرن الإفريقي. جاء ذلك خلال لقاء جمعهما في الإمارات، على هامش منتدى “صير بني ياس” الذي انطلقت أعماله الجمعة، ويستمر 3 أيام، بتنظيم من وزارة الخارجية … The post مباحثات أمريكية مصرية في الإمارات تبحث جهود التسوي"
  },
  {
-  "id": "9b81efcbb4f0",
-  "src": "sport-gnews",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "منتخب السودان يتجرع خسارة مريرة أمام السنغال في تصفيات كأس أفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMimARBVV95cUxPc1BiV2pDU0daSGxXMTZCRy1DNnU1a0J4cFlrMkF6Q3l0aHFzX2V3R3B3dFo3OGNqRnhxVEVtdVpicW9KUTBuUTJUWE80Uk1BYkFMU2drSEVwYlFoRU90V3dYZklMMVVYNUZoQ05QU1NhYkExaDk2MFZQa3RkU2JqSnpuNXFCM3QzbTZYQ2w4by1YRVVYMXlLdG9QV3o5NDdaVHdVWnNJWG9tN3dlbmY2LVdDa2VwTS1MYkdRb1RqREhwYVdJXzhtUUhNQlZGR0RQclJ0bWoxU1E4T19ubHZ1bEMtLUlObTFfd2xNZGVTNU5teEh6a3AtSjFuYTZQdnkwRjAwOHhCYkRlTlgybm1XY3BTeVFtNk83eUpJd1ZpVmR6dlk4bHBta2xHNUFsbUE4WS0xZW9vVUZ1aHhSb0dfR0ZmNENUR3A5QVFxUnZUZWlySUtUb19scWdpMjJQWVNtQjJLMDc1elY4b0MyTGF0WmlzQjVEMnBNNjNQRlpIOWxZWFctV00xZVFNa0lvZWduLU9sSnpveHN4enZ1YjJ0cU9ydTBZM1VIXzFqZ2otZzZUNXptY1I1UzJyR3NzdUUzUmlDdGtMcXR0cm9iUWhFdmFvOUVrV2MwM2duekVVYnlZU2w2M1pobnc3VnUtc25sOU9MVktrR3AwaW8zdjhJTjM0VlE0S2VkeVo5Mk5TRUpSQWg2MWdjQg?oc=5",
-  "ts": 1794522744000,
-  "summary": "منتخب السودان يتجرع خسارة مريرة أمام السنغال في تصفيات كأس أفريقيا &nbsp;&nbsp; winwin",
-  "_tk": {}
- },
- {
   "id": "7a5a73a77c4e",
   "src": "guardian",
   "cat": "en",
@@ -1644,14 +1268,13 @@
  },
  {
   "id": "6102d9637cce",
-  "src": "rwanda-league-ar",
+  "src": "sport-gnews",
   "cat": "sport",
   "lang": "ar",
   "title": "خاص | المريخ السوداني يحسم ملفات مهمة قبل الاستئناف",
   "url": "https://news.google.com/rss/articles/CBMizgNBVV95cUxPZjRiTEJXZVpWMW1mV3czRG5ISjhCYjNBM3g4VUZGUEtwZDdHM0prSEVwSzhxWVM3U25sQ1d5U2M2ekdOc0FIRjNvUVU3SE5wVW1ka3JnNmRCb2xWTS1VRWlaUXJFeFg4QlRma3l4U3dtd1JCckJvRzk0RGhrcWtwNkgyRmNPdElXTmJBNUgxbXdGVWJRRWFPNXJ0RnQ2OW00M3FNaElSUzFLWUxBd1hWUklWQUIwa3NZeG1jNExFblNsOThpZ3lDV2o2V3RmV1pIRUl1dzgtX1dPRjVTOFlSemNhd3h2U1gwMlViclo3aXlONGlHV2EwVXN0TnM2aTRVc3BaTzhXNkdZMmY3ZUYwNWtPTzdpcFJoMEpNcjFqQVFXNXhtS1UtbnJacVdEREFVX2tVZjAxOHdqWmdvMWF5V1dKcWkxUU11QjFiZWo0SDR3TlhocG0tZV95NWdhRGdFSWxBWXYxTFhRV0RkeUlNTmdNcTlpOVY5SUZveTdramxOVzlIbE01bVlCZVBOTExJd0lLeTJXR0h2VUxQdkZIUmQ2cjByM3N3SkoyMVJfVmxkN0VqQ1FIZ2NuTjdSTzgwc1h2UWxsRGxRS3pVV0E?oc=5",
   "ts": 1794657971000,
-  "summary": "خاص | المريخ السوداني يحسم ملفات مهمة قبل الاستئناف &nbsp;&nbsp; winwin",
-  "_tk": {}
+  "summary": "خاص | المريخ السوداني يحسم ملفات مهمة قبل الاستئناف &nbsp;&nbsp; winwin.com"
  },
  {
   "id": "c51af9dfd631",
@@ -1911,27 +1534,6 @@
   "summary": "الصفوة – الأخبار هنأ القنصل حازم مصطفى إبراهيم، رئيس نادي المريخ الأسبق، جماهير النادي بمناسبة الذكرى الـ118 لتأسيس المريخ، الموافق 14 نوفمبر، وذلك عبر رسالة نشرها على حسابه الشخصي بموقع التواصل الاجتماعي «فيسبوك»، استعاد خلالها تاريخ النادي ومكانته في وجدان السودانيين، معبراً عن اعتزازه بتوليه رئاسة النادي بوصفه الرئيس الثالث والثلاثين في تاريخه. وفيما يلي … The post القنصل حازم يهنئ المريخ بذكرى"
  },
  {
-  "id": "df51b9fdddfd",
-  "src": "safwa",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "ثنائي الأهلي مدني يعزز صفوف المنتخب الوطني أمام السنغال",
-  "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9xSmQ0LXYyZFMzUTFwdEZXT1pyN1I4aGNTUHN1U2wzRmFkeEUxRmUwcnFCMGFiRFAwZlRfcFprUQ?oc=5",
-  "ts": 1794519174000,
-  "summary": "ثنائي الأهلي مدني يعزز صفوف المنتخب الوطني أمام السنغال &nbsp;&nbsp; elsfwah.com"
- },
- {
-  "id": "d18fbc435a18",
-  "src": "safwa",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "السنغال تقسو على صقور الجديان برباعية في تصفيات أمم أفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9VSHZsNE1ldXA2WVVFSjJkbDdOX3pLcDg0TlBibTlUTWR0RERBWVYxbXZSS04wTWEtYVVPeXBJTQ?oc=5",
-  "ts": 1794518134000,
-  "summary": "السنغال تقسو على صقور الجديان برباعية في تصفيات أمم أفريقيا &nbsp;&nbsp; elsfwah.com",
-  "_tk": {}
- },
- {
   "id": "d79dd9e08136",
   "src": "st-en",
   "cat": "en",
@@ -1980,16 +1582,6 @@
   "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxQUENfUW9yTXdJQ25JQ01iOWFlTWQ5U2Q1UjhyNURGSDRTZW4wTC1jNS0tWWhSSUM2TVRzYTJqSlZaTmFQOG12d3BiaTU0UjJmVGhGY0NTMEZUWm1ubHVuclVQR0toSXJhbHlsaHppTlBUbF95ZjNqclZKVUVoSXN1Q09mQmN6TFBDMnhmaWhKcExKeDVST1V3akQzOVVpaHptaDN5QzZkemxBNG9XckJxdlJxcC1GMkRnMnlBb1g4Yl9kOU5IZ2pVdmFfLUtGcTM3UjdVQWNWbzNZcXMtMFF1enQxTUppdS1TQ0wwRG1iQXNxcl9lVlJ0WTdZOVJMMWxhYkdGUFZaSkFBYkRPLVFtNWkxSklSb1JfNUhZZTV0Nm5XVXRkSlAzbFdxRGN3X2hteFJHZUkzOEhZTVR4MU56N0RIU25LS3hMdlNSbl83YnlYLWZWaGZURHNJLTlCMXJCWm1rWDd4ZTBTa05Tcy0yZUc3bzNsRVc3QVlydW8wQW5feEV1NlppQjJ6M3VIZnJhOVc0ZFZjSUtFNlR3UVU2YWFnb2tHOTYxRXA5d3dVT3VvUHdzcGNtRmxFUFNZa1dmRTZtb1QzSDVmazI1ek1rM0hlbE1lb0RMN21IZ09MV3A1ekJZZmxScVl1S04wdVFLVFNLMWpsem16M01oXy02YnFrSmJpSTdXZExHcGdlX1VOU2ZrZzhoMnBwODlzb244RV9aZ2VDNktGOUtxQnFiUXdXY1NLa0YzRmxDV01vVG9kX2pSSWprbTlBeVdBb1hPSERHT2RHTTk2VUNvWHl2S1R5V3hUQ0tLbGhtZDF1UQ?oc=5",
   "ts": 1794669610000,
   "summary": "تحذيران أمميان من انفجار الأزمة الإنسانية في السودان &nbsp;&nbsp; الشرق الأوسط"
- },
- {
-  "id": "3bc6161ece9e",
-  "src": "tamazuj-en",
-  "cat": "en",
-  "lang": "en",
-  "title": "IDPs living in dire situation in North Darfur’s Al-Lait Jar Al-Nabi",
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZXVXY3BvQVpUQ1U3ZmVCWjZOVkFWV1lQTkI5NFVyeGtDUkkxLXFnTEpJZ3RES1BYamVWWVVDb0I1MVlfMGIyMXE1OW5CTFBfYzk2N2ZUTEZnUUR4Tnd4akJfeUh6RzdwRm5ucUl6MFlEbEhJa21xYlZwV3VXZ014TExkOW5wWjcwQjJ2R1hVS2pFeDY5MTZZLVZLYlEtbDdVQ0gwRGlCQkw1N1RFbldlbA?oc=5",
-  "ts": 1794553881000,
-  "summary": "IDPs living in dire situation in North Darfur’s Al-Lait Jar Al-Nabi &nbsp;&nbsp; Radio Tamazuj"
  },
  {
   "id": "dde5e5aa1e9c",
@@ -3737,8 +3329,7 @@
   "title": "تحذير من شبهة \"كيماوي\" داخل منشآت للجيش السوداني",
   "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQeWVmZ3JCZmRaOVg3dTBpRGhqaG0yNWo1OVBoZnI4Z2VWTUlRNnNxV2ZxTnpLT2lhMzRUNnh5MTVLM0pQZVdXTmtKejV4d2tGa0hwcGxYZXBwbnU0dWR5Y3pyaVlzTW9DU3hvTDlyVnNPYl9QOUFpZS1sSEM4bklRbHc1TDc1T0MtT2lsNzB6T2xZOGJxRFVadnlxTEctRUw5SXgwdHhwMDhJcG9GOXRxTkN4WDA1ZktvYnNkQ0hldzFiWURZWklJR3R0ZEdJRWJKdkgzV1pHMTAySnQ1aHhkXzZkRzBWbkVTR2Q4cDNGenJsTTE2TjNuNjhFQXFqVktQWkJtM1FhODF6aXQzWTNiUjNjV18xdmo2MmI0VUR4SXFvS1FQa2htM09tT3ZkNEpiTTJJS1RrUEJ6aFRzU1pxZjhrMzdQdWZFdHRlQmNHVG44MWxLSnlpajVfWHN4SElPeVdVQXdhMFB4ZWdlRUswZWZIYXFySUdrLUZ2Z29ESkJPWHNHSHhKRXBPTFg2RFVJaVpHU0t2NA?oc=5",
   "ts": 1794761469000,
-  "summary": "تحذير من شبهة \"كيماوي\" داخل منشآت للجيش السوداني &nbsp;&nbsp; سكاي نيوز عربية",
-  "_tk": {}
+  "summary": "تحذير من شبهة \"كيماوي\" داخل منشآت للجيش السوداني &nbsp;&nbsp; سكاي نيوز عربية"
  },
  {
   "id": "f4d073582419",
@@ -4655,10 +4246,10 @@
   "src": "sport-gnews",
   "cat": "sport",
   "lang": "ar",
-  "title": "منتخب السنغال يحقق فوزاً مثيراً على منتخب السودان",
+  "title": "المنتخب السنغالي يحقق فوزاً مثيراً على منتخب السودان والكاميرون تقترب من التأهل",
   "url": "https://news.google.com/rss/articles/CBMi_AVBVV95cUxPRG9qcFJmbWptaTd6OGhNU0FmaVFiZ1JSSV9KUmVDcWJnb1IzdWl3ckptSzBuYUJ3eEc2czhWS3hHbUFQY3BMeGt2cXRFVmlWOFhzQXo2RHpKQUl3emVFbGNjMWk5Z2RYN3p5Z0R1Um5DV25BNXBJaTJEeldhLWxNd003WVJjd3JUTUw5T2VfaFAwZEMtTXM2N3p0ODRkWWtpN05wdE1iQWE0Y2N4RF9GQnhjcnlJT3BsaVJRMnRPVWJPOHdXUFluSHRiX0tqeEZXdlhycnF6Y0NlZzJmUWNWYkFxbGo3Q3ZoLVVfNGxlU3EtVzlZSWItampzR2JIcUxod3RzeEhEN2hEN0xYQmZVSloxUHA0SXFNa3ZpazRxbWZiQ1Zyd2c1RG9fbE96Q3IzWV9PVHp3QzhCMVl1aVJLVTlNR3BGcENGMFYydnR0QzRSVlo1SmpSMm92VFRGaC0yRkNOaHQ2MV9reXdrVUFwWkFuSGtuQkJUZllCOUVqMXBUT083MjFFUnJaajVUVWNET1dvY2FBRzJNOWtiTU1MQzUxZ1YtMUhvcnY2R2dsdjFLc1FWaTd4WWI5bkZKYXJlNWwyenV1OTUzc0tsMGZaVHhsYzlxY0gwcWVDUnJzRU9ZdGJyamlnVnRTWHN3S2YxME1CS2lsekhjNW4xTkRFSnpSQ0R3SFVvLWd1NzlYTE43b19FZkJDR2xDN0VxMUR5MTRfSENvUXlRUnc4cGtfWTEzdGQ5T3dQVjRKWi1tYjg1V2V2U3lCZ1pnQklDTF8xaHFwMlc2MDhtVHRoNTk3RVBmdGNxbl9XQkE1RHcza3VGYmJNQkRjZzM4bWZEN1BtWlFCX0g1UzBLRnJGemVuUmhCOHk2N0dsa01hVzl0Z0VhRy0ybkNhem5JVjFZR0JSVXRZWkFiZ1JIUTBuZFZnVG9SVUlVcE44eG4xTHdPdEZjYm4xRXZTSEdieS0tWllpNlZWRDExdzFSQ0k4YU1VN0xVVlN3S05PQl9jSw?oc=5",
   "ts": 1794842159000,
-  "summary": "منتخب السنغال يحقق فوزاً مثيراً على منتخب السودان &nbsp;&nbsp; beIN SPORTS"
+  "summary": "المنتخب السنغالي يحقق فوزاً مثيراً على منتخب السودان والكاميرون تقترب من التأهل &nbsp;&nbsp; beIN SPORTS"
  },
  {
   "id": "50018d992c4e",
@@ -4726,13 +4317,14 @@
  },
  {
   "id": "83dabae4f3f0",
-  "src": "sport-gnews-en",
+  "src": "rwanda-league-en",
   "cat": "sport",
   "lang": "en",
   "title": "Maghreb Fès vs Al Hilal Omdurman",
   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLWtnNEFXbTlJVjdCMVZBQm0xblJpMmFFRFB5SlRPZEhuUWJwRjJPNUktaGFqT3o2Vml4YXdUbElrcnlFa21GeldYYi1VdWVuNVQ5UHRsQ3h1SGR5cUU3SzM4RDJqNHRyaTFtZnJlWDFEbzl3X1FwM0g4UXRob1MzTGhLaW1JZ3VfeGFpa2tkZmlpVFoxSVozT0pGY0dreEpqc19aQVhn?oc=5",
   "ts": 1794851541000,
-  "summary": "Maghreb Fès vs Al Hilal Omdurman &nbsp;&nbsp; beIN SPORTS"
+  "summary": "Maghreb Fès vs Al Hilal Omdurman &nbsp;&nbsp; beIN SPORTS",
+  "_tk": {}
  },
  {
   "id": "9575dab51a4c",
@@ -5010,8 +4602,7 @@
   "title": "عدد الثلاثاء 17 نوفمبر 2026م",
   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZDNIbEdTd3Y1c09CRWRHMURMUWEwUmZvMEJkWld1elBWUElGSXp0M1EyczVvMkJhSnZCaHNOUklyaGpfbDN5b2dreUFPRF9GaHhtbGV0aldIRm16bFV0MkdsbnVZNFphTm5iMWFkNDNjUWx0UmtoYlFFUEF4V01URVd4eEZCVlRsTGlBbHo0dGtIT2NYT0pGaFctZHZyQnF1NDRLZHRRUVpaM1dRaE9aWUp0QWNYbktJRVMzejJRTUJKTmpsS05qVVh4TFJ1dnVGYnV5T2dGaw?oc=5",
   "ts": 1794886042000,
-  "summary": "عدد الثلاثاء 17 نوفمبر 2026م &nbsp;&nbsp; صحيفة التيار",
-  "_tk": {}
+  "summary": "عدد الثلاثاء 17 نوفمبر 2026م &nbsp;&nbsp; صحيفة التيار"
  },
  {
   "id": "ad3c6416c000",
@@ -6067,18 +5658,7 @@
   "title": "السودان يبدأ تطبيق الفاتورة الإلكترونية ويلغي \"الورقية\"",
   "url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxNdFRwUkNscEJ0cXotU3FNY0FNUTd3SDFZTnNDUm5leTFKc1pyRk1nUVNyd0NfNjNXNUNzYzVOMVdzaktTRWUtX1hVeDRscUVQN2FWYnV4eVMxSkxvamtZQWx6SjVqMy1QLTBTc2RmcUowWGxsMGdHczJ6LUNMZzlCZVVZSUpLVzlCUmROaXlNeVVnOGRSOGJHYVpMQVNoWU5MU2ZxYm9WSGJNZHpxMEpnU2RDMHBGX0hrZVQ3NjhmUXk4ZENMSXFZbm5GaTcwZVppdmd2VlNjMkswLVQ4Si0xVGIwMW53Y29lNGNFOGtlaEVtZE80YnNsUjRzZmpEUzNTUGg5djdjTng1bDBWejAzenctclVyQk9BOUZPZ0FfaVlMMU1VNm50OWxycUxNN2J3QkxZanM1SUxsRkR2bjMxb3dVU2ZjR1p5U2hkMEdRbUZub0Rqb3ZFaDBtSzVSQVVTa1dBS3hZLWFxdUhXWHNFeXp3WjhGand5bkNyVjQ1d1VQdHRHazN4bmVVRWV6Wk9LZER2cW9scDZ6ZHJzcWM4aFYzVGVmem41U3l5dWhiX2E3cENEOFZjRmRvZWlIMXdrU3ZLSFM1VEhRd3VMNUxsTWg5XzRBNzNUd2Y2eG5TSzJNSnAtNXfSAeYDQVVfeXFMTXRUcFJDbHBCdHF6LVNxTWNBTVE3d0gxWU5zQ1JuZXkxSnNackZNZ1FTcndDXzYzVzVDc2M1TjFXc2pLU0VlLV9YVXg0bHFFUDdhVmJ1eHlTMUpMb2prWUFseko1ajMtUC0wU3NkZnFKMFhsbDBnR3Myei1DTGc5QmVVWUlKS1c5QlJkTml5TXlVZzhkUjhiR2FaTEFTaFlOTFNmcWJvVkhiTWR6cTBKZ1NkQzBwRl9Ia2VUNzY4ZlF5OGRDTElxWW5uRmk3MGVaaXZndlZTYzJLMC1UOEotMVRiMDFud2NvZTRjRThrZWhFbWRPNGJzbFI0c2ZqRFMzU1BoOXY3Y054NWwwVnowM3p3LXJVckJPQTlGT2dBX2lZTDFNVTZudDlscnFMTTdid0JMWWpzNUlMbEZEdm4zMW93VVNmY0daeVNoZDBHUW1Gbm9Eam92RWgwbUs1UkFVU2tXQUt4WS1hcXVIV1hzRXl6d1o4Rmp3eW5DclY0NXdVUHR0R2szeG5lVUVlelpPS2REdnFvbHA2emRyc3FjOGhWM1RlZnpuNVN5eXVoYl9hN3BDRDhWY0Zkb2VpSDF3a1N2S0hTNVRIUXd1TDVMbE1oOV80QTczVHdmNnhuU0syTUpwLTV3?oc=5",
   "ts": 1794901920000,
-  "summary": "السودان يبدأ تطبيق الفاتورة الإلكترونية ويلغي \"الورقية\" &nbsp;&nbsp; العربية",
-  "_tk": {}
- },
- {
-  "id": "d3812f5e5816",
-  "src": "arabiya",
-  "cat": "ar",
-  "lang": "ar",
-  "title": "حل سودانى للأزمة السودانية",
-  "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOVmNLOVhBVGtCUnRuNnlXR0JRbS00bHplU1dwTHN1NUJTVzJpYl9neFMyNkJzbWdNRC0tU29PMGxMX2tGLUVWd0xDQzdoNktGS0FsbUtZMXVZaEowTU1fYmhLdkJmeWpDTXRHTUJYdG1QZ2hnQWN3NEZnM2VZUEQ1YXRzaHlNcXN1bGhVSkR0VU5mVnBTZU5BTnduazhzZWZYODZBd1NTZFBxODRLS19TWGJvRzlIbHBfM3VLcG9KOE01MHVXeDlBYjktQngxUzNMcW9QbVYtelVyUzFGUk10Q0NFWEtyYXdxQmpqLUNuNjc2blI4N2E2Ul81Q0REdndvdGRmNFgyVzBYb3ZjWWJBbjdPejJyd9IBmwJBVV95cUxPNHhxMnBPU2xlODlrWF9zWTlfLUd6c3FScUpsamhBb1laZzBCcFFlbFZPZGVSQWlMcnhtd1A3UmVlTzNlbTBXTnV5YVNraTFzQmdJSGp4RUt1WW1mVTdaSzhnVklNUWlOWmZjNmFsWnZ2dU5jblVsWFg3SF9sUnJ2bjRXQ21ocWFHdGxfSWJoemVLOVRaVTM0VFJVRW5Ma3pmUFpMdjZQTjhzOHdSX3lyRlVsRkVkNUFmY2Z4LUNjaXYyZWFYWnk5OW4tOWp1RVRuUHlSV0tiTU1XSV9UWncxd2RqWHhzSmZXNnZEUmpfUE13MWlLMkVoQk50X2RBTW9rZjktV0RsaWJ0aUhpYjRCUTlhUUc5SGlROHBJ?oc=5",
-  "ts": 1794555240000,
-  "summary": "حل سودانى للأزمة السودانية &nbsp;&nbsp; العربية"
+  "summary": "السودان يبدأ تطبيق الفاتورة الإلكترونية ويلغي \"الورقية\" &nbsp;&nbsp; العربية"
  },
  {
   "id": "8f2a417aaaf0",
@@ -6805,20 +6385,6 @@
   "summary": "قوى سودانية تطالب بتسليم البشير وهارون إلى الجنائية الدولية &nbsp;&nbsp; سكاي نيوز عربية"
  },
  {
-  "id": "c7104f91ad77",
-  "src": "frmfa",
-  "cat": "off",
-  "lang": "en",
-  "title": "Abyei | France urges South Sudan and Sudan to harness the presence of UNISFA in order to make progress toward a lasting resolution of their border dispute",
-  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOVVIYnlLRFF6MkpiYU5YOTJPbTJNdlYwRnpyRmt0QnNxaW8yc2hIdFVZVGE5bmVQRk9MakxmS2lwSG9pcTRKMVBVNmpvYUQtNjYzRk44ZU9TUDJldW42YUpfUEcyaXFsNTdqWVpseTg5Yk9ZSVlIQWNUSjVFMS1yQS1YN1VwMFBGLUJiZ3IxYlp6TVdaUG9JV1FFZjFodHVaWnlmd1hCTmdjQlAyWlNRUmNNU2p5bElxVkh5YjdlaEtFUjlXNzNISVJoYk1nQQ?oc=5",
-  "ts": 1794556800000,
-  "tr": {
-   "en": "Abyei | France urges South Sudan and Sudan to harness the presence of UNISFA in order to make progress toward a lasting resolution of their border dispute",
-   "ar": "أبيي | فرنسا تحث جنوب السودان والسودان على الاستفادة من وجود قوة الأمم المتحدة الأمنية المؤقتة لأبيي (يونيسفا) من أجل إحراز تقدم نحو تسوية دائمة لنزاعهما الحدودي"
-  },
-  "summary": "Abyei | France urges South Sudan and Sudan to harness the presence of UNISFA in order to make progress toward a lasting resolution of their border dispute | France at the United Nations &nbsp;&nbsp; La France à l'ONU"
- },
- {
   "id": "3b5f7f3f5f2c",
   "src": "safwa",
   "cat": "sport",
@@ -6861,19 +6427,8 @@
   "summary": "بيراميدز vs الهلال السوداني &nbsp;&nbsp; beIN SPORTS"
  },
  {
-  "id": "5c20a459092b",
-  "src": "sport-gnews",
-  "cat": "sport",
-  "lang": "ar",
-  "title": "منتخب السودان يتجرع خسارة مريرة أمام السنغال في تصفيات كأس أفريقيا",
-  "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxNUkFjbUs5M3prSEVOMFBJVW9taE5BQ29qNXJBRnNmSHJfZEZYeGp3bXBzdVRpcHVEU3dlNkg4MXoxeWREdDFtLTRHcEk0a2tZOWkybjRha0t4VXllOTdjUTJDbHdZejZUb21fVlRTNlRWYTZrV25lMTM3c0U5TFZIbWFZOUhYNTh0bVh6cUlfVy1UWFpZYkJoWUVMMUE1QTRwRkZTajZuempvN0p2X1pXUVpaWVRQYl9nVGxDbE00WkhtbDB1M2VVWFVYTlY0a2NOUVkxMUZ5dnEtbmVTenJ3cnFacXZ6cWs2UjBteEZOelp4VmpuODBHNFZqSVZxa3RVZG9PNTBEdHFXSlNYV3FzdmpFcGZIcGpSMG5sc3JVdGZJX0VoUFBBWTZBeXhZT0c3elpQdmlVdmV4czczbURXcXg5ejc2ZUIwSk5iYlBtUG92el8zMDNvdVlobzlhX0lXNmx3NjBldEs2eVlXNkFUdlVfUTlyTm96ZWlrWmpSNDhveXJibGRJQ0Z1bjdKU20zZmZXM003VXRmSG8ycFEwYlpiSTAwSHRCYU50cms1NDZXckVsekJPRk80czMzcEZudmxFQmVrVDZYdmttVUFRTFNhVFBxSnBMRTBJS3drZmhvcGJnVGd4TVp5OGlYcnB5Z0k3Q25KVVZzenk0SDRHS1BlMzdSMlN3?oc=5",
-  "ts": 1794522744000,
-  "summary": "منتخب السودان يتجرع خسارة مريرة أمام السنغال في تصفيات كأس أفريقيا &nbsp;&nbsp; winwin",
-  "_tk": {}
- },
- {
   "id": "0f346ead5a4a",
-  "src": "sport-gnews-en",
+  "src": "rwanda-league-en",
   "cat": "sport",
   "lang": "en",
   "title": "Horoya vs Al Hilal Omdurman",
@@ -6887,10 +6442,10 @@
   "src": "dabanga-en",
   "cat": "en",
   "lang": "en",
-  "title": "UN WFP pledges month-long food aid for 30,000 displaced in Sudan’s Northern State",
+  "title": "UN WFP pledges month-long food aid for 30,000 displaced in Sudan’s Northern State - Dabanga Radio TV Online",
   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXJjQjVETjdLdnFHWEp3YVM5dnBjUXV3YktyY1ZqVGdRQjNVcld5VEVXbm9UeGp1UmhGc09iQmQtNlBrQUdZalBJdXFLbjhuWWgxOTdjSVhTZUthRmdEY0lZRU9ya0t3eUpXUGhsRHhCQUhhSTBTSldzQUNzSGdBYjJTdThadXJjX2phZ3FVZ1BmVzM1dURYUUhTUEZTcEU3SVVQLTNXeEFoTUxVNUVHVE9xMGNJMVY1emhpSnF0UjNlZ3pRU05Z?oc=5",
   "ts": 1795017792000,
-  "summary": "UN WFP pledges month-long food aid for 30,000 displaced in Sudan’s Northern State &nbsp;&nbsp; Dabanga Radio TV Online"
+  "summary": "UN WFP pledges month-long food aid for 30,000 displaced in Sudan’s Northern State - Dabanga Radio TV Online &nbsp;&nbsp; Dabanga Radio TV Online"
  },
  {
   "id": "2b119ab75355",
@@ -6911,7 +6466,8 @@
   "title": "Sudan: Bike-gang-driven crime wave fuels fear in Atbara and Kassala",
   "url": "https://www.dabangasudan.org/en/all-news/article/sudan-bike-gang-driven-crime-wave-fuels-fear-in-atbara-and-kassala",
   "ts": 1795016746000,
-  "summary": "Residents of Atbara, in Sudan’s River Nile state, and Kassala in eastern Sudan say gangs... The post Sudan: Bike-gang-driven crime wave fuels fear in Atbara and Kassala appeared first on Dabanga Radio TV Online ."
+  "summary": "Residents of Atbara, in Sudan’s River Nile state, and Kassala in eastern Sudan say gangs... The post Sudan: Bike-gang-driven crime wave fuels fear in Atbara and Kassala appeared first on Dabanga Radio TV Online .",
+  "_tk": {}
  },
  {
   "id": "e8321ab65eeb",
@@ -7097,18 +6653,7 @@
   "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT2JpVEY2eUQ3QXFkRzJxckg1MGx3b0s4THAyNkpFMk1kRGpnXzlzNHh2SG1aQTU4N1hfNkpQcldhTVBPWTFoc2VNM2VYVU02WHBvYzVJV0VERGpXMGVxNEY2WWgyZ0JRVHFKdWlqMTk1RFpMektCbTZ1bHBDX2ZMd0xMNUVBa3I2cy11Sk5EVGFYOFF1cUtyOV90R0VaaEdxeFF4NC0teWE?oc=5",
   "ts": 1794863811000,
-  "summary": "Sudanese army air attack kills 13 in western Sudan: Rights group &nbsp;&nbsp; Al Jazeera",
-  "_tk": {}
- },
- {
-  "id": "7413ca5d64f4",
-  "src": "bbc",
-  "cat": "en",
-  "lang": "en",
-  "title": "Senegal vs Sudan: Africa Cup of Nations Qualification stats & head-to-head",
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rYl9IZ1pMcWpXT2NMXzYxeW96VlJBTGpkRUdvbmEyNGY2Tjl1Tl93cElsUFc5dFA3QzhtUGFXNy14WEdvQjBvZkstdTFtVGo3RW5JTWhieERaTlhvSDc3QlE1YnZWdw?oc=5",
-  "ts": 1794546024000,
-  "summary": "Senegal vs Sudan: Africa Cup of Nations Qualification stats & head-to-head &nbsp;&nbsp; BBC"
+  "summary": "Sudanese army air attack kills 13 in western Sudan: Rights group &nbsp;&nbsp; Al Jazeera"
  },
  {
   "id": "f4c21ef548be",
@@ -7191,7 +6736,8 @@
   "title": "العفو الدولية تدعو الأمم المتحدة حول غارات المسيرات في الأبيض",
   "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%84%d8%b9%d9%81%d9%88-%d8%a7%d9%84%d8%af%d9%88%d9%84%d9%8a%d8%a9-%d8%aa%d8%af%d8%b9%d9%88-%d8%a7%d9%84%d8%a3%d9%85%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d8%ad%d9%88%d9%84-%d8%ba",
   "ts": 1795026946000,
-  "summary": "أمستردام-18 نوفمبر 2026-راديو دبنقا دعت الأمينة العامة لمنظمة العفو الدولية إغنيس كولامارد، اليوم الأربعاء، الأمم... The post العفو الدولية تدعو الأمم المتحدة حول غارات المسيرات في الأبيض appeared first on Dabanga Radio TV Online ."
+  "summary": "أمستردام-18 نوفمبر 2026-راديو دبنقا دعت الأمينة العامة لمنظمة العفو الدولية إغنيس كولامارد، اليوم الأربعاء، الأمم... The post العفو الدولية تدعو الأمم المتحدة حول غارات المسيرات في الأبيض appeared first on Dabanga Radio TV Online .",
+  "_tk": {}
  },
  {
   "id": "4bc10e82cf65",
@@ -7305,7 +6851,8 @@
   "title": "مقتل 16 مدنياً في قصف بمسيّرة على مأوى للنازحين بمدينة غبيش في غرب كردفان",
   "url": "https://www.dabangasudan.org/ar/all-news/article/%d9%85%d9%82%d8%aa%d9%84-16-%d9%85%d8%af%d9%86%d9%8a%d8%a7%d9%8b-%d9%81%d9%8a-%d9%82%d8%b5%d9%81-%d8%a8%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a9-%d8%b9%d9%84%d9%89-%d9%85%d8%a3%d9%88%d9%89-%d9%84%d9%84",
   "ts": 1794998167000,
-  "summary": "غبيش- 18 نوفمبر 2026- راديو دبنقا ​كشف مرصد كردفان عن مقتل ما لا يقل عن... The post مقتل 16 مدنياً في قصف بمسيّرة على مأوى للنازحين بمدينة غبيش في غرب كردفان appeared first on Dabanga Radio TV Online ."
+  "summary": "غبيش- 18 نوفمبر 2026- راديو دبنقا ​كشف مرصد كردفان عن مقتل ما لا يقل عن... The post مقتل 16 مدنياً في قصف بمسيّرة على مأوى للنازحين بمدينة غبيش في غرب كردفان appeared first on Dabanga Radio TV Online .",
+  "_tk": {}
  },
  {
   "id": "6280d9f1f63e",
@@ -7748,8 +7295,7 @@
   "title": "إثيوبيا والسودان على حافة مواجهة أوسع.. تبادل اتهامات بدعم جماعات مسلحة يفاقم التوتر",
   "url": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxQb250Q0ozN21IT20xV0w0SWdGaWxwWk96SUNxTm13NEpSczRqX2FUUmRWa2dLYXI0TEVDd2VsMmVfbHVNR0JOUmlBUDM4MVdVZExwYUs2NE1JVWN1WTM4Z0N1Wm9qQnl0R25tT2E5SGRWbnpVWWZjUERaZGliaGZxRnEtUHh2Vk9qQXo5cHhFRDRVODRuSmEtOW5XdjhCZVNmMHFxNGhXaWxWTTNsMUxNOGMwSDNJX1hLRzdRbDhERHFWN2tjZGJyZGF2MzI3TURxR2tYNWZCR3lBcWNJS0tUWUFzUDRwVGdYN2tseGVNcHlLS29vV0pmOTVrcGkzLUIzUXpVS2o1aFNmRHhqOEVXMG9mazFfb3hYY1A1d3Z6V3Z2UEpwQ0pJcHEyeXVRbXFvS1BIQWxLdWEwem8zRTAzTUUtR1NnNjFFdFA3TGNrcWRPNU03azlJR1ItTlF0aENpOTVXWVZxNVZYQ0RFYzh2SEdOcmhteEtmc1p0QzhNdTFFa01na1JQRVA1MGxLc0dyMkNjU3dnY25taldGOXVxd3Izam1NZ0JleEktbkZtWHptSHV5MTRad21UY0dpQkh5SGNLREQyczh0bzBpMnR5NlM4Rzc3SGZaTzVTUnRGQ2FNT2lyX19LZHNHT1dOVk1SeEZKazRMME1UeWNBNmJ2d3pSZmFuOXd3cjEwTnpyOExiMXBMUTEySGdxRXI3VmNveTZaUFp6ZEZHM241ZzZMek1Qa1lSb0Y1bUYzM2xMTmxQbUpnNXlWdjRNYWl5MTdGQktJVWNOUnZudHk4NlVnM05uZTd6NGZnVFY0ZFhnX1ROU2wzSi1lV2RaNmVhQzU1enVsa2pZV3k0U2hCaUFpTXhSVms2bTRjRGZlWGRLMUJDNldwUzd1bjhn0gGvBUFVX3lxTE5TTGhKdmUxWVFFZ2l4Y0lJQ2tGU1JFX2N6bExzbDQwTmkwUHhoeUhBb2cxazZ4Y05sM3ZpcC1TMmduRmZyRkRRakpON01OcHdBWnlFb1NYak9STG01bXpJcFUxYkRsaUlDY1dPcVVlYkZmTXRWcVQzYlNyWUNsdUt2dUYyZW8yR3VmQVJzZHRlTTZRclVETjJSNWozRWdsTktfNkd5eUNkLThKOUF4M0dsRkFSQWpvcEpOYm5CTHp0SjhPRFJFRFNPSGVUdDdiX1BqS3JiaVJkQm9Ea3BhQjZ0ZThBU3VxTUdmRFFzZ1Item5wTUJZTTNoT281WTY3cWdmNEVQR3dlS3MtbHZKVThZQWRXMTV3LU8wX1czMGpZVWpGSlVMYW5sYVc3TGdMeDlFN2s1bmFQRThWUGVOTzJIRlFGS285cnlFeGRoZzl3aE1ubHVaZ1QydkRwZm90Y09LbzdueU04S2k5YkVHRWd1SEpDMm1aQ0FPTUppU05VaGRPdzJBN1A5ZmtRNlh5bWxRMGlCRDZ2TGZmVnk2VkdndHlCcGlSaHJBT2U2QjJtcGlkWlNrZUhyaWNaNS1RZzBDaWs0bVJpRU90N0UxWDYxR2NWbjVkN3Nhd2h2akhWQnFZOTIxYVVXaGpabDZ1QzZIcnY3eS1Sdl9mZU5hUzhzY3VzTldzNWswNUR0SjROVzJSMjdJUW1xUmlEODFrdjV6eFJDSnBkbWoyQzFldWJGcVJ4NVpuZ3M1N3E2cGxpU0xDcEFpMVN3NE5VZnowZWZ5M0UxVzJydElCbG1RR3g2cjZ2TXN0OUxzYldnWHhxM1h2Rl84YUZlRjdlQkVncjI3VDJQTGhQY0EyNnBfOFZrOU5iRHd5Q1ROVjhNa29HM0pBWTUtdUh6dm1HaW5DZw?oc=5",
   "ts": 1794903060000,
-  "summary": "إثيوبيا والسودان على حافة مواجهة أوسع.. تبادل اتهامات بدعم جماعات مسلحة يفاقم التوتر &nbsp;&nbsp; العربية",
-  "_tk": {}
+  "summary": "إثيوبيا والسودان على حافة مواجهة أوسع.. تبادل اتهامات بدعم جماعات مسلحة يفاقم التوتر &nbsp;&nbsp; العربية"
  },
  {
   "id": "036de5c78881",
@@ -8032,7 +7578,7 @@
  },
  {
   "id": "fcb2bda08967",
-  "src": "sport-gnews-en",
+  "src": "rwanda-league-en",
   "cat": "sport",
   "lang": "en",
   "title": "Al Hilal Omdurman vs Maghreb Fès",
@@ -8043,7 +7589,7 @@
  },
  {
   "id": "bb67c4b68317",
-  "src": "sport-gnews-en",
+  "src": "rwanda-league-en",
   "cat": "sport",
   "lang": "en",
   "title": "Watch Al Hilal Omdurman vs Horoya",
@@ -8599,10 +8145,10 @@
   "src": "dabanga-en",
   "cat": "en",
   "lang": "en",
-  "title": "10 killed as drone strafes South Kordofan gold mine",
+  "title": "10 killed as drone strafes South Kordofan gold mine - Dabanga Radio TV Online",
   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN051QktueFpkTkJJQ1h5NG5RWW5vRzYwUExtRjF2SldId204dUlGYTVON2VpV0dmYTZ6ZkktYktGUUxDNWtLZ0pXNHh3QkFNMFpkZWRnV3U1Y2llYVBzUEZpX1BFWVBXWUI2ejJmTjJPX3ZDS0FLSXhCRG5oQm14YXkzdE5KOFczYU1DZ2xCLTlyb24wX3hRSTF6WXlGdld5Q1E?oc=5",
   "ts": 1795104588000,
-  "summary": "10 killed as drone strafes South Kordofan gold mine &nbsp;&nbsp; Dabanga Radio TV Online"
+  "summary": "10 killed as drone strafes South Kordofan gold mine - Dabanga Radio TV Online &nbsp;&nbsp; Dabanga Radio TV Online"
  },
  {
   "id": "cdc3298fe349",
@@ -8842,7 +8388,8 @@
   "title": "WFP Sudan Monthly Snapshot - October 2026",
   "url": "https://reliefweb.int/report/sudan/wfp-sudan-monthly-snapshot-october-2026",
   "ts": 1795080829000,
-  "summary": "Country: Sudan Source: World Food Programme Please refer to the attached Infographic."
+  "summary": "Country: Sudan Source: World Food Programme Please refer to the attached Infographic.",
+  "_tk": {}
  },
  {
   "id": "fa1267bdfbec",
@@ -8863,7 +8410,8 @@
   "title": "Sudan: Climate Watch Advisory: The Evolving Dry Conditions in the Northern Parts of Eastern Africa - Issued 21 October 2026",
   "url": "https://reliefweb.int/report/sudan/climate-watch-advisory-evolving-dry-conditions-northern-parts-eastern-africa-issued-21-october-2026",
   "ts": 1795080259000,
-  "summary": "Countries: Sudan, Eritrea, Ethiopia, Somalia, South Sudan Source: Intergovernmental Authority on Development Please refer to the attached file. Below-normal rainfall in the last JJAS season in the northern parts of the region has contributed to the persistent dry signal across the northern sector of the Eastern Africa region from May through September, affecting Eritrea, Ethiopia, Somalia, South S"
+  "summary": "Countries: Sudan, Eritrea, Ethiopia, Somalia, South Sudan Source: Intergovernmental Authority on Development Please refer to the attached file. Below-normal rainfall in the last JJAS season in the northern parts of the region has contributed to the persistent dry signal across the northern sector of the Eastern Africa region from May through September, affecting Eritrea, Ethiopia, Somalia, South S",
+  "_tk": {}
  },
  {
   "id": "3e899d00fe9d",
@@ -8946,7 +8494,8 @@
   "title": "انتشار واسع لحمى الضنك والملاريا في معسكرات شرق تشاد",
   "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1-%d9%88%d8%a7%d8%b3%d8%b9-%d9%84%d8%ad%d9%85%d9%89-%d8%a7%d9%84%d8%b6%d9%86%d9%83-%d9%88%d8%a7%d9%84%d9%85%d9%84%d8%a7%d8%b1%d9%8a%d8%a7-%d9%81%d9%8a-%d9%85%d8%b9",
   "ts": 1795101584000,
-  "summary": "شرق تشاد- 19 نوفمبر 2026- راديو دبنقا تشهد معسكرات اللاجئين السودانيين في شرق تشاد انتشارا... The post انتشار واسع لحمى الضنك والملاريا في معسكرات شرق تشاد appeared first on Dabanga Radio TV Online ."
+  "summary": "شرق تشاد- 19 نوفمبر 2026- راديو دبنقا تشهد معسكرات اللاجئين السودانيين في شرق تشاد انتشارا... The post انتشار واسع لحمى الضنك والملاريا في معسكرات شرق تشاد appeared first on Dabanga Radio TV Online .",
+  "_tk": {}
  },
  {
   "id": "3ca65e319967",
@@ -9069,7 +8618,8 @@
   "title": "«الدعم السريع» تعلن السيطرة على محلية « باو» في إقليم النيل الأزرق",
   "url": "https://sudantribune.net/article/321446",
   "ts": 1795114057000,
-  "summary": "باو 19 نوفمبر 2026 – أعلنت قوات الدعم السريع، الخميس، سيطرتها على محلية “باو” في إقليم النيل الأزرق، وهو ما يعني إكمال سيطرتها على ثلاث محليات في الإقليم من أصل سبع. ومنذ مطلع العام الجاري، نشطت جبهة إقليم النيل الأزرق، بعد أن أطلقت الدعم السريع وحليفتها الحركة الشعبية بقيادة عبد العزيز الحلو عملية عسكرية واسعة مكّنتها من السيطرة على محليات الكرمك وقيسان، ومناطق في محليات ود الماحي وبوط. ومع اشتدا"
+  "summary": "باو 19 نوفمبر 2026 – أعلنت قوات الدعم السريع، الخميس، سيطرتها على محلية “باو” في إقليم النيل الأزرق، وهو ما يعني إكمال سيطرتها على ثلاث محليات في الإقليم من أصل سبع. ومنذ مطلع العام الجاري، نشطت جبهة إقليم النيل الأزرق، بعد أن أطلقت الدعم السريع وحليفتها الحركة الشعبية بقيادة عبد العزيز الحلو عملية عسكرية واسعة مكّنتها من السيطرة على محليات الكرمك وقيسان، ومناطق في محليات ود الماحي وبوط. ومع اشتدا",
+  "_tk": {}
  },
  {
   "id": "dca572c6812a",
@@ -9330,6 +8880,10 @@
   "title": "Sudanese Community Association in Newcastle and Surroundings Annual Activities Report",
   "url": "https://news.google.com/rss/articles/CBMimwZBVV95cUxPQ3V3c3JNcFNIUjhSdW55TVZ0ako3RHZYOUFrclY1WjgtVHhMSHVtdERfd0xUTnppcXplb25ySk55Yjg3YnZHdWFkNjNyMU1OM2E4NmZFTlpaVERScnFEdEpTSHZKVmExdUxLU1RlUExfUVk0ZWFtTWhSOVFoWGktem9UNkVJWTZGa2ZwYVowbXhQZ0RRRnZrb0NvLUx0amtwZmZYMmZnTy1rYnp1SkpBMWYyTlhCbm1xWUhROGFYNW92S2pTSlBWeVJFcU5oOHdDaTh0UEk4WmFwOFBkeWNsRHUtdTlrbk9JdTg4b2F5eUdtSDlTWHZvRURMb0hVUTNZVVc2NEpsUlNMX3NHbGZMWTU0cmlkazVBUlhuUlhKYmFrc1ZBb0VCVlVYNDJlck91TUhWV1Y3Q3dlV2IyUEhjZUxiTkxDeno5MGd5UW1tQVhPdkw3VWNJWFFUVnR5VkRkM2NPXzVHejgyM0Vhcm82bTJiYjFNUG53SndyZmdndEVuUnVCVEVDVnl0cnZ5eGtuYlR5SURlSmdOdWRKWElIWTM4NmVrbmJmY1Uwa0ZnOEw0Z3NuNlFBMF9ldXBISnlhOTVRTGgtUEFaZF8yS3pQblRJSVpnU01oSkdHdm5XTXh3ZkdlV3RNekV1R0FyLU9Qb3VuZVZMYTlOYzFlNGhUQkRUNmtPVkhtcTZzSnRscW9hVHR2ZHFic3FjVVhTWGVDZ1FyalhQb2lFVlAtTWtVUWFadkUxWDBmeUF3MWZOOUpnNW9CQ2FGYnRISjFjbVFLWFdDSUVHdTl0dVFrMkpITmRidGwtRWp3cTVfalhxemlibC15cnBYVHd5Z19kTUUtcWgxUjYxQkMwMUFfSVMyUFlYV1gzVURraERSdUZtSWloMTQ0NkV1MER3RGNnUGJFX214bFFVcTRpS09sNE5JR25SRVZhMERpdnlVVU9lQWU1T3luOFdaQmV5ZzBjc2VRU0I1VjdpRmUwdC01Znplc3JBbHBERF9BT29HaTF5blRfVG5zQlRuRmZiYVBXaG5LZFdULWlJRU1DQ00?oc=5",
   "ts": 1795031474000,
+  "tr": {
+   "en": "Sudanese Community Association in Newcastle and Surroundings Annual Activities Report",
+   "ar": "تقرير الأنشطة السنوية للجمعية المجتمعية السودانية في نيوكاسل والمناطق المحيطة بها"
+  },
   "summary": "Sudanese Community Association in Newcastle and Surroundings Annual Activities Report &nbsp;&nbsp; GOV.UK"
  },
  {
@@ -9422,7 +8976,8 @@
   "title": "الأسوأ منذ 4 تصفيات.. أرقام صادمة لمنتخب السودان بعد 4 جولات",
   "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxOajY2cThsandpLVRlQm1Rblhrdl9UVjBhQXBqR25aZ2FrMlhjOXNrb1dBalRQNGtQWjVWMU1VMUxtWTVoRXMtNGFuNFFidjhjOUtKdEgwS1dXUXBIb19TQkt5MzM5TnM1aDJidUVfMUtET2M5ZzZYdlZ0cng0QTQ5eWJfZU91TV9UVjZSYnBHMzh1SVZleXpNMnJ4YWUxX21PS0hqc1ZOVnBXRzJ6bUhxWFItRnpOdWRzNW5aRGNHc1VYbFBwckRza295SkRuQmJJdkJkTnp3X3R5LTktdVJXU2lUREZsR3hMNkNsT3dxcHgxSU53R3Itb0JtNTRqWUduU2o4YlIyUVdVbWtIV05XVkUyMU5FdXBkRXREZ01ha0ZLN2lJT0FydkVlVlM2MGFFTXlvN0wtNEd6MlhPWElDSHlpR0Z3QU9zbWRvRFB4TTFsRWxHaDNaZms2NHJ1cTcxaVZUZFR0dFZxYVlPNUhYZDBaUnZ4WlkwbFVjai05SWxzRzV1ZkNQSWUzRXl3M1V1TXQ4VGpLSnBMNkNoQ0hWUnloMlYxSl96bnZLbjFBUXhtdXU5djZOU1NWd092eGtvOG1lRGdRZm91QUplSWpMOWxMdE1mU0pFVE9FcE5xVy0wWThYM01XSzVSUDFKU2FPa1plVg?oc=5",
   "ts": 1795092823000,
-  "summary": "الأسوأ منذ 4 تصفيات.. أرقام صادمة لمنتخب السودان بعد 4 جولات &nbsp;&nbsp; winwin"
+  "summary": "الأسوأ منذ 4 تصفيات.. أرقام صادمة لمنتخب السودان بعد 4 جولات &nbsp;&nbsp; winwin",
+  "_tk": {}
  },
  {
   "id": "3aaabe735bd5",
@@ -9443,5 +8998,392 @@
   "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxPZWFCdGpfQm1vbVBDVFVGWncyMXRuRXcwcDJiLVh4MndCV3pzNmFKdTVybjBuQzNmSzYxOUVEQy00bWVKU1EzRkdmUlFsREpwejlneVNFRDVQS1RiWlFpZUc4clBCenZWMW8ydFpIOTFDM25DWnJoOHVJekdUYWZBYkRBNUZtdjQxRnc3aDF5OEZvcTZtV3ZobnlEQUd1RWVhMXNZTHlDdjhZbUF3cXJaM0FlS0N6Z0w0VXV5NlVJalI2UnhGdWJHdGQ2Q2pxMEd2ZG95a0s0X0ttanZzbGUzRV9PUGlTTWNEVlZ0VzlKX1NRVXlMZndvQll0Ti1SZDlod2Q0TnEtZ2VPbEYtQzA0d3N3Q0RzNkpaOHVZTE44eG9LeTBiZ29qTEkwY016TVRRVWdibnlWZFluTk41QndIa3JfN1c1T0NuMmNYcDA1ekZwMkdDakpuUHlxbUl0aTAzek5fTHdqZHJZY3N2R0xvclRkWGhneXl5ejl3X1p3Q3hZLU9Ud3N3ZlBKbHJNaVRxamQzMWZhZy1rM1VJVy1yelNxem1rUV9qUVE1aDgtbTJyT2M1eXdNOVlZVVJUOWFPUFFvUWhhNnBPbWhEVXR4S2FzMERVbmkyR0J2dFdHb01ENkd1cC1kNXUxRW1BUTc0Tl9NUEtSR3gtWXlVSXRr?oc=5",
   "ts": 1795084511000,
   "summary": "مدرب الهلال السوداني يترقب 3 تحديات شاقة في مواجهة الشرطة! &nbsp;&nbsp; www.winwin.com"
+ },
+ {
+  "id": "6ac20b4c0f8b",
+  "src": "dabanga-en",
+  "cat": "en",
+  "lang": "en",
+  "title": "Sudan: Bike-gang-driven crime wave fuels fear in Atbara and Kassala",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmJicXJtZFFxbmhKUzZSVnNwZ1FkLXdGZm5sZXV6NWc5dlpfbGtrSGJkQVI4cGR3TzZBX19XaFdIOHVyNTUyQklxYkd5bWpycHF5T1lWM2E0czI2Z2xTSDAwTWZrY0ZvZFJNTXVXR00xMHd6VEZNbkhtckUxSzNvUkNtM0Zfb2xLQ09LekpLc2MzeEZQVXVqSEhUNllDY29ScUlLYzNSTG5XTlc1TVJPTExEM3UxUQ?oc=5",
+  "ts": 1795016988000,
+  "summary": "Sudan: Bike-gang-driven crime wave fuels fear in Atbara and Kassala &nbsp;&nbsp; Dabanga Radio TV Online"
+ },
+ {
+  "id": "089ed961a6f6",
+  "src": "st-en",
+  "cat": "en",
+  "lang": "en",
+  "title": "Escalating clashes drive fresh displacement in Sudan’s Blue Nile region",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2UFZpTW9hMGEyRWlXcVg5bkwyZExZcGxfQmpEaFBEckFLWEJ4LUVMYVJ5dXF0UjBfYndtSEdCcHNxRUd2dGtUdGxWaG5RSkZ5?oc=5",
+  "ts": 1795135157000,
+  "summary": "Escalating clashes drive fresh displacement in Sudan’s Blue Nile region &nbsp;&nbsp; Sudan Tribune"
+ },
+ {
+  "id": "db4937897671",
+  "src": "tamazuj-en",
+  "cat": "en",
+  "lang": "en",
+  "title": "RSF-SPLM-N alliance claims capture of Bau as Blue Nile fighting escalates",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFNPd0hZWkhlVmJra3UxQVJyUHNNbW5WM0pCZFhUb09paGtLaTFPUld6SHctV1otZllHMDRGN1JKbzEyYmdDUGJFUmpEZjRyUUpNV1l5TWxxWGhCZ2RaeEliQ0xfSldTdzhSYkxZLXQ4S0J3dzVvcUhRcG5VVUJmSzg2SlI3MGlocGMtVS10M0xtOXNYQ2RfOUdqdEo1aXVmSWF4Si1QbzJDeW82?oc=5",
+  "ts": 1795121124000,
+  "summary": "RSF-SPLM-N alliance claims capture of Bau as Blue Nile fighting escalates &nbsp;&nbsp; Radio Tamazuj"
+ },
+ {
+  "id": "3329710abada",
+  "src": "tamazuj-en",
+  "cat": "en",
+  "lang": "en",
+  "title": "RSF-SPLM-N alliance claims capture of Bau as Blue Nile fighting escalates",
+  "url": "https://www.radiotamazuj.org/en/news/article/rsf-splm-n-alliance-claims-capture-of-bau-as-fighting-escalates",
+  "ts": 1795120698000,
+  "summary": "An alliance of Sudan’s paramilitary Rapid Support Forces (RSF) and the Sudan People’s Liberation Movement-North The post RSF-SPLM-N alliance claims capture of Bau as Blue Nile fighting escalates appeared first on Radio Tamazuj .",
+  "_tk": {}
+ },
+ {
+  "id": "4c8bd50b0f00",
+  "src": "swm",
+  "cat": "en",
+  "lang": "ar",
+  "title": "ما هي مخاطر الانشقاقات المستمرة في الدعم السريع ومستقبل الاوضاع في اقليم كردفان؟",
+  "url": "https://sudanwarmonitor.com/p/e20",
+  "ts": 1795144796000,
+  "summary": "الانشقاقات السياسية وسط المدنيين وأثرها على تماسك القوات"
+ },
+ {
+  "id": "7b39adda733f",
+  "src": "swm",
+  "cat": "en",
+  "lang": "ar",
+  "title": "الناطق الرسمي باسم الكتلة الديمقراطية : بحثنا مع بيكا تطورات الاوضاع في السودان",
+  "url": "https://sudanwarmonitor.com/p/ec0",
+  "ts": 1795122701000,
+  "summary": "الالتزام بتحقيق السلام وانهاء الحرب واقامة حكم مدني ديمقراطي"
+ },
+ {
+  "id": "532d732eff8d",
+  "src": "reliefweb",
+  "cat": "en",
+  "lang": "en",
+  "title": "Sudan - Concept of Operations Map, October 2026",
+  "url": "https://reliefweb.int/map/sudan/sudan-concept-operations-map-october-2026",
+  "ts": 1795102817000,
+  "summary": "Country: Sudan Sources: Logistics Cluster, World Food Programme Please refer to the attached Map."
+ },
+ {
+  "id": "365c4d2f9c1b",
+  "src": "reliefweb",
+  "cat": "en",
+  "lang": "en",
+  "title": "Sudan - Concept of Operations Map, October 2026",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PNEVPdDZsR2tpSjljQ2pubWlBVE1GQmVHZ1hUM2JrNWVfeTdSQXo1bko4UkdTSHQ4Y25aMDNKRHQ0dDZUbVlhTThKbWp4SjFQSUR5bGhaN05sTll4cVRHbVI2SUFsQWdDQkwxNjR0NmpwbTNSZ05ieWlSUmdXQQ?oc=5",
+  "ts": 1795102817000,
+  "summary": "Sudan - Concept of Operations Map, October 2026 &nbsp;&nbsp; ReliefWeb",
+  "_tk": {}
+ },
+ {
+  "id": "b4967876e056",
+  "src": "reliefweb",
+  "cat": "en",
+  "lang": "en",
+  "title": "Sudan - Concept of Operations, October 2026",
+  "url": "https://reliefweb.int/report/sudan/sudan-concept-operations-october-2026",
+  "ts": 1795102807000,
+  "summary": "Country: Sudan Sources: Logistics Cluster, World Food Programme Please refer to the attached file. Content Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises. Nearly 8.9 million people are internally displaced – including more than 6.6 million displaced si",
+  "_tk": {}
+ },
+ {
+  "id": "f9c1e3f38afe",
+  "src": "reliefweb",
+  "cat": "en",
+  "lang": "en",
+  "title": "Sudan Situation Analysis: [5/10/2026] - [11/10/2026]",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQmJuSnRVQnRYZ25hMVA4MVhTRkxJTzEtSzU1bWF0SXlwU1pCMVdZUDNIeVEzNDloT3pQMHIwTU5fZmdRdlVHUjNObTBEeDNyRnFGYjJhVy14U3UwT2tBQkNBZDJJU19QTUFrSm5PTVVvQU9CMnNITklUMVdXd292MGx3?oc=5",
+  "ts": 1795082011000,
+  "summary": "Sudan Situation Analysis: [5/10/2026] - [11/10/2026] &nbsp;&nbsp; ReliefWeb",
+  "_tk": {}
+ },
+ {
+  "id": "47e43033b8e7",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "تأسيس: مقـتل 37 مدنياً في قصف بالمسيرات على نيالا",
+  "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOcEJObS1ESmlHM0c4Ym1tRXpVV0NRbTNRSXh3R0xha3BEOXFYNkw3ZkZSWl93WnpleGVOaVlHUDdncVk0RTM3RlUyNjVxd1VWSVp5dzd1WWZPOGRITTdKNXBOWmFGS2xubHZSVE0tZ3ZiUDFYa1A4OW84SnZESktrOVBmY0xxcV9PWnVmMl9wOGppTDNRb01SZHlJRGsyZ1YyOWZua1ZKYkNXa2F4VE1rekNWNlJpc0tDYUI0eWMtRjdZMDBYTHhIbkhUaXNDSnJJbmgzQmlLMnJvQW84ekVuekFMWW9KVC1pakFlSDJ6cjhQbUs3T0hnUF9vZFQzUDBWM1BDRHlkUWVYZ2RrU1FvMG1qOHhhY05yNWFlZjdhYXBKTS1vS1B5c29vMmZHNUZYV2plaExtLWZPbDNSMWxtSnJ5aFE0ZmtpWXJhUWNQWFRlMlJFbmtEdDJSRE5naEpfQnc?oc=5",
+  "ts": 1795122910000,
+  "summary": "تأسيس: مقـتل 37 مدنياً في قصف بالمسيرات على نيالا &nbsp;&nbsp; Dabanga Radio TV Online"
+ },
+ {
+  "id": "5a6bab3ad861",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "تأسيس: مقـتل 37 مدنياً في قصف بالمسيرات على نيالا",
+  "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%aa%d8%a3%d8%b3%d9%8a%d8%b3-%d9%85%d9%82%d9%80%d8%aa%d9%84-37-%d9%85%d8%af%d9%86%d9%8a%d8%a7%d9%8b-%d9%81%d9%8a-%d9%82%d8%b5%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%b9",
+  "ts": 1795122840000,
+  "summary": "نيالا- 19 نوفمبر 2026-راديو دبنقااتهم تحالف السودان التأسيسي “تأسيس” القوات المسلحة باستهداف حي المزاد السكني... The post تأسيس: مقـتل 37 مدنياً في قصف بالمسيرات على نيالا appeared first on Dabanga Radio TV Online .",
+  "_tk": {}
+ },
+ {
+  "id": "c027e7562eea",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "التضخم وأسباب ارتفاع الأسعار في السودان - Dabanga Radio TV Online",
+  "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQWFU0d09jNG0ydi16T2lKSWJsbFlWOHFDS1VyazdLTFJRVG1oNTM2T0l6NFJZN1hyZFJOek9QRmhpN3RXbzVJbGlDT3NwNERPbklWRklBUXhRUzJIaHhSNWtjSHdQbEgyNWVObUVzQU9SRW54bExUcUt1dC1CYmlxNFRtOS1PUl8zSXF3QmpxQU5pb01xSnFWLXRZNHc3a3gwWDNWeV9oWGdUdVZCZXpxTGpVT3BobDl0Qmh6MzNJXzlTX0E0X2hiZ3dwd1NjQS02WlZmeHVlWGMxUkJTY0o0bWU3enY4aG0tU0RVSWYtNnJJT3pWa0NmU2hTYjBjUHo4VGxRZlFxNm5GaktZMWZ3b29zTmNaRHpxZV8tNnVsZDVMbWVlc3hLOF95elNGT0ticWphT3MyX2xFRlBTWEtrZ19LRDhSSGpwWFo1VkVrcFlnWHZTUl9QUnU1ZGw?oc=5",
+  "ts": 1795121440000,
+  "summary": "التضخم وأسباب ارتفاع الأسعار في السودان - Dabanga Radio TV Online &nbsp;&nbsp; Dabanga Radio TV Online"
+ },
+ {
+  "id": "a14e1d01c11a",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "ارتفاع معدل التضخم لشهر أكتوبر الماضي في السودان إلى 34.88%",
+  "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d9%85%d8%b9%d8%af%d9%84-%d8%a7%d9%84%d8%aa%d8%b6%d8%ae%d9%85-%d9%84%d8%b4%d9%87%d8%b1-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-%d8%a7%d9%84%d9%85%d8%a7%d8%b6",
+  "ts": 1795121199000,
+  "summary": "أمستردام: الخميس 19 نوفمبر 2026م – راديو دبنقاتقرير: سليمان سريأعلن الجهاز المركزي للإحصاء عن ارتفاع... The post ارتفاع معدل التضخم لشهر أكتوبر الماضي في السودان إلى 34.88% appeared first on Dabanga Radio TV Online ."
+ },
+ {
+  "id": "f758a58201be",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "انتشار واسع لحمى الضنك والملاريا في معسكرات شرق تشاد",
+  "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPV2U3bUk4alpXdzcwMFZQeWFBLXdUck11cDJ4Q3lTVks2U2M3ZW91RFlPY0FuOWpwdkUtV3dVcmNsUWtnUnJSNWQ2eHpSeXpYOFJvNXFUSUY0MGxGSGxWTjlXWU5MaS1qVjdpWFpFRVFUckpYRjBVWFZNQmhmdk5RWnJyZWo0X3FjZHJQNVhjdUJxTmFJRktRcVhZdm1ZNkpwcmZNVWt2MUdQMXM0aERneTdNSmRIWHRsVG5pN2RGc24wYkxpREhUNGZXTG0yYkpLX0xQdWtfSDZVSmJ3aVZoajJsVTB0aDBzQzVWcWVTYXd3VWd1Nm95dlJFeTRydUpNSmZxRkY1R1Fna0cwXzE4RXVRbWN0OEJ2NjNUSGlSYnJWS2tWQXFIWUVVb0ZKVThNUGVBT0tjYVpyeUlCWDllQzVhcDhlLTFQWHJRM0xIWERCd2hlRVhzQVh4OGtQZnhaLTYxMGpB?oc=5",
+  "ts": 1795101858000,
+  "summary": "انتشار واسع لحمى الضنك والملاريا في معسكرات شرق تشاد &nbsp;&nbsp; Dabanga Radio TV Online"
+ },
+ {
+  "id": "61ef258e34d9",
+  "src": "dabanga-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "العفو الدولية تدعو الأمم المتحدة للتحقيق حول غارات المسيرات في الأبيض",
+  "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQelgxYi11Y2hkeFJpZGMwcUtQUDgtNEpUVFZqNjVxR01DNzgxZzF1N0tWVEFfU05iRzNoblBnbVpxWGoyd3NmN2E1cFZQTmNnQ0tfUDJhU2wzS0RJR2xCZmh5RGRWdzJoeFY1WE1hQW1SRXNPUTh1ZVQzdVFnejczaHJxOWVxVlUwWEREaWpGZXBSSHFJU3RRR2VKbTUtSWR6anlHV3BrbFM4OUhua3c5T04td3kxazFTR2ZZaFItSU5yR3lCSHBlVC1TWmZuZHg3R2lHdGxrNEwwQktiUy1VR191VFlVeWkwNlJfZ2pXNzZORHNWQ1hGUk14VFNxVmhNM2RLR3RqMHYzM3UxbFBUUk9iU0g4dE5hS3FoOHhHRHlVejdhUlZVVUFCVnh1LXIteVM0eDRYaHhSQ09kMVdSQy1vekNCYmRXSkR5YUpWWldkbV90aVpuVDBaZEV4RmdfbVV1MUF3?oc=5",
+  "ts": 1795027120000,
+  "summary": "العفو الدولية تدعو الأمم المتحدة للتحقيق حول غارات المسيرات في الأبيض &nbsp;&nbsp; Dabanga Radio TV Online"
+ },
+ {
+  "id": "0936fface6e4",
+  "src": "st-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "محافظ باو يتهم إثيوبيا وجنوب السودان بزعزعة الأمن والاستقرار في النيل الأزرق",
+  "url": "https://sudantribune.net/article/321463",
+  "ts": 1795161628000,
+  "summary": "باو، 20 نوفمبر 2026 – اتهم مسؤول محلي بإقليم النيل الأزرق، الجمعة، دولتي إثيوبيا وجنوب السودان بالتورط المباشر في زعزعة الأمن والاستقرار بالإقليم، مشيداً بالانتصارات الميدانية التي حققتها القوات المسلحة في منطقة ديرنق الاستراتيجية. وأمس الخميس، أعلنت قوات الدعم السريع سيطرتها على مدينة باو، بعد انسحاب قوات الترتيبات الأمنية التابعة لرئيس الحركة الشعبية مالك عقار إلى مدينة الدمازين عاصمة الإقليم. و"
+ },
+ {
+  "id": "8e7fdd6313c3",
+  "src": "st-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "زيادة أسعار غاز الطهي في (4) ولايات وارتفاع قياسي في تعرفة المواصلات بالخرطوم",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yQ0Iwb0VUUGhQb0lFam5JaVFpSHhDV1Z6eU5hLUlqN2RtcExVVHFFRUt0UGx4VGtUMDVxY1g0TkhnbkJ0NDRkb2xkMU5INkVt?oc=5",
+  "ts": 1795119349000,
+  "summary": "زيادة أسعار غاز الطهي في (4) ولايات وارتفاع قياسي في تعرفة المواصلات بالخرطوم &nbsp;&nbsp; سودان تربيون"
+ },
+ {
+  "id": "a21ec6d4302a",
+  "src": "st-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "زيادة أسعار غاز الطهي في (4) ولايات وارتفاع قياسي في تعرفة المواصلات بالخرطوم",
+  "url": "https://sudantribune.net/article/321449",
+  "ts": 1795119189000,
+  "summary": "الخرطوم 19 نوفمبر 2026 – طبّقت عدة ولايات سودانية زيادات جديدة على أسعار غاز الطهي، وسط استمرار شح الإمدادات وتفاوت الأسعار بين الولايات والمناطق المختلفة، في وقت تتفاقم فيه الضغوط المعيشية على المواطنين مع ارتفاع أسعار الخبز والمواد البترولية، وانعكاس ذلك على تعرفة المواصلات في الخرطوم والولايات. وشهدت ولايات الجزيرة ونهر النيل والشمالية والخرطوم زيادات جديدة في أسعار غاز الطهي، مع استمرار شح الإ",
+  "_tk": {}
+ },
+ {
+  "id": "29dde80dc47c",
+  "src": "st-ar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "«الدعم السريع» تعلن السيطرة على محلية « باو» في إقليم النيل الأزرق",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yNmNjQ3RKZElyY25SYTRVc1U2VjFFSDV2ZW0yamk5bUczNHA2VVYtZ19CbGdqOV9kaVJ3cTJSS3Z6dkRrdEt3TFk4X3RlOUNW?oc=5",
+  "ts": 1795114214000,
+  "summary": "«الدعم السريع» تعلن السيطرة على محلية « باو» في إقليم النيل الأزرق &nbsp;&nbsp; سودان تربيون"
+ },
+ {
+  "id": "1844cffebf10",
+  "src": "rakoba",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "نساء كردفان لسن غنائم حرب",
+  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQV0Mtc08td1lKejJjMmJxVlh4TF9LQ2FCbXcyV1RoX2d3d2IwZDFWV3BrMEZQU3hFZ0xQdVNqT3NldTZHdHRzLXR4MFREa2tUdGVvVHNUVW05QzNEd2hGeHdhMUcwRk1uQWExWTQ0VEdYNElmanVNcFFoSFNTeEVmem1IZmVaWl9QRnkwLWM2eHFOczRQV0swVnppdVhVS1NJejhhcUZ0R0NaUjlwWGRHOFVJWEJUNnJZTjJGdXl3THJlU0lyS3U4YzRUUWJqc19uTGhTZWV0eDBFWjFTaHJQQjRnLTBULVBUYW0wd2JrNXBQbmltdnpYUQ?oc=5",
+  "ts": 1795160971000,
+  "summary": "نساء كردفان لسن غنائم حرب &nbsp;&nbsp; صحيفة الراكوبة"
+ },
+ {
+  "id": "3257b2597364",
+  "src": "rakoba",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "أساتذة جامعة الخرطوم يرفضون فصل زملائهم ويطالبون بتفعيل التعليم المدمج",
+  "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNVHhkbVcxcC0xeGhpdmhWODdpS1kxWFBsd0FGVHRSVkI1emNJTW5PSFpVV2JwM3REbmJwLVBMenhIMVRyR0lLc1BTeXFpUHRmaVpjX3NfSEttU1lzU3NNbWQwWG56dnNPekRLTTJRUTE5aXN1OTAxMDcyb1V2N3U5SWoyT2pPTDJlSkphcURWWUlVVTIwWk83bmxNOGprQmlrUk52MXFialg5VG5BZXNzV3MtZ2hCNC1lWGtGNFltVS1tZ0J1WU1Da1A1WmFVZVJvVDBZcWQzSFFYZzNLM0Z5WUpYcjFnMDRaOXVFTk1XRFBYalJHd3VNVnBPTHRQemZwNV9kTWFaaGRaQUFacE1RclVuRUdSdnNnNDYwZEpxaVAtMDhsTm1DNnhScjFPQWZsa0hpQkIxQ1YzS2lsZlQyV1gyLWFzRC1faHNIWWc0dVVqUQ?oc=5",
+  "ts": 1795159174000,
+  "summary": "أساتذة جامعة الخرطوم يرفضون فصل زملائهم ويطالبون بتفعيل التعليم المدمج &nbsp;&nbsp; صحيفة الراكوبة"
+ },
+ {
+  "id": "3b44cbbb9f6d",
+  "src": "rakoba",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "الطلاب ليسوا احتياطياً للحرب",
+  "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMVVDczhHWTVnVjc5WmVCR2FIUXRZbXI0ZjVrMWl5WGFCMWlwZkc2cmpqYXFYdnpGZXg5TUVZV3UwMDZFV1FNczVGb3oxcFlmYnNVNDB6NFF2SXNMbldpMFlqQjlGRE9yMU05Z2x5a2VvdXJzUXgySUZjTmg2T0t4dG5KUW05M051dVFhMlV3aGMyVG82UEdRTExUMlM0WmRmTjRvT29oVkx6WE9Wc2trNm1YQ2hZTng0UnkwblZpNUJZYlNUMlpNZzBfNGFqbk9Ja0N5YmhQU0hKVkdQSU9Pd1NaYldkdnNIdzI4Q2F6TlFKZmFmSTRHN2lmZHpIMUh5cVd0UkNmd3R4bjV3aHE5eGdEa3NvSjQ?oc=5",
+  "ts": 1795158860000,
+  "summary": "الطلاب ليسوا احتياطياً للحرب &nbsp;&nbsp; صحيفة الراكوبة"
+ },
+ {
+  "id": "d473a3387025",
+  "src": "rakoba",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "مسيّرات “أبو قلب” وطائرة بوروندي..!",
+  "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNOU1vbVBCYUV1ekc2UV82dVUzMFRxRmhPV2J5WVA5ZHI5aEJkYmZDdWxfRVd6eXMyR2hEWWVXb3RYYUlhOUMyUWs1dEdUZTRaVVNLYnE3X0FBdXBxZXB1MWNhNUFkMG4zTFVtRVFhUC1hOTM2TGhNcXF5ODJBbTQ3ODZPVTRCZ010OExEd2Y1bVZfY2xHZUp2NTdOVERPai1UMnRqRkFTQ1ZvUnRpSEo2RFJoeDJnT1FJVTZZUUpfVThJeVd5azhjdGZUYjZWZndSbGlFNUYyTGhHT0dWamh1ZXVNR3pIZXpYdkNQaUxVUDVXVDlZUGdubjNMX1ZvRktuOHVPOWxYUTY1WHhlNXhEQWhJZlNUYUZoRjVzTmJRQndYaHM?oc=5",
+  "ts": 1795158565000,
+  "summary": "مسيّرات “أبو قلب” وطائرة بوروندي..! &nbsp;&nbsp; صحيفة الراكوبة"
+ },
+ {
+  "id": "9639c8808e4c",
+  "src": "aja",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "في السودان.. بصمة كيميائية تروي قصة 10 آلاف عام من الترحال",
+  "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOTktpS1ljRmZsbWNNNC1ucEpBckhuQzJnR1E3T2FoZHBNOTdDb003MkpjUlFXQU9taGxid3NjeFoxak5Ra1J4Y2RxaHlfdzRmeTFxdDlCYTNpY2J4WFEtVGR6TVl3N09lcm5DSE1WWENONHlpRnY2dDNPd0g5SDVxOFhGUkFCdzJsdGVlNjVRSWQzZWNlZTIxbkVaM0lEcEZDWHExVktxSnNmLXB4emVsWWg4aHl4M2I0aW92S2NhUzBYVFY1Ml9CWG9oWTk0ZEw3SElwblNqaWNnLU9XQlFXZE5UTmtmTy1xTzhaMDdWclAzVXJVNDZiTk1YYS02Njg5dVJZdk1LSnc1dVR1ckpmNHNETmNjbzkyTUdxUFpyWDJ5c202aHJZaDFoN2lVcVJ6b1MtbWZGX3RodkxRcW9hazAzczg?oc=5",
+  "ts": 1795145690000,
+  "summary": "في السودان.. بصمة كيميائية تروي قصة 10 آلاف عام من الترحال &nbsp;&nbsp; الجزيرة نت"
+ },
+ {
+  "id": "a4c831b89b6e",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "إثيوبيا تأمر 6 دبلوماسيين سودانيين بمغادرة البلاد",
+  "url": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxPNXNxeE1QTGdwTHdsRHd0OHQ0SG8xSjRXMWdOLWhiSzhNQWpwcHdieGppNG03Q2UzaURGeTdYSTZEUUJnZDQ5U1F5Z3FJMmJiZjRyNFhUNWJwOWpQUTJSYUl6clo2Z1lLMmk0d1NNcU9FeTlwU2xCNlYzQlhHX0I3emZmZ2g0akh2M1NJcGpBWWhYQ1EzVmNRT29lUnJ6RnlOekVZbm1uWUpKbUZkWHYwNC1ESFdxSmt2S05vYXk5aFRHTGhCcWRJVm5pdVBlc2JyNGVDbWwwWFNra2JWQV9MNk1kTUpZQS1TSkVueDR1NWFWa1BhbUlpX3MwdERwNkpJTkE3WG5FcGxFNVdFcDYzMldfXzVwVjBGdHcwa21oRnptbkZXTHNNX3FxNEg0WXVoQU1uZGM5SFRRM1dwSmF2WGZlMEMtNlJnaW9TMUJRM3VzcGotS1dEQzNQVVkzNGI2WTJ3WUJVNTI3UnpFUVYwUTR1WUZnZjZVQU4xYTlQZnRra1E4ejdneHo4QklNSHdxMnQyVUJvQ3JtLTVmem9NOF9JSEdJNjRlWENlQVBNTmZ1azRiOHdOLXFDUUxYZ185VUVFZHFwTWh0c3hOSHZZcktLZHR4a21GcjN1aTRZRF9ZbmVGZTBSNXhwUGxkZGpOSFNBNDMyWFdTTUs3LXVVTms4TnpzaEFTVnFkR09HVW1na0J1Rk9rNldLNVdEMVJjQ1VBU0tGNmhPRTRWNEp6M0hQWTluM0RrNEMybjhCaXJEdTR2bEoybUZDRjJNNlRJYnpfbU1Dcw?oc=5",
+  "ts": 1795150948000,
+  "summary": "إثيوبيا تأمر 6 دبلوماسيين سودانيين بمغادرة البلاد &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "2ae63e484c5d",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "اشتعال محاور القتال مجدداً في شرق السودان وغربه",
+  "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxNVzVNa0ZqVmdvRWZiSjg1RFVrVHdKd3AzRnNWdzNhN1pHSGJ4dEVHN3pDc2NBRVNVM2NKTXBTNWJucXFuWVRScndEOGNCX09hZU1pMWFuNEIwbEI1YUExVXV3T3YzZ3AtMlR0cEhPRVBSYk1xb2xHZGJFb3lzSlplRUpEamlsbG1EUlFka3JOM3RwRXFVUGZLQXlKVThOY2FNd2Y2ZTN2VUhCY1RUWWV0YVBod3E1UG9LY2Z5YmU0d2VMaWc0aHNfRjVpcDdMVGZTcTk0ZEdDSnEwbXNkSkpueW1TeGJ5R0E1cGJsUFpFbUJiSTdHTzZIdDBTWEpvNEpjTk9tWk5DN2JmYi02Q3IxZWRUcjJBMTByRWNVWTVjUVJvaHFzUy1ETHk1c3UzR1Jqbzl0RjB5aVZTTWZrcF9BakNTdFdNYlRqckF2bndGekdMMC1GNGFjblRqaUtpNWhvSGVOOVJzLTNXX09ob2IzTjVzY0ZYMlRTdDRsMG9NckV4MXVhRzBIck0zNF9GX0JVWU40bUFzTEtBcTVJM1h4UUdhMHFkYmJzVzl5emlBT3hNXzU2TjFUSWU3MGM4VENRQnNDYU5VakhpYVY2bFcyNHFDb0wxaGZKdHhqVVlZVHJCT1FuQ0s2djVmS3VncUxoNFI0THBYNGNsN01DZk9GdGlzanZ5eXlKWjRrUEFnRzlia1k3d21kb25XVTNGdW1fYlIyMXRtRk5GNDJwRUFrdk85aUdoem01azk2UkVfUHhWc2FDQVgw?oc=5",
+  "ts": 1795131653000,
+  "summary": "اشتعال محاور القتال مجدداً في شرق السودان وغربه &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "f32c0fad418d",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "الإمارات: الحكم بالمؤبد على 8 متهمين سودانيين بتوريد أسلحة",
+  "url": "https://news.google.com/rss/articles/CBMi4ARBVV95cUxOcXlzRTZvck9hdk9hTFJYdDlIX21MR0N0REp3ZE9rVG1lOTZZMUZQUUZXenlBV2o3dEFNdV9rM3pidHBEYVhuWk9yMUZXcGhsdzI1VThvRlNIaWU4ZktFQi1CQ0phYm5jX2t6U2Q3dXVoOXdtUzNHaGZ4MVVSTHlkWm5qSGFHZlJGbVl6QmxROVBYd3ZMREhlZGRHYjBsNUFkcy1ZS0pfWjhhUnQ1bkxScDNIOGVQRDdQN0R2RmtkS183UVlnSC1aOHo5UTdxUXBJbEhlR25SZUVyeTE5TjhLNG5id2phVklDaGlxay0xUWhjcjhaT3RGMUU3U3M0T3JRY05TQ1Rvd1JONkk4Nk9ibHJZQmx6ckEwZFBtblJKOTRWb0RMV0paSkUxSDZYdlhRWUVLMm5QcFhsX1RkUnpZWktCQmx3UWtwZlBJYnd0aGRfY3E3U2ZYYVpMMFl4OVQ0Ynh2S1BpNi1HdW9VVGp1ZlJnd1lFS0dpbDFENHJqYW0xZWk3LVUtdTFHV1RzQUJQT2FEa2hIMVU1NlR5U2tON0lhcGtFWkx2ZjBvNWhjdmxjTWNDbEgycVFEa19mQWdxTzY4ejNnU1Q3VktIWG9BNC1CU1A4eDEyd1ZtRU54cGxfWmdXRmtJSWMyY0pzZ0k2ekp6T1luX1BFaVFzWlZyWmFrNWhkVWtJbGxTV0M3RmI0ZzdLN1BMRVVmOW5ZZnotS0x1ckp2MzZkd1RKUTZDcm1uTkxuMWxlUEFwckZOcTE3YU5WUS01V24yRU9TNmZxQ2djbE0yWFF1Y3lCLThOQQ?oc=5",
+  "ts": 1795122113000,
+  "summary": "الإمارات: الحكم بالمؤبد على 8 متهمين سودانيين بتوريد أسلحة &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "401abf7da779",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "«العفو الدولية»: هجمات «الدعم السريع» قد ترقى إلى جرائم حرب",
+  "url": "https://news.google.com/rss/articles/CBMi8gRBVV95cUxOTlZZQmJqYWVucXpSc3dzclR5cVMwXzBnLVZGY1FfOS1vU05udGZGTGt1aU4wMGRzMFhHQnV6UDlweE9HUml2Tlp0N0VBRGdkLV9wZzFFQ0hSYW93Ry1DeVNVNjFFSG84VEpuN21wTFdkM292Z1V5ZjFnT1l2WmtRSnc5V2FMQVN2TmZYTDBEQzZFREsweXllTlkyckFCM1B6eHNISzJsRHR1cnIzdzg2ajNkQUxvTS0xTmQ1TTFfbmREbGtLRzBJbXNEVzFCZWZZcHZ1WXBWMTEwSDk3TS1JOFpwbFdfdUxSVVQwN2RjTEQ1ZXN3NlYyY0NXZU1FcFFsbWZqY1lKdTY3SWVRc0h1NlcyN1BwNzY2Z0R1UEZtVk5UYk5SR253YzI5X0FfcGllTnZuWDA4a1A5QkVLVGxGQ29ZeXdFMU8zLUNvZ1dGNlk0R1ZJWEZMbEY3VWlIcHRlTTQ3Wl9wa05mY3pXakxNVHg5cHJmcnQ1cFl5bnV6R0R0QjFXLTlXbzBVMDZfcm14emlSSzRRNWR0T2JqUTJzRzJKY3JSMkZ4cFl5S2hJME9VeDN4LXdJT3ZzSGVuOHhZZVAzOHlfdjJ1T0RzaG1FSnF3UnVZZDBkenktWVFrM1dibzEwaEMzMVd4UUsxWWtFY1RCQktwWnRpV01kMFU0Y09mY3ppOVJzY0R3T3NSYnJCVGxxVVQzU1N5eVlRelN3cVk0Mmw1ZEZta0ZnQzZpdDZuX0tJa181cUgzdGdSbWZvd3pHdkJ2aXNvY2FJakR3QVNhUVA3RjlBUzEyQlBSS3BMVFdSMTI3bkdCVGZkOGV0UQ?oc=5",
+  "ts": 1795114986000,
+  "summary": "«العفو الدولية»: هجمات «الدعم السريع» قد ترقى إلى جرائم حرب &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "8dd731013e17",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "المواليد يرفعون الحضور السوداني في مصر",
+  "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxPTFgzam05ZE1hREhRN19FQXZ1Z0Q0UzNpaUNpVHVRWHNuZGwyYnBJeEgzN0l3U1RNLWNvYlQ1Ukw2YVpjVmZKR3pJLVlDOTFWQm1ybTBMcFAzS2M0Z0FNWkw0b1FnUkJ0QU5tbVk4cmNkNjRiVzN6TEJucnhLLWc0LUhITlhJX3Z1M3hJT1hhbXIyOWRValhuZ0luQ3UtVy1lbVAzZGFvRWhOZFZkMDdtU01RWGowZ0ppeFA0X0xMenhfNGxvb1VRdVplZUVYa2s0TzVBVnBMWjBMN1FWeWptbTQ2eXp3dUpuR0ktd2xQMEpEUkRkbXhGWFVsWC1vZnVLOXhPUmVpdDNlU1BObG9seUZWSURXVzlBVzZvTXY5eThFSi1jal9xcmZrTWl5eDVnT3hUZXZKelJjNGk1Sjc4VmE5cWI4N0d4MUNSZG1jODFUaENvOVEwMUNVSFo1SThLTU9vWFBlRUE0UTNOZ0h4enFXc0dhaFktSnZfXzM2d2J4Nm8wUUJaM3plX0F0WTIybm85VnRUUjZGWEdONk92TVhfY2ZqQjFlMWpKbEJuN1Bvd0hhZjh1alA4RjA0VzNmUkhWTHdveEpMTzRHSXBBOEM3OFNwU0RrUlRMYW1Ud0ZkRDA5ekpQQmZpc2VzcXRueTNYV3FLMWdBall0RmZ4ZHlyV3VrNGY1ei03dg?oc=5",
+  "ts": 1795113295000,
+  "summary": "المواليد يرفعون الحضور السوداني في مصر &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "db08636b5ab5",
+  "src": "aawsat",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "تصعيد دبلوماسي إثيوبي ضد السودان يشعل توترات «القرن الأفريقي»",
+  "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxPLU9UT3lSZmxNRzV0Wk5XN2FxMVo5ak82Y2ZoaFppTy1MZ2RzMGNTeHNtOVAwSlJ5djJoOTlzTHdoMmpsWTFHYk1lU0l2aW81VHlDcWtTMWZ3MDRZMDN0OUd3NmsteFBIUnVoaENrX3pqbmVTNTZQVWRmLUFENE1FTkhBOWZ4Y1ZzSnRmS0w5NzI2dWh1Z21vMlNSQVF2N1lfWXFHZGl2YTlkUC1LT3RLSXNLNHUtUUZINEtXcDhzMWVDcmNWRTQ1Q3BwbXZ3Ujh3M29nbnd5cEc4eWYxTWdoU19sWGNMd0kzZW55MFRJTlN6US03MENGOW9JVFBFTFM1SVB5OUVLak00ejNKd0hZRWc4OG5ZbWR3X0FQOTFhVXRMQUJRckZ5Skp1QXdNNkQxTFMya282TF9sZUM0Y0dnYzZCeTIyREdvTGlWS0NfZ3ZHMnlfX3dfbjdXa0ItTFRFZWlpVlNWLWlFdk9PYnp2eWNxQjhKT2RycVJtVmo4RzZfM3JuVXA0UXlMNTRGVVNuamg0dzJVMkd4bllxTjcxT3hONHlzcGNSeDBDcEhXd2tQdmRTZ0NpM3d1LUFQaDVqYnNvRnpnVEFwOTQxazA3WWN0M3d2VXlfVGx4d0F0VVZ2eERwd0h3MkhRb3daQ2x4bFZ3aFcxSmJRRHR4YVI3R0xqdE5LLWJTV2dxUzVOOUtlc21JNmJEMV9JR0xIdnItWEVKWnR5alBETmwzOWJLclJ6NDQ4LV90azlhTHNEWHFKcjc2QkdHXzNpSDZmQ2FobndDQXluRUJsX2dMZzgzN09ZS0hyT1haNy12NWJXR3A2bW9lYUNVeldYSHJ1Ri1xMWpTZ3hOVURvRHFRSTVOVEM3RTBrUTRoNzhuYmRsTk0?oc=5",
+  "ts": 1795111001000,
+  "summary": "تصعيد دبلوماسي إثيوبي ضد السودان يشعل توترات «القرن الأفريقي» &nbsp;&nbsp; الشرق الأوسط"
+ },
+ {
+  "id": "b30c7717fd12",
+  "src": "arabiya",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "السودان.. التصدي لهجوم للدعم السريع في النيل الأزرق",
+  "url": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOYWpidGI3MU02aDRQeHlQeGV4cl9Genh3Xy1FZ2o1cmdNWE83cVRMWDhiN3NDTjE0N2xpWkdSYVZSdE1OM1BFcE14TDFyeGJ6RVRtZUsxQjVMT0RaR1NiNmc4XzZaMXhJZW55UzBRZzVwVjFkazJ6cjFqY3JhQ0VYdFY1VjdvdzEyc096ZnZVTnBqbmlqTWxaVGVaSE4xdkoyRGJqTDg1YmpFQjVHbWo0eWNmMG5na3V4TEs5U3BvLUxsUUpEbXB5dGxiTktOSk1MMXZCUFExUE91dGdIbTQyUllyYk9QR1JDenItdVQ1aVZKcEFVMWEwQ09BaWJOVzNWM2RrWjFRZFV6dDhoaV9fNHo1cUZybEZpMXRpUkhqUTV0SDZxWHZjZU9OcE1lZjhRcFp3WE9vaHVYS0w5aVVrVVh6WjEwcVp0TElsbmFqV180NGc1d3NLaWs1dnNrTlVLWmFUQ25ULTRDVThPTTI2QnhxUGhGdWRfdmNwYVFiNUtXSHRaenpOUzlxSmZIYWhqQ2RrZTVjTkRlYlZIUTFUdkdqVHVWZjZPek00aUJ1RDVwSEowMDFBQTJyWXV0b29USU5z0gHIA0FVX3lxTFBXQnNTY3MxWkF3Z2M3djhOQXRxcjJHSGFISVlWa3RXczdEX054LVFZeTRaWXpHWGFtYWxtb2QtZ3Qzd2p5TmVsdGM2T2dQQ1ljeFVuWWFlUEt4MUw5WWhET2ZzT09PNFVvZ0xmcEpVRkgwblpwdXRDNDhuUmVSMWJlUkpNRmcyTTZuS2tWejZ6V3ZqWVNNZU9lS2RheDNDT3NJaE45OU5XdmJTNG83bnpjQ3JhOUFKMkVmQ2NZeEFsZFZsX1l4RThnNnQ1U25mRXBMVEFwbTJFMm9TUHJpMkg4dDQ2YzJhX0FCcGpPZHR6TmZqakIzOU1KSzlOX1RRZUdjUzE4eEdxM3JMbTJ4NHJMUkVvN0dHaUZXdGxnVklWU1pYeU05UTdKRXFZcjhTLTlOT25zaHNNWnZBUEhGSjJLRlQyZHlTMVhfUUlhS18xV1luVzJCSE45d3NwbVluR2NSc0lWaDQ1QXdDMjl4SlVHTEM1b21oUDVuYWRPYlBIeXRKcG9uM0JUTnB4UjF5bnRIalJtMkI2T2dLTG00bHpaTFZhNUNHUmc5Um55V1hILS05anRveG1SN2h4Z2toR2Y4WnNxaUN5Zw?oc=5",
+  "ts": 1795089660000,
+  "summary": "السودان.. التصدي لهجوم للدعم السريع في النيل الأزرق &nbsp;&nbsp; العربية",
+  "_tk": {}
+ },
+ {
+  "id": "dcdcfe09bd0d",
+  "src": "arabiya",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "بين حربين في السودان وغزة.. سمية إبراهيم تعيش نازحة مع أسرتها بدير البلح",
+  "url": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxPR0ZGMW9XdzNySktQRllscXIxZUZkSDV3U3hTTDRiXzZLQ0JsckJTcF9iTUhRUWM1MU1DLXB1bDNxMUFGRzNfTGFWMlpqbDViaktra0l4S2VXOFZUWjRhTEhmUUJWaDBrSlkteWl4YVkxUUJwdl9SQ1VNWUd2aWl3Q05iS1dJNXNKdkVTUmJfSXVrckdMOFRneG5SZGtrdGVlcmlXMUpjNGlKTmdwMWw2N0lESzE0UDlnQnc3cFVZS3BBbGJucXpzeXRIdDJJU01ZYUNEenBYelVaYzNWT3pUM0dyYXJmZW04T1NKTTVaOXBtV3RTaEJTYzM3dlZiNFo4ejhxVGFiNk5BUFUwY25DN2w3dWthbENVOWY0TVhPcDBEcmNUZWFfMzlNRFIyVHBRNEpDRkZwM2toaGhJVHZweC04bUhjaTEwMXVFanZTLThFeWVKd1RMQVJNR202ak5JMVFFbU5pMDNBNTJCbnQzODU5Q01TYzlveEh0QUJVZkZBRHA5WjdBbVh2X0dxZ2hTYUp6dVFwdU5wYmtrRzJ1T20ta2J3QW80ZE1Cc0FURXhTVmh3VE90UTVrcFBoSUdLNXlrQUhUU0FJU1BaUWVYblFCQnRiTjJzMDZtTzBSR3ZNOUQ0RGJLZ0U5Ni1IZkJTb0NQcE8tNGF4SGJhd2ZJTXJfV29HZWtTcENHb0hSVURxUzR4bTR1SUV0TWlzS3F1V1laRTEtbFJYZ0NHc2hkd21KOXdwbDdUR0ptdkJ6dDZqMnPSAcgEQVVfeXFMTnU0eG9QY2NVWkd0bENTRzE0UUp4N19MN3hGUDFMWGRLbmo5bl9xdDZNLUkxSm5idFZyVTBQZVNzRi1lYTg2WDBLNjNrcll5U3VXWl8tTVBjbEw4U2F1V3VSUnAwZ3l5a25ydUw2UVpDUmN0UUdCYlBKUWJMZVluWllKa2l5ZzJ6RFdOWU5UMVRFY0NQNnl0dzZ3d1V6emtvR0loa2MydGtyYnM3dThSdUd2bG1zT1hWNmo2c2lhUDV1Q2wyeVJWc25pZXZnd3kxdzF6NnIxMF9VWDMxZ1E2aFhVY0FtWWZ6alpOQWp5azVIQ0QzalE4Q0QwQ1QyX3BoSUhaQnNvOXJhMEU2cm1XNFVteGZlNFRfNkxHWmNCbzRIOFpJTzhvNUpjdktqTE5TekZORFZKMjJxQVVSNVpZS3k0N011WjlZWGsyc2FHX2NCVnhMMjRyTklJdGVSWjVOZ0FpMFY3N0thM3lWeEZLTDZIaTl5aUgzbk9zNlBwdUhrNUV1bjE1aVVac2hZX0hMRy1qNHBEc1RWWjhzb1ozcFVGcVFEcVhyVi00US0xUWFTQ3l1NFZzOENHV0REV3lOQm53dTBsUXJ6WDZNWDh1Qk1hZU44ZTJWQkktUEVrOVJESDRxMHU5bU1kbEZaWUZyanY3ZzlnS2pRYW1FZDNEcW05UmtnSFlONWdraFNTUWIwOUpIS3ZpS281VTZ5MEl6LVJkdXNQczNuOUIzWGhsUjdfZ3RqdkJUM1ZWMDJ4Y3c5bDdDUW9KMXI?oc=5",
+  "ts": 1794759000000,
+  "summary": "بين حربين في السودان وغزة.. سمية إبراهيم تعيش نازحة مع أسرتها بدير البلح &nbsp;&nbsp; العربية"
+ },
+ {
+  "id": "f7730c37089f",
+  "src": "skyar",
+  "cat": "ar",
+  "lang": "ar",
+  "title": "السودان.. عودة الكتائب الجهادية تحت عباءة الجيش",
+  "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQaTFLWmNVRjExWTFMbjZqUVI5dkdCTG51YmZUY0ljczFFZUw0V3FMblNaQm9sZklZTmRxRlE3ZVp3dEp4V3RLUlZXV3hFZ1FOSU8yMTFFeTdlSU9SMnVhb0xqS0ZEM0lnNVRCaTg3VG9VN1pMTEJWaDRkSVRUenczZm5UVzdyc0Nna29FWUtUZ3lTMnVZeXA4aWFqbmc3c3VYN0dqY2N4RUE1cm1SMkN0QUVuLUk5THNmMldrWGQ5eE81dzNjdGFrb1M1Y0ZkT1ZwWDVQZFpMY0U1M1lVVVFsVGxrNzI0RmkxTFkySzRvcjg2WUdDaVF1TnpmU3MxaVQtTG5GVFlzSy1iN1BhY00yeG8tYmkwb2U3cjl3YkpFRS1UUnl2ZS1YdG1XVVJyRDBONFkyMUVLdnpZcEk1d21GMUM0S2ZheWsyeEhfaWh2eVd2V0FRaWdhVDl0YTdpSVJRbmJLS2w2WWltQl9BQk9DNzRSWGVKNGVlaDkyODVfc0U1LUNSalHSAYsDQVVfeXFMUEFfX0VPRTFZRFdXZnhjdHMzczM5OUtKLUFTNkhCckZEcnZCZTZicUJSdnlzaFlOd1FFSm1kR2lMVlc0VUVRUERBaEM5SDYzS3laek5LbzdEUjgxaG9yS2EwTGcxUm9lR0lOX2pWS2pPQmM2dktfYzhCN2E2dHl2dE9lRk5wa0V4YVJfSGNXQlR6bnZUVXh5cXNqaXpGQWI2dUpHZ0NxbTlUS3BtMzVLbXZfb3IyUzNMeUNHQy1UWlFjYXN1TzRBNGxPNGlSSklKbXlOQlVGdV9sdWRydWxjLXN6ZzFOekN6cVh3TDdYa2FhazNFbTBpUTRZQzJqUzN5RVdRTkV3aXlOaGlTTDZTRmxRZXZZRGd4MUNzeXdIY3VuVktnYUdrcWZidXpMa3o0S3J6WEQ2aVdsdU5mUGw3NXo0Q1Y4UjhxWmd5MkJmWTlxdVdVQVhWNFJTeWt4WGdoXzE1RGtWeHB6OWlzcUJQMDBJeWJ2ZGhrS1ZWUTRKR18zN3lLQWNUOFh4QTA?oc=5",
+  "ts": 1795159876000,
+  "summary": "السودان.. عودة الكتائب الجهادية تحت عباءة الجيش &nbsp;&nbsp; سكاي نيوز عربية"
+ },
+ {
+  "id": "a4f4a1b0c02d",
+  "src": "cover",
+  "cat": "sport",
+  "lang": "ar",
+  "title": "محترف صن داونز مارسيلو يقترب من الهلال",
+  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBnV2N1cXk3UjZ0QUR6RVJsZy12S2hGU3dBLURtSlRBVmxyNmo3RFNxLW5GUTB2ZlVmYklieFRVc3BsM2hubjFUU09tWQ?oc=5",
+  "ts": 1795123315000,
+  "summary": "محترف صن داونز مارسيلو يقترب من الهلال &nbsp;&nbsp; cover-sd.com"
+ },
+ {
+  "id": "5e516fb4bd1b",
+  "src": "cover",
+  "cat": "sport",
+  "lang": "ar",
+  "title": "الهلال يرفع الهمة لاخطر مهمة أمام البوليس",
+  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FQ2c1OVFVUmM5NHFUbVZsVVNqSi1MSjlMdktLbnRjNGhzeXlmSldKYUdFYW1DNENtM1BudU9fUlkwTGwxMmFOZVJ4bw?oc=5",
+  "ts": 1795122706000,
+  "summary": "الهلال يرفع الهمة لاخطر مهمة أمام البوليس &nbsp;&nbsp; cover-sd.com"
+ },
+ {
+  "id": "95e4f08bbf4e",
+  "src": "cover",
+  "cat": "sport",
+  "lang": "ar",
+  "title": "بعثة المريخ تحل بشقق قرطاج بالخرطوم",
+  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KMzJJNC1hMzZfWVN6NXhoYTFjckVxaHIzOWRuTy12dGNXSmI1dTZjdGpxcTN3UWFFQkRIZ3FLMlJBSzJLWlNlbzZobw?oc=5",
+  "ts": 1795041365000,
+  "summary": "بعثة المريخ تحل بشقق قرطاج بالخرطوم &nbsp;&nbsp; cover-sd.com"
+ },
+ {
+  "id": "f79a46238283",
+  "src": "sport-gnews",
+  "cat": "sport",
+  "lang": "ar",
+  "title": "الأسوأ منذ 4 تصفيات.. أرقام صادمة لمنتخب السودان بعد 4 جولات",
+  "url": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxPeGNxZ2VjMThQaHVsd0ppNmJmX3YtWjFHUTRhNGpvNlQ0dm1CVXlfZDc4NjJDb3VhTEw0TVpFVmp1U1NJblFfbWVzb0RyR3RBNXNyMzVHcE1kSUVQNTFweVQ5Q0RnZTZfX1NTVUluTHVPeE1PYmotWW9oSVJkMjNWOE5jUW02dkVGYTZ3YmpEWEN1NVc1WmtOR3VfOXN4UU82RjVPdnpkOW9LXy0tMEk3R0g2U0hUUFVPYmlpMGxOUWVtXzdYd1gwNXpoSlNrakY5QmlTeUZCVTVBNVBRVVRPR1hNZDhTc3BNWUdUc2FrMm1MdGZ0Nlpaa3dkaEVlVm5NMDdXQXMyZnk4Mm9xamNmdzJhTkV1b21zNlNwRHd6R2pyTU1KMVBGUnIwWEVFYXlVNi1pLUlBczg4OU42d2d0REtlSVY5R3RCUUh5MFEtMjJLWGp6V1pOMXFfY0dJQzhXdXp0c2JXOVNZRV81ZWxfaTlRR1otVGVITVhwd05WTXUyQVRBTmNZYjcwN0wzR29ON1F3enJwOFFmMU1TdVNnU19HUHF3U212WEJ1eC0tNXNLS3hGdEdIZmZldENXenJNYkpNenJxdTQ2Tko2QlBYRUpKMHRKNVY3cEdkTmx3eGFydVVlc1NLVlRkZjAtdWZ1TFZnMHhxb2pJZw?oc=5",
+  "ts": 1795093159000,
+  "summary": "الأسوأ منذ 4 تصفيات.. أرقام صادمة لمنتخب السودان بعد 4 جولات &nbsp;&nbsp; www.winwin.com"
  }
 ]
