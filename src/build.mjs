@@ -177,8 +177,9 @@ await fs.writeFile(path.join(DIST, "sitemap.xml"), R.sitemap(cfg, lastUpdate, ex
 await fs.writeFile(path.join(DIST, "robots.txt"), R.robots(cfg));
 // IndexNow key file (lets Bing and other engines accept our update pings).
 if (cfg.indexNowKey) await fs.writeFile(path.join(DIST, `${cfg.indexNowKey}.txt`), cfg.indexNowKey);
-// The old /stays/ addresses were removed on purpose (now 404). Drop any old _redirects file.
-await fs.rm(path.join(DIST, "_redirects"), { force: true });
+// The hotels page used to be at /stays/. Keep a permanent redirect so old links and
+// Google land on /hotels/ instead of a 404 (a 404 there triggers Search Console emails).
+await fs.writeFile(path.join(DIST, "_redirects"), ["en", "ar"].flatMap(l => [`/${l}/stays/ /${l}/hotels/ 301`, `/${l}/stays /${l}/hotels/ 301`]).join("\n") + "\n");
 await fs.writeFile(path.join(DIST, "_headers"), "/static/*\n  Cache-Control: public, max-age=86400\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n");
 
 /* ---------- 8. persist ---------- */

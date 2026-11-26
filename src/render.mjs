@@ -80,7 +80,7 @@ ${body}
     <span>${esc(t.foot)}</span>
     <span class="credit">© ${new Date(ctx.lastUpdate).getUTCFullYear()} ${esc(t.copyName)}</span>
     <span class="credit">${esc(t.builtBy)} <bdi>BahaWorks</bdi></span>
-    <span>${esc(t.contact)}: <bdi>${esc(cfg.contactEmail)}</bdi></span>
+    <span>${esc(t.contact)}: <!--email_off--><a href="mailto:${esc(cfg.contactEmail)}"><bdi>${esc(cfg.contactEmail)}</bdi></a><!--/email_off--></span>
     <span><a href="${pagePath(lang, "about")}">${esc(t.nav.about)}</a> · <a href="${pagePath(lang, "sources")}">${esc(t.nav.sources)}</a> · <a href="${P(o)}" hreflang="${o}" data-setlang="${o}">${esc(T[o].nav[page])}</a></span>
     <span><a href="${wa(lang === "ar" ? "لمحة: أخبار السودان في مكان واحد" : "Lamha: Sudan news in one place", cfg.siteUrl + pagePath(lang, "news"))}" target="_blank" rel="noopener" class="wa-link">${WA} ${esc(lang === "ar" ? "شارك لمحة على واتساب" : "Share Lamha on WhatsApp")}</a></span>
   </footer>
@@ -285,10 +285,12 @@ export function hotelPage(ctx, h) {
     h.site && `<a class="btn primary" ${ext(h.site)}>${esc(t.site)} ↗</a>`, h.fb && `<a class="btn" ${ext(h.fb)}>${esc(hs.fb)} ↗</a>`].filter(Boolean).join("");
   const others = ctx.hotels.filter(x => x.city === h.city && x.slug !== h.slug);
   const body = `<section class="hotel-detail">
-    <div class="prose"><p>${esc(h.desc[L])}</p></div>
+    <div class="prose"><p>${esc(h.desc[L])}</p>${h.extra ? `<p>${esc(h.extra[L])}</p>` : ""}</div>
     <dl class="kv"><div><dt>${esc(hs.addr)}</dt><dd>${esc(h.addr[L])}</dd></div>${h.facts[L].length ? `<div><dt>${esc(hs.facts)}</dt><dd><div class="facts">${h.facts[L].map(f => `<span>${esc(f)}</span>`).join("")}</div></dd></div>` : ""}</dl>
     <div class="sec-h"><h2>${esc(hs.contact)}</h2></div><div class="actions">${contact}</div>
     <div class="tipbox"><b>${esc(hs.tip)}</b><p>${esc(h.tip[L])}</p></div>
+    <div class="sec-h"><h2>${esc(L === "ar" ? `الإقامة في ${hs.city[h.city]}` : `Staying in ${hs.city[h.city]}`)}</h2></div>
+    <div class="prose"><p>${esc(GUIDES[h.city][L].intro[0])}</p><ul>${GUIDES[h.city][L].tips.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
     <p class="muted small">${esc(hs.note)}</p>
     <div class="sec-h"><h2>${esc(hs.others)} ${esc(hs.city[h.city])}</h2><a href="${guidePath(L, h.city)}">${esc(HS[L].guide)}</a></div>
     <ul class="link-list">${others.map(x => `<li><a href="${hotelPath(L, x)}">${esc(x[L])}</a> <span class="muted">— ${esc(x.sub[L])}</span></li>`).join("")}</ul>

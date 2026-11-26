@@ -160,7 +160,11 @@
    "en": "The website lists no phone number or address, so ask locally or through the website for directions and rates.",
    "ar": "لا يذكر الموقع رقم هاتف أو عنواناً، فاسأل محلياً أو عبر الموقع عن الطريق والأسعار."
   },
-  "phone": null
+  "phone": null,
+  "extra": {
+   "en": "Sahil means coast in Arabic, and the hotel presents itself as a seaside stay. Its listed services suit short business trips: breakfast, an afternoon lounge and internet are included in the stay according to the website.",
+   "ar": "تعني كلمة «ساحل» الشاطئ، ويقدّم الفندق نفسه كإقامة على البحر. وتناسب خدماته المعلنة رحلات العمل القصيرة، إذ يذكر موقعه أن الإفطار والاستراحة المسائية والإنترنت مشمولة في الإقامة."
+  }
  },
  {
   "city": "port",
@@ -356,7 +360,11 @@
    "ar": "تواصل مع الفندق عبر صفحته على فيسبوك للاستفسار عن الغرف والأسعار."
   },
   "confirm": false,
-  "phone": null
+  "phone": null,
+  "extra": {
+   "en": "Port Sudan is one of the hottest cities in Sudan, especially from May to September, so ask about air conditioning in the room and whether the hotel has a backup generator. It is also worth asking for the current nightly rate in Sudanese pounds and in dollars, and whether breakfast is included.",
+   "ar": "بورتسودان من أشد مدن السودان حرارة، خاصة من مايو إلى سبتمبر، لذلك اسأل عن تكييف الغرفة وعن وجود مولد كهرباء احتياطي في الفندق. ومن المفيد أيضاً السؤال عن سعر الليلة الحالي بالجنيه السوداني وبالدولار، وهل يشمل الإفطار."
+  }
  },
  {
   "slug": "al-rabwa-tourism-complex",
@@ -396,6 +404,10 @@
    "en": "Ask directly whether rooms are available before planning to stay overnight.",
    "ar": "اسأل مباشرة عن توفّر غرف قبل التخطيط للمبيت."
   },
-  "confirm": false
+  "confirm": false,
+  "extra": {
+   "en": "The complex is better known locally as a place to eat, meet and hold events such as weddings and gatherings. Visitors looking for a room should treat it as a secondary option and confirm availability by phone.",
+   "ar": "يُعرف المجمع محلياً أكثر كمكان للطعام واللقاءات وإقامة المناسبات مثل الأفراح والتجمعات. ومن يبحث عن غرفة للمبيت فليعتبره خياراً ثانوياً ويتأكد من التوفر بالهاتف."
+  }
  }
 ]
